@@ -11,6 +11,7 @@ Sanguine is a datapack for Minecraft that adds blood moons with a unique spin. T
 ## 🔗 Links 🔗
 * [Discord Server](https://discord.gg/jsbRvexYqA)
 * [Smithed Page](https://smithed.dev/packs/hinge/sanguine)
+* [Wiki](https://github.com/VisiVersa/Sanguine/wiki)
 
 ## 📦 Additional 📦
 
