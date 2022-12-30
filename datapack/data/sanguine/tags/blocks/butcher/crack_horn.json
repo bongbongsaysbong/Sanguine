@@ -1,0 +1,23 @@
+{
+	"values": [
+		"#minecraft:anvil",
+		"minecraft:bedrock",
+		"minecraft:end_portal_frame",
+		"minecraft:command_block",
+		"minecraft:repeating_command_block",
+		"minecraft:chain_command_block",
+		"minecraft:structure_block",
+		"minecraft:jigsaw",
+		"minecraft:reinforced_deepslate",
+		"minecraft:barrier",
+		"minecraft:dragon_egg",
+		"minecraft:obsidian",
+		"minecraft:crying_obsidian",
+		"minecraft:enchanting_table",
+		"minecraft:ender_chest",
+		"minecraft:respawn_anchor",
+		"minecraft:netherite_block",
+		"minecraft:ancient_debris",
+		"minecraft:beacon"
+	]
+}

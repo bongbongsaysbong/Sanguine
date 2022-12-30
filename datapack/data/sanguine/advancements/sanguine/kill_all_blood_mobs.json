@@ -1,0 +1,98 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:8361002}"
+    },
+    "title": {
+      "translate": "advancement.sanguine.kill_all_blood_mobs"
+    },
+    "description": {
+      "translate": "advancement.sanguine.kill_all_blood_mobs.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/kill_blood_mob",
+  "criteria": {
+    "unborn": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+          "nbt": "{Tags:[\"sanguine.unborn\"]}"
+        }
+      }
+    },
+    "gurgle": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.gurgle\"]}"
+        }
+      }
+    },
+    "carrion": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.carrion\"]}"
+        }
+      }
+    },
+    "offal": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+          "nbt": "{Tags:[\"sanguine.offal\"]}"
+        }
+      }
+    },
+    "butcher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.butcher\"]}"
+        }
+      }
+    },
+    "reaper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.reaper\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "unborn"
+    ],
+    [
+      "gurgle"
+    ],
+    [
+      "carrion"
+    ],
+    [
+      "offal"
+    ],
+    [
+      "butcher"
+    ],
+    [
+      "reaper"
+    ]
+  ],
+  "rewards": {
+    "experience": 45
+  }
+}

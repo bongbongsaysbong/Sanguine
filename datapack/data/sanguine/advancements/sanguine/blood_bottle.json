@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:8361006}"
+    },
+    "title": {
+      "translate": "advancement.sanguine.blood_bottle"
+    },
+    "description": {
+      "translate": "advancement.sanguine.blood_bottle.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/blood_well",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:structure_block"
+            ],
+            "nbt": "{sanguine:{id:\"blood_bottle\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8361000
+      },
+      "model": "sanguine:item/scarred_hide"
+    }
+  ]
+}

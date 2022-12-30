@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrel",
+      "nbt": "{CustomModelData:8361000}"
+    },
+    "title": {
+      "translate": "advancement.sanguine.credence"
+    },
+    "description": [
+      {"translate": "advancement.sanguine.credence.desc"},
+      "\n",
+      {"text":"\ua000","font":"sanguine:recipes","color":"white"},
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n"
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/kill_blood_mob",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{sanguine:{id:\"credence\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

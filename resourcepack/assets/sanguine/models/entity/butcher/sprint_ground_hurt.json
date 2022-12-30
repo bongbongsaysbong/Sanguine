@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/butcher/sprint_ground",
+	"textures": {
+		"0": "sanguine:entity/butcher/sprint_ground_hurt"
+	}
+}

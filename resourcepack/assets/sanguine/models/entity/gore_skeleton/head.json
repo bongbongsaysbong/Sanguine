@@ -1,0 +1,114 @@
+{
+	"credit": "Made with Blockbench, Modeller: ElBones",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "sanguine:entity/gore_skeleton"
+	},
+	"elements": [
+		{
+			"name": "Growth0",
+			"from": [7, 7, 3],
+			"to": [13, 13, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 12, 4]},
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 4, 4], "texture": "#0"},
+				"east": {"uv": [0, 2.5, 2.5, 4], "texture": "#0"},
+				"south": {"uv": [6.5, 2.5, 8, 4], "texture": "#0"},
+				"west": {"uv": [4, 2.5, 6.5, 4], "texture": "#0"},
+				"up": {"uv": [2.5, 0, 4, 2.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4, 0, 5.5, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Growth1",
+			"from": [3, 8, 2],
+			"to": [9, 14, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 13, 3]},
+			"faces": {
+				"north": {"uv": [1.5, 5.5, 3, 7], "texture": "#0"},
+				"east": {"uv": [0, 5.5, 1.5, 7], "texture": "#0"},
+				"south": {"uv": [4.5, 5.5, 6, 7], "texture": "#0"},
+				"west": {"uv": [3, 5.5, 4.5, 7], "texture": "#0"},
+				"up": {"uv": [1.5, 4, 3, 5.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [3, 4, 4.5, 5.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Growth2",
+			"from": [3, 8, 8],
+			"to": [7, 13, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 12, 4]},
+			"faces": {
+				"north": {"uv": [6.75, 1.25, 7.75, 2.5], "texture": "#0"},
+				"east": {"uv": [5.5, 1.25, 6.75, 2.5], "texture": "#0"},
+				"south": {"uv": [9, 1.25, 10, 2.5], "texture": "#0"},
+				"west": {"uv": [7.75, 1.25, 9, 2.5], "texture": "#0"},
+				"up": {"uv": [6.75, 0, 7.75, 1.25], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [7.75, 0, 8.75, 1.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Growth3",
+			"from": [2, 5, 7],
+			"to": [14, 10, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 9, 4]},
+			"faces": {
+				"north": {"uv": [1.75, 8.75, 4.75, 10], "texture": "#0"},
+				"east": {"uv": [0, 8.75, 1.75, 10], "texture": "#0"},
+				"south": {"uv": [6.5, 8.75, 9.5, 10], "texture": "#0"},
+				"west": {"uv": [4.75, 8.75, 6.5, 10], "texture": "#0"},
+				"up": {"uv": [1.75, 7, 4.75, 8.75], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4.75, 7, 7.75, 8.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hair0",
+			"from": [9, 13, 5],
+			"to": [13, 17, 5],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [9, 13, 5]},
+			"faces": {
+				"north": {"uv": [15, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [16, 0, 15, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hair2",
+			"from": [7, 10, 13],
+			"to": [7, 14, 17],
+			"rotation": {"angle": 45, "axis": "y", "origin": [7, 10, 13]},
+			"faces": {
+				"east": {"uv": [15, 0, 16, 1], "texture": "#0"},
+				"west": {"uv": [16, 0, 15, 1], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hair1",
+			"from": [-1, 9, 7],
+			"to": [3, 15, 7],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [3, 11, 7]},
+			"faces": {
+				"north": {"uv": [15, 1, 16, 2.5], "texture": "#0"},
+				"south": {"uv": [16, 1, 15, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Tooth",
+			"from": [7, 7, 2],
+			"to": [9, 8, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 12, 3]},
+			"faces": {
+				"north": {"uv": [4.75, 4.25, 5.25, 4.5], "texture": "#0"},
+				"east": {"uv": [4.5, 4.25, 4.75, 4.5], "texture": "#0"},
+				"south": {"uv": [5.5, 4.25, 6, 4.5], "texture": "#0"},
+				"west": {"uv": [5.25, 4.25, 5.5, 4.5], "texture": "#0"},
+				"up": {"uv": [4.75, 4, 5.25, 4.25], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [5.25, 4, 5.75, 4.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
+}

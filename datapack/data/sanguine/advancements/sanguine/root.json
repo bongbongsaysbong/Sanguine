@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:8361007}"
+    },
+    "title": {
+      "translate": "advancement.sanguine.root"
+    },
+    "description": {
+      "translate": "advancement.sanguine.root.desc"
+    },
+    "background": "minecraft:textures/block/polished_blackstone_bricks.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

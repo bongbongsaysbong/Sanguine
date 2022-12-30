@@ -1,0 +1,27 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/bundle"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "filled": 0.0000001
+      },
+      "model": "item/bundle_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361000
+      },
+      "model": "sanguine:item/gut_bundle"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361000
+      },
+      "model": "sanguine:item/gut_bundle_filled"
+    }
+  ]
+}

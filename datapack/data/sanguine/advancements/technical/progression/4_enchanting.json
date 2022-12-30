@@ -1,0 +1,32 @@
+{
+  "parent": "sanguine:technical/progression/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_sword",
+              "minecraft:diamond_axe",
+              "minecraft:diamond_helmet",
+              "minecraft:diamond_chestplate",
+              "minecraft:diamond_leggings",
+              "minecraft:diamond_boots"
+            ],
+            "enchantments": [
+              {
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:entity/player/progression/4_enchanting"
+  }
+}

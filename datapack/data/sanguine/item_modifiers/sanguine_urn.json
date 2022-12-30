@@ -1,0 +1,272 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361008}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361009}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361010}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361011}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 3
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361012}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 4
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361013}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 5
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361014}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 6
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361015}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 7
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361016}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 8
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361017}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 9
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361018}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 10
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361019}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 11
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361020}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 12
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361021}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 13
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361022}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 14
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361023}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 15
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361024}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 16
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{nucleus:{custom_model_data:{idle:8361025}}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "sanguine.dummy"
+        },
+        "range": 17
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/reaper/idle",
+	"textures": {
+		"0": "sanguine:entity/reaper/idle_hurt"
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"parent": "minecraft:block/structure_block",
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 8361000
+		},
+		"model": "sanguine:null"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361001
+		},
+		"model": "sanguine:item/amalgamate_flesh"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361002
+		},
+		"model": "sanguine:item/binding_veins"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361003
+		},
+		"model": "sanguine:item/living_flesh"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361004
+		},
+		"model": "sanguine:item/bloody_fragment"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361005
+		},
+		"model": "sanguine:item/blood_drop"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361006
+		},
+		"model": "sanguine:item/blood_bottle"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361007
+		},
+		"model": "sanguine:item/advancement"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361008
+		},
+		"model": "sanguine:item/toxic_sac"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361009
+		},
+		"model": "sanguine:item/bloody_stitches"
+	  }
+	]
+  }

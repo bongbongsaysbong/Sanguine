@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/butcher/unhorned/lower",
+	"textures": {
+		"0": "sanguine:entity/butcher/unhorned/lower_hurt"
+	}
+}

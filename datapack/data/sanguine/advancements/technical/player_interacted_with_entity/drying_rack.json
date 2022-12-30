@@ -1,0 +1,30 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "empty": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"sanguine.drying_rack.has_item\"]}"
+        }
+      }
+    },
+    "fill": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"sanguine.drying_rack.awaiting_item\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "empty",
+      "fill"
+    ]
+  ],
+  "rewards": {
+    "function": "sanguine:block/drying_rack/interact/raycast_start"
+  }
+}

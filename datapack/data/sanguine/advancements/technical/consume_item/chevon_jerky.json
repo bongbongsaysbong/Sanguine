@@ -1,0 +1,19 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ],
+          "nbt": "{sanguine:{id:\"chevon_jerky\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/consume/chevon_jerky"
+  }
+}

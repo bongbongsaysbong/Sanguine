@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "count": {
+          "min": 1
+        },
+        "nbt": "{sanguine:{id:\"butcher_skull\"}}"
+      }
+    }
+  }
+}

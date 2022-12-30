@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/unborn/walk",
+	"textures": {
+		"0": "sanguine:entity/unborn/walk_hurt"
+	}
+}

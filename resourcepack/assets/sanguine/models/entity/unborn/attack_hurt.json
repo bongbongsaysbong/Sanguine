@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/unborn/attack",
+	"textures": {
+		"0": "sanguine:entity/unborn/attack_hurt"
+	}
+}

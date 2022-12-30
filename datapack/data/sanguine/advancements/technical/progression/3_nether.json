@@ -1,0 +1,14 @@
+{
+  "parent": "sanguine:technical/progression/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:entity/player/progression/3_nether"
+  }
+}

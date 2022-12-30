@@ -1,0 +1,151 @@
+{
+	"credit": "Made with Blockbench, Modeller: ElBones",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "sanguine:block/effigy/effigy",
+		"particle": "sanguine:block/effigy/effigy"
+	},
+	"elements": [
+		{
+			"name": "Head",
+			"from": [3.5, 24, 3.5],
+			"to": [12.5, 32, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 8]},
+			"faces": {
+				"north": {"uv": [2.25, 2.25, 4.5, 4.25], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 2.25, 2.25, 4.25], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [6.75, 2.25, 9, 4.25], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [4.5, 2.25, 6.75, 4.25], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [2.25, 0, 4.5, 2.25], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"down": {"uv": [4.5, 0, 6.75, 2.25], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Teeth",
+			"from": [3.5, 23, 3.5],
+			"to": [12.5, 24, 3.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 8]},
+			"faces": {
+				"north": {"uv": [2.25, 4.25, 4.5, 4.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [4.5, 4.25, 2.25, 4.5], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Torso",
+			"from": [4.5, 13, 5.5],
+			"to": [11.5, 24, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 13, 8]},
+			"faces": {
+				"north": {"uv": [1.25, 5.75, 3, 8.5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 5.75, 1.25, 8.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [4.25, 5.75, 6, 8.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [3, 5.75, 4.25, 8.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1.25, 4.5, 3, 5.75], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"down": {"uv": [3, 4.5, 4.75, 5.75], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Vertebra",
+			"from": [6.5, 3, 6.5],
+			"to": [9.5, 13, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 13, 8]},
+			"faces": {
+				"north": {"uv": [0.75, 9.25, 1.5, 11.75], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 9.25, 0.75, 11.75], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [2.25, 9.25, 3, 11.75], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [1.5, 9.25, 2.25, 11.75], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0.75, 8.5, 2.25, 9.25], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"down": {"uv": [1.5, 8.5, 2.25, 9.25], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Hip",
+			"from": [3.5, -3, 5.5],
+			"to": [12.5, 3, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 10, 8]},
+			"faces": {
+				"north": {"uv": [1.25, 13, 3.5, 14.5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 13, 1.25, 14.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [4.75, 13, 7, 14.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [3.5, 13, 4.75, 14.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1.25, 11.75, 3.5, 13], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"down": {"uv": [3.5, 11.75, 5.75, 13], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Medal",
+			"from": [6.5, 18, 4.5],
+			"to": [9.5, 21, 5.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 18, 4.5]},
+			"faces": {
+				"north": {"uv": [15, 13.75, 15.75, 14.5], "texture": "#0"},
+				"east": {"uv": [14.75, 13.75, 15, 14.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 0.75, 0.75], "texture": "#missing"},
+				"west": {"uv": [15.75, 13.75, 16, 14.5], "texture": "#0"},
+				"up": {"uv": [15, 13.5, 15.75, 13.75], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [15, 14.5, 15.75, 14.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Arm",
+			"from": [11.5, 9, 8],
+			"to": [25.5, 24, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [11.5, 22, 8]},
+			"faces": {
+				"north": {"uv": [12.5, 0, 16, 3.75], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [16, 0, 12.5, 3.75], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "Arm",
+			"from": [-9.5, 9, 8],
+			"to": [4.5, 24, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [4.5, 22, 8]},
+			"faces": {
+				"north": {"uv": [16, 0, 12.5, 3.75], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [12.5, 0, 16, 3.75], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -6.25, -6],
+			"scale": [1.01, 1.01, 1.01]
+		},
+		"head": {
+			"translation": [0, -23.75, 0],
+			"scale": [1.62, 1.62, 1.62]
+		}
+	},
+	"groups": [
+		{
+			"name": "Skull",
+			"origin": [8, 25, 8],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "Torso",
+			"origin": [8, 13, 8],
+			"color": 0,
+			"children": [
+				2,
+				3,
+				{
+					"name": "Hip",
+					"origin": [8, 13, 8],
+					"color": 0,
+					"children": [4]
+				},
+				5
+			]
+		},
+		{
+			"name": "Arms",
+			"origin": [11.5, 20, 8],
+			"color": 0,
+			"children": [6, 7]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+execute if entity @s[type=armor_stand,tag=sanguine.credence] run function sanguine:block/credence/break/main_

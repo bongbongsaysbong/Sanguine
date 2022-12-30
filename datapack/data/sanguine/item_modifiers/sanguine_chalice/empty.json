@@ -1,0 +1,31 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361006,sanguine:{chalice_state:1,chalice_toggle:0}}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.sanguine.sanguine_chalice.lore",
+        "with": [
+          {
+            "text": "0"
+          },
+          {
+            "text": "10"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "pack.sanguine",
+        "color": "#880f0f",
+        "italic": true
+      }
+    ],
+    "replace": true
+  }
+]

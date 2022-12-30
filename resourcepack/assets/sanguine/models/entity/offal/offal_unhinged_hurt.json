@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/offal/offal_unhinged",
+	"textures": {
+		"0": "sanguine:entity/offal/offal_unhinged_hurt"
+	}
+}

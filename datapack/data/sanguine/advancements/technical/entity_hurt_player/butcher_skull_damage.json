@@ -1,0 +1,29 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "sanguine:entity/wearing/butcher_skull"
+          }
+        ],
+        "damage": {
+          "type": {
+            "is_fire": false,
+            "is_magic": false,
+            "is_lightning": false,
+            "bypasses_armor": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/butcher_skull/damage"
+  }
+}

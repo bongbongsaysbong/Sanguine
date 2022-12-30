@@ -1,0 +1,30 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "tag": "nucleus:tools/pickaxes"
+            }
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"sanguine.sanguine_urn\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:block/sanguine_urn/break_pickaxe"
+  }
+}

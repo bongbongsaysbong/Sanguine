@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/carrion/summon",
+	"textures": {
+		"0": "sanguine:entity/carrion/summon_hurt"
+	}
+}

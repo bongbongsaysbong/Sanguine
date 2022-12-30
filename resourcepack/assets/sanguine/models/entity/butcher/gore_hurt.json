@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/butcher/gore",
+	"textures": {
+		"0": "sanguine:entity/butcher/gore_hurt"
+	}
+}

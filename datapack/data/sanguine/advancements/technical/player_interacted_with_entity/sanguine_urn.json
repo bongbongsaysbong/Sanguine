@@ -1,0 +1,149 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "bottle": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:structure_block"
+          ],
+          "nbt": "{sanguine:{id:\"blood_bottle\"}}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"sanguine.sanguine_urn\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "sanguine.dummy": 0
+            }
+          }
+        ]
+      }
+    },
+    "unbottle": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glass_bottle"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"sanguine.sanguine_urn\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "sanguine.dummy": 1
+            }
+          }
+        ]
+      }
+    },
+    "fill": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"sanguine.sanguine_urn\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "sanguine.dummy": 1
+            }
+          }
+        ]
+      }
+    },
+    "bind": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:warped_fungus_on_a_stick"
+          ],
+          "nbt": "{sanguine:{id:\"blood_binding\"}}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"sanguine.sanguine_urn.done_brewing\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "sanguine.dummy": {
+                "min": 2
+              }
+            }
+          }
+        ]
+      }
+    },
+    "repair": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "sanguine:can_repair"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wandering_trader",
+              "nbt": "{Tags:[\"sanguine.sanguine_urn.toxic_sac\"]}"
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "sanguine.dummy": 14
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bottle",
+      "unbottle",
+      "fill",
+      "bind",
+      "repair"
+    ]
+  ],
+  "rewards": {
+    "function": "sanguine:block/sanguine_urn/interact/raycast_start"
+  }
+}

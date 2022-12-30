@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:999,CustomModelData:8361010,sanguine:{id:\"blood_binding\",binding:\"glass_heart\"}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.sanguine.blood_binding.glass_heart",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "translate": "pack.sanguine",
+                  "color": "#880f0f",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "item.sanguine.blood_binding.lore",
+                  "color": "gray",
+                  "italic":"false"
+                },
+                {
+                  "translate": "item.sanguine.blood_binding.glass_heart.lore",
+                  "color": "red",
+                  "italic":"false",
+                  "with": [
+                    "75",
+                    {"translate":"attribute.name.generic.attack_speed"}
+                  ]
+                },
+                {
+                  "translate": "item.sanguine.blood_binding.glass_heart.lore",
+                  "color": "red",
+                  "italic":"false",
+                  "with": [
+                    "30",
+                    {"translate":"attribute.name.generic.movement_speed"}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.sanguine.blood_binding",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

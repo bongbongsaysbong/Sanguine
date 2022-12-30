@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:dispenser\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{smithed:{block:{id:\"sanguine:sewing_table\"}}}}]},CustomModelData:8361005,sanguine:{id:\"sewing_table\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.sanguine.sewing_table",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.sanguine",
+                  "color": "#880f0f",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:dispenser"
+        }
+      ]
+    }
+  ]
+}

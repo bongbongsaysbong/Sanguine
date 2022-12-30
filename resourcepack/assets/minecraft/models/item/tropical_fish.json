@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/tropical_fish"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8361000
+      },
+      "model": "sanguine:item/chevon"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 8361001
+      },
+      "model": "sanguine:item/chevon_jerky"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 8361002
+      },
+      "model": "sanguine:item/flesh_jerky"
+    }
+  ]
+}

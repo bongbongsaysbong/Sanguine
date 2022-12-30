@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:8361006}"
+    },
+    "title": {
+      "translate": "advancement.sanguine.sanguine_chalice"
+    },
+    "description": [
+      {"translate": "advancement.sanguine.sanguine_chalice.desc"},
+      "\n",
+      {"text":"\ua001","font":"sanguine:recipes","color":"white"},
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/credence",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{sanguine:{id:\"sanguine_chalice\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

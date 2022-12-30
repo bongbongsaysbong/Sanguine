@@ -1,0 +1,24 @@
+{
+  "parent": "sanguine:technical/progression/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword",
+              "minecraft:netherite_helmet",
+              "minecraft:netherite_chestplate",
+              "minecraft:netherite_leggings",
+              "minecraft:netherite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:entity/player/progression/5_netherite"
+  }
+}

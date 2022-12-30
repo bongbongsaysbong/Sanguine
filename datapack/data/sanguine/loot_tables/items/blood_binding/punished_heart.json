@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:999,CustomModelData:8361010,sanguine:{id:\"blood_binding\",binding:\"punished_heart\"}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.sanguine.blood_binding.punished_heart",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "translate": "pack.sanguine",
+                  "color": "#880f0f",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "item.sanguine.blood_binding.lore",
+                  "color": "gray",
+                  "italic":"false"
+                },
+                {
+                  "translate": "attribute.modifier.plus.0",
+                  "color": "red",
+                  "italic":"false",
+                  "with": [
+                    "4",
+                    {"translate":"attribute.name.generic.attack_damage"}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.sanguine.blood_binding",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

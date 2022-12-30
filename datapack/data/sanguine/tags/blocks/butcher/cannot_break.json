@@ -1,0 +1,21 @@
+{
+	"values": [
+		"#sanguine:butcher/container",
+		"#sanguine:butcher/crack_horn",
+		"#sanguine:butcher/crackable",
+		"minecraft:moving_piston",
+		"minecraft:iron_block",
+		"minecraft:raw_iron_block",
+		"minecraft:iron_door",
+		"minecraft:gold_block",
+		"minecraft:raw_gold_block",
+		"minecraft:gilded_blackstone",
+		"minecraft:diamond_block",
+		"minecraft:lava",
+		"minecraft:water",
+		"minecraft:sculk_shrieker",
+		"minecraft:sculk_catalyst",
+		"minecraft:budding_amethyst",
+		"minecraft:lodestone"
+	]
+}

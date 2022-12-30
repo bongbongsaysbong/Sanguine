@@ -1,0 +1,11 @@
+{
+  "parent": "sanguine:technical/blood_bindings/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/blood_binding/checks/take_damage"
+  }
+}

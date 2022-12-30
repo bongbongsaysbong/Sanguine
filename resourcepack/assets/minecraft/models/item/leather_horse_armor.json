@@ -1,0 +1,164 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_horse_armor"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8361000
+      },
+      "model": "sanguine:block/effigy/effigy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361001
+      },
+      "model": "sanguine:block/effigy/gold"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361002
+      },
+      "model": "sanguine:block/effigy/binding_in"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361003
+      },
+      "model": "sanguine:block/drying_rack/base"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361004
+      },
+      "model": "sanguine:block/drying_rack/chevon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361005
+      },
+      "model": "sanguine:block/drying_rack/chevon_dried"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361006
+      },
+      "model": "sanguine:block/drying_rack/flesh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361007
+      },
+      "model": "sanguine:block/drying_rack/flesh_dried"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361008
+      },
+      "model": "sanguine:block/sanguine_urn/base"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361009
+      },
+      "model": "sanguine:block/sanguine_urn/state/blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361010
+      },
+      "model": "sanguine:block/sanguine_urn/state/amalgamate_flesh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361011
+      },
+      "model": "sanguine:block/sanguine_urn/state/bloody_fragment"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361012
+      },
+      "model": "sanguine:block/sanguine_urn/state/scarred_hide"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361013
+      },
+      "model": "sanguine:block/sanguine_urn/state/ghast_tear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361014
+      },
+      "model": "sanguine:block/sanguine_urn/state/gold_nugget"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361015
+      },
+      "model": "sanguine:block/sanguine_urn/state/scute"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361016
+      },
+      "model": "sanguine:block/sanguine_urn/state/prismarine_crystals"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361017
+      },
+      "model": "sanguine:block/sanguine_urn/state/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361018
+      },
+      "model": "sanguine:block/sanguine_urn/state/charcoal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361019
+      },
+      "model": "sanguine:block/sanguine_urn/state/rabbit_foot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361020
+      },
+      "model": "sanguine:block/sanguine_urn/state/fermented_spider_eye"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361021
+      },
+      "model": "sanguine:block/sanguine_urn/state/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361022
+      },
+      "model": "sanguine:block/sanguine_urn/state/toxic_sac"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361023
+      },
+      "model": "sanguine:block/sanguine_urn/state/crimson_roots"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361024
+      },
+      "model": "sanguine:block/sanguine_urn/state/rotten_flesh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361025
+      },
+      "model": "sanguine:block/sanguine_urn/state/echo_shard"
+    }
+  ]
+}

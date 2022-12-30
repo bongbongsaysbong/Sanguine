@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench, Modeller: ElBones",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "sanguine:entity/gore_zombie"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 12, 10],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 6, 8]},
+			"faces": {
+				"north": {"uv": [1, 13, 2, 16], "texture": "#0"},
+				"east": {"uv": [0, 13, 1, 16], "texture": "#0"},
+				"south": {"uv": [3, 13, 4, 16], "texture": "#0"},
+				"west": {"uv": [2, 13, 3, 16], "texture": "#0"},
+				"up": {"uv": [1, 12, 2, 13], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [2, 12, 3, 13], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.1, 7, 5.1],
+			"to": [10.9, 12.8, 10.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 7, 5]},
+			"faces": {
+				"north": {"uv": [5.5, 14.5, 7, 16], "texture": "#0"},
+				"east": {"uv": [4, 14.5, 5.5, 16], "texture": "#0"},
+				"south": {"uv": [8.5, 14.5, 10, 16], "texture": "#0"},
+				"west": {"uv": [7, 14.5, 8.5, 16], "texture": "#0"},
+				"up": {"uv": [5.5, 13, 7, 14.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [7, 13, 8.5, 14.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -2, 8],
+			"scale": [1.001, 1.001, 1.001]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -2, 8],
+			"scale": [1.001, 1.001, 1.001]
+		}
+	}
+}

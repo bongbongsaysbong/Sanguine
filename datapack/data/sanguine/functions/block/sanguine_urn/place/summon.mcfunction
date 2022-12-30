@@ -1,0 +1,8 @@
+summon wandering_trader ~0.5 -500 ~0.5 {Team:"smithed.prevent_aggression",Tags:["nucleus.entity","nucleus.trader_entity","nucleus.no_movement","nucleus.trader_entity.tint_based","sanguine.block","sanguine.entity","smithed.block","smithed.entity","sanguine.sanguine_urn","sanguine.sanguine_urn.start","sanguine.block.start","sanguine.trader_entity.static","sanguine.entity.prevent_glowing"],CustomName:'{"translate":"block.sanguine.sanguine_urn"}',AbsorptionAmount:10e100f,Health:0.01f,Silent:1b,NoAI:1b,DeathTime:19s,Offers:{Recipes:[]},ActiveEffects:[{Id:14b,Duration:100000,Amplifier:0b,ShowParticles:0b}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],HandDropChances:[-10000.0f,-10000.0f],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:structure_block",tag:{nucleus:{custom_model_data:{idle:8361008}},sanguine:{sanguine_urn_break_state:0},CustomModelData:8361000}}],HandItems:[{id:"minecraft:leather_horse_armor",Count:1b,tag:{display:{color:16777215},CustomModelData:8361008}}],DeathLootTable:"sanguine:technical/blocks/sanguine_urn"}
+
+summon item_frame ~ ~1 ~ {Item:{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:8361000}},Facing:1b,Invulnerable:1b,Tags:["smithed.entity","sanguine.sanguine_urn.temp","sanguine.block.temp"],Silent:1b,Fixed:1b,Invisible:1b}
+
+## Clear Items
+item replace entity @s[gamemode=!creative,nbt={Inventory:[{Slot:-106b,tag:{sanguine:{id:"sanguine_urn"}}}]},nbt=!{SelectedItem:{tag:{sanguine:{id:"sanguine_urn"}}}}] weapon.offhand with air
+item replace entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{sanguine:{id:"sanguine_urn"}}}}] weapon.mainhand with air
+playsound minecraft:block.fungus.place block @a

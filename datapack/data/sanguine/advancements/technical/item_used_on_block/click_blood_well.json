@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:hopper"
+            ],
+            "nbt": "{Lock:\"§blood_well\\\\uF001\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:block/blood_well/click"
+  }
+}

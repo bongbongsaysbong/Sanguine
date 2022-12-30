@@ -1,0 +1,21 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{sanguine:{id:\"butcher_skull\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/butcher_skull/unequip/main"
+  }
+}

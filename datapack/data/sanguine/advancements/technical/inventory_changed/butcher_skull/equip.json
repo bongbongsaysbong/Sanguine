@@ -1,0 +1,31 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:leather_helmet"
+              ],
+              "nbt": "{sanguine:{id:\"butcher_skull\"}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "nbt": "{sanguine:{id:\"butcher_skull\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/butcher_skull/equip"
+  }
+}

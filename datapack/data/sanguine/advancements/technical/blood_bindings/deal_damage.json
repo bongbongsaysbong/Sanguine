@@ -1,0 +1,44 @@
+{
+  "parent": "sanguine:technical/blood_bindings/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_explosion": false,
+            "is_fire": false,
+            "is_magic": false,
+            "is_projectile": false,
+            "is_lightning": false
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"smithed.block\"]}"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"smithed.strict\"]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/blood_binding/checks/deal_damage"
+  }
+}

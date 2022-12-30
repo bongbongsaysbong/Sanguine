@@ -1,0 +1,343 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.durability",
+        "with": [
+          512,
+          512
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "pack.sanguine",
+        "color": "#880f0f",
+        "italic": true
+      },
+      ""
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{AttributeModifiers:[{}]}",
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "nbt": "{sanguine:{id:\"sacrificial_knife\",knife_stage:0}}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361001,sanguine:{id:\"sacrificial_knife\",knife_stage:0}}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{sanguine:{id:\"sacrificial_knife\",knife_stage:1}}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "sacrificial_knife_clean",
+        "amount": 4,
+        "operation": "addition",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "sacrificial_knife_speed",
+        "amount": -1.5,
+        "operation": "addition",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{sanguine:{id:\"sacrificial_knife\",knife_stage:1}}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.modifiers.mainhand",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "attribute.modifier.equals.0",
+          "italic": false,
+          "color": "dark_green",
+          "with": [
+            4,
+            {
+              "translate": "attribute.name.generic.attack_damage"
+            }
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "attribute.modifier.equals.0",
+          "italic": false,
+          "color": "dark_green",
+          "with": [
+            2.5,
+            {
+              "translate": "attribute.name.generic.attack_speed"
+            }
+          ]
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{sanguine:{id:\"sacrificial_knife\",knife_stage:1}}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361002,sanguine:{id:\"sacrificial_knife\",knife_stage:1}}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{sanguine:{id:\"sacrificial_knife\",knife_stage:2}}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "sacrificial_knife_tipped",
+        "amount": 6,
+        "operation": "addition",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "sacrificial_knife_speed",
+        "amount": -1.5,
+        "operation": "addition",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{sanguine:{id:\"sacrificial_knife\",knife_stage:2}}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.modifiers.mainhand",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "attribute.modifier.equals.0",
+          "italic": false,
+          "color": "dark_green",
+          "with": [
+            6,
+            {
+              "translate": "attribute.name.generic.attack_damage"
+            }
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "attribute.modifier.equals.0",
+          "italic": false,
+          "color": "dark_green",
+          "with": [
+            2.5,
+            {
+              "translate": "attribute.name.generic.attack_speed"
+            }
+          ]
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{sanguine:{id:\"sacrificial_knife\",knife_stage:2}}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361003,sanguine:{id:\"sacrificial_knife\",knife_stage:2}}",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{sanguine:{id:\"sacrificial_knife\",knife_stage:3}}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "sacrificial_knife_dripping",
+        "amount": 8,
+        "operation": "addition",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "sacrificial_knife_speed",
+        "amount": -1.5,
+        "operation": "addition",
+        "slot": "mainhand"
+      }
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{sanguine:{id:\"sacrificial_knife\",knife_stage:3}}"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "item.modifiers.mainhand",
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "attribute.modifier.equals.0",
+          "italic": false,
+          "color": "dark_green",
+          "with": [
+            8,
+            {
+              "translate": "attribute.name.generic.attack_damage"
+            }
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "attribute.modifier.equals.0",
+          "italic": false,
+          "color": "dark_green",
+          "with": [
+            2.5,
+            {
+              "translate": "attribute.name.generic.attack_speed"
+            }
+          ]
+        }
+      ]
+    ],
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{sanguine:{id:\"sacrificial_knife\",knife_stage:3}}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

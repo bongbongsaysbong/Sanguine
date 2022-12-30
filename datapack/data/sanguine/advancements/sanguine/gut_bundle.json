@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bundle",
+      "nbt": "{CustomModelData:8361000}"
+    },
+    "title": {
+      "translate": "advancement.sanguine.gut_bundle"
+    },
+    "description": [
+      {"translate": "advancement.sanguine.gut_bundle.desc"},
+      "\n",
+      {"text":"\ua007","font":"sanguine:recipes","color":"white"},
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/credence",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bundle"
+            ],
+            "nbt": "{sanguine:{id:\"gut_bundle\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

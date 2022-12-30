@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "sanguine:item/sacrificial_knife_drenched"
+  }
+}

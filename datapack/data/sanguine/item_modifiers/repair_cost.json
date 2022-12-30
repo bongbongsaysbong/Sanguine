@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "sanguine:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.repair_cost",
+        "target": "RepairCost",
+        "op": "replace"
+      }
+    ]
+  }
+]

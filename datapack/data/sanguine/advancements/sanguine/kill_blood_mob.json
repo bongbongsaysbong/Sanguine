@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:8361004}"
+    },
+    "title": {
+      "translate": "advancement.sanguine.kill_blood_mob"
+    },
+    "description": {
+      "translate": "advancement.sanguine.kill_blood_mob.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/blood_moon",
+  "criteria": {
+    "unborn": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+          "nbt": "{Tags:[\"sanguine.unborn\"]}"
+        }
+      }
+    },
+    "gurgle": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.gurgle\"]}"
+        }
+      }
+    },
+    "carrion": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.carrion\"]}"
+        }
+      }
+    },
+    "offal": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+          "nbt": "{Tags:[\"sanguine.offal\"]}"
+        }
+      }
+    },
+    "butcher": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.butcher\"]}"
+        }
+      }
+    },
+    "reaper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.reaper\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "unborn",
+      "gurgle",
+      "carrion",
+      "offal",
+      "butcher",
+      "reaper"
+    ]
+  ]
+}

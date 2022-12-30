@@ -1,0 +1,1 @@
+scoreboard players set @s sanguine.timer 15

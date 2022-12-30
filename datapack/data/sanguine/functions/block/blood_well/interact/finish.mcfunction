@@ -1,0 +1,1 @@
+execute as @e[dx=0,type=armor_stand,tag=sanguine.blood_well,limit=1] run function sanguine:block/blood_well/interact/as_entity

@@ -1,0 +1,25 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "translate": "block.sanguine.credence.storage",
+      "with": [
+        {
+          "score": {
+            "name": "@s",
+            "objective": "sanguine.blood"
+          }
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "sanguine.max_blood"
+          }
+        }
+      ],
+      "color": "red",
+      "italic": false
+    }
+  }
+]

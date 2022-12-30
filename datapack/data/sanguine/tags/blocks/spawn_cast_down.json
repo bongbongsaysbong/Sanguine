@@ -1,0 +1,26 @@
+{
+  "values": [
+    "#nucleus:air",
+    "#minecraft:flowers",
+    "#minecraft:wool_carpets",
+    "minecraft:moss_carpet",
+    "minecraft:tall_grass",
+    "minecraft:grass",
+    "minecraft:large_fern",
+    "minecraft:fern",
+    "minecraft:red_mushroom",
+    "minecraft:brown_mushroom",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus",
+    "minecraft:twisting_vines",
+    "minecraft:twisting_vines_plant",
+    "minecraft:weeping_vines",
+    "minecraft:weeping_vines_plant",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant",
+    "minecraft:vine",
+    "minecraft:glow_lichen",
+    "minecraft:mangrove_roots",
+    "minecraft:snow"
+  ]
+}

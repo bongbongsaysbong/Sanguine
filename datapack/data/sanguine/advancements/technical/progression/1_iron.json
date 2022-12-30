@@ -1,0 +1,24 @@
+{
+  "parent": "sanguine:technical/progression/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword",
+              "minecraft:iron_helmet",
+              "minecraft:iron_chestplate",
+              "minecraft:iron_leggings",
+              "minecraft:iron_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:entity/player/progression/1_iron"
+  }
+}

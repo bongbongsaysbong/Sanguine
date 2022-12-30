@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:8361002}"
+    },
+    "title": {
+      "translate": "advancement.sanguine.sacrificial_knife"
+    },
+    "description": [
+      {"translate": "advancement.sanguine.sacrificial_knife.desc"},
+      "\n",
+      {"text":"\ua002","font":"sanguine:recipes","color":"white"},
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n"
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/credence",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{sanguine:{id:\"sacrificial_knife\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

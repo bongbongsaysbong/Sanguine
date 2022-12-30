@@ -1,0 +1,32 @@
+{
+  "parent": "sanguine:technical/blood_bindings/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"sanguine.binding.gory_glory\"]}"
+            }
+          }
+        ],
+        "killing_blow": {
+          "is_explosion": false,
+          "is_fire": false,
+          "is_projectile": false,
+          "is_lightning": false
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/blood_binding/checks/act/gory_glory/kill_entity"
+  }
+}

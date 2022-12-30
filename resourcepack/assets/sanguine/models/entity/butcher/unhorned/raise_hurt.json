@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/butcher/unhorned/raise",
+	"textures": {
+		"0": "sanguine:entity/butcher/unhorned/raise_hurt"
+	}
+}

@@ -1,0 +1,3 @@
+execute unless block ^ ^ ^0.1 #sanguine:campfires unless block ^ ^ ^0.01 #sanguine:raycast_ignore_urn positioned ^ ^ ^0.01 positioned ~ ~1 ~ if predicate sanguine:block/place_urn align xyz positioned ~ ~-1 ~ unless entity @e[dy=1,tag=smithed.block] run function sanguine:block/sanguine_urn/raycast/as_entity_place
+execute if block ^ ^ ^0.1 #sanguine:campfires positioned ^ ^ ^1 align xyz if predicate sanguine:block/place_urn unless entity @e[dy=1,tag=smithed.block] positioned ~ ~-1 ~ run function sanguine:block/sanguine_urn/raycast/as_entity_place
+execute if entity @s[distance=..5] if block ^ ^ ^0.01 #sanguine:raycast_ignore_urn unless block ^ ^ ^0.1 #sanguine:campfires positioned ^ ^ ^0.01 run function sanguine:block/sanguine_urn/raycast/raycast_place

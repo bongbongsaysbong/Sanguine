@@ -1,0 +1,42 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "sanguine:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.chalice_full",
+        "target": "sanguine.chalice_state",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.sanguine.sanguine_chalice.lore",
+        "with": [
+          {
+            "nbt": "root.temp.chalice_lore",
+            "storage": "sanguine:storage"
+          },
+          {
+            "text": "10"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "translate": "pack.sanguine",
+        "color": "#880f0f",
+        "italic": true
+      }
+    ],
+    "replace": true
+  }
+]

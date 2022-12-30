@@ -1,0 +1,85 @@
+{
+	"credit": "Made with Blockbench, Modeller: ElBones",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "sanguine:block/sanguine_urn/base",
+		"1": "sanguine:block/sanguine_urn/states",
+		"particle": "sanguine:block/sanguine_urn/base"
+	},
+	"elements": [
+		{
+			"name": "Top",
+			"from": [3, 15, 3],
+			"to": [13, 21, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 18, 8]},
+			"faces": {
+				"north": {"uv": [7, 0, 12, 3], "texture": "#0"},
+				"east": {"uv": [7, 0, 12, 3], "texture": "#0"},
+				"south": {"uv": [7, 0, 12, 3], "texture": "#0"},
+				"west": {"uv": [7, 0, 12, 3], "texture": "#0"},
+				"up": {"uv": [7, 3, 12, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Indent",
+			"from": [12, 21, 12],
+			"to": [4, 20, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 18, 7]},
+			"faces": {
+				"north": {"uv": [12, 5.5, 16, 5], "texture": "#0"},
+				"east": {"uv": [12, 5.5, 16, 5], "texture": "#0"},
+				"south": {"uv": [12, 5.5, 16, 5], "texture": "#0"},
+				"west": {"uv": [12, 5.5, 16, 5], "texture": "#0"},
+				"up": {"uv": [12, 8, 8, 12], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Urn",
+			"from": [1, 2, 1],
+			"to": [15, 15, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 7], "texture": "#0"},
+				"east": {"uv": [0, 0, 7, 7], "texture": "#0"},
+				"south": {"uv": [0, 0, 7, 7], "texture": "#0"},
+				"west": {"uv": [0, 0, 7, 7], "texture": "#0"},
+				"up": {"uv": [0, 7, 7, 14], "texture": "#0"},
+				"down": {"uv": [0, 7, 7, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Base",
+			"from": [4, 0, 4],
+			"to": [12, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 8]},
+			"faces": {
+				"north": {"uv": [12, 0, 16, 1], "texture": "#0"},
+				"east": {"uv": [12, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [12, 0, 16, 1], "texture": "#0"},
+				"west": {"uv": [12, 0, 16, 1], "texture": "#0"},
+				"down": {"uv": [12, 1, 16, 5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -9, -6],
+			"scale": [1.01, 1.01, 1.01]
+		},
+		"head": {
+			"translation": [0, -23.75, 0],
+			"scale": [1.62, 1.62, 1.62]
+		}
+	},
+	"groups": [
+		{
+			"name": "Top",
+			"origin": [8, 1, 8],
+			"color": 0,
+			"children": [0, 1]
+		},
+		2,
+		3
+	]
+}

@@ -1,0 +1,126 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:technical/xp_drop"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8361000,nucleus:{id:\"death_item\"},sanguine:{entity:\"butcher\"}}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "killer",
+                "predicate": {
+                  "type": "minecraft:wolf"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/bloody_fragment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/binding_veins",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.04,
+              "looting_multiplier": 0.02
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/butcher_skull",
+          "conditions": [
+            {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.04
+                },
+                {
+                  "condition": "minecraft:damage_source_properties",
+                  "predicate": {
+                    "source_entity": {
+                      "type": "minecraft:creeper",
+                      "nbt": "{powered:1b}"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

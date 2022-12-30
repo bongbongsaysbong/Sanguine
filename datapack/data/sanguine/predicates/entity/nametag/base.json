@@ -1,0 +1,33 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "sanguine:entity/nametag/unborn"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "sanguine:entity/nametag/reaper"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "sanguine:entity/nametag/gurgle"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "sanguine:entity/nametag/butcher"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "sanguine:entity/nametag/stye"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "sanguine:entity/nametag/carrion"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "sanguine:entity/nametag/offal"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/gory_glory",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/selfish_heart",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/tough_skin",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/heritage",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/blood_barrier",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 7
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/blister",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/glass_heart",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 9
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/blood_deviant",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/swift_strike",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 11
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/punished_heart",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 12
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/venom_tongue",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 14
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/hungry_soul",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 16
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding/soul_shriek",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#sanguine.binding"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 17
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

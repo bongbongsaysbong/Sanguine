@@ -1,0 +1,76 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/credence.png",
+      "ascent": 5,
+      "height": 48,
+      "chars": [
+        "\ua000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/sanguine_chalice.png",
+      "ascent": 5,
+      "height": 48,
+      "chars": [
+        "\ua001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/sacrificial_knife.png",
+      "ascent": 5,
+      "height": 48,
+      "chars": [
+        "\ua002"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/blood_well.png",
+      "ascent": 5,
+      "height": 48,
+      "chars": [
+        "\ua003"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/drying_rack.png",
+      "ascent": 5,
+      "height": 48,
+      "chars": [
+        "\ua004"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/sanguine_urn.png",
+      "ascent": 5,
+      "height": 48,
+      "chars": [
+        "\ua005"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/effigy.png",
+      "ascent": 5,
+      "height": 48,
+      "chars": [
+        "\ua006"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/gut_bundle.png",
+      "ascent": 5,
+      "height": 48,
+      "chars": [
+        "\ua007"
+      ]
+    }
+  ]
+}

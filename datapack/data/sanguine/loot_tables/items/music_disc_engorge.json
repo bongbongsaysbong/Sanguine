@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "record.sanguine.engorge",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "pack.sanguine",
+                  "color": "#880f0f",
+                  "italic": true
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8361000,HideFlags:32,sanguine:{id:\"music_disc_engorge\"},nucleus:{custom_disc:1b}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
