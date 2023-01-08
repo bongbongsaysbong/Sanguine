@@ -31,7 +31,11 @@ Sanguine is a datapack for Minecraft that adds blood moons with a unique spin. T
   TheNuclearNexus & co. - [Various Smithed Libraries](https://smithed.dev/libraries)<br/>
   ShockMicro - [Emissive Textures](https://github.com/ShockMicro/VanillaDynamicEmissives)<br/>
   Godlander - [ObjMC](https://github.com/Godlander/objmc)<br/>
-  Ancientkingg - [FancyPants](https://github.com/Ancientkingg/fancyPants)<br/><br/>
+  Ancientkingg - [FancyPants](https://github.com/Ancientkingg/fancyPants)<br/>
+  
+  __Translations:__<br/>
+  Chinese (zh_cn) - IceBear<br/>
+  Russian (ru_ru) - VectorV, LolsShow<br/><br/>
 </details>
 
 <details>
