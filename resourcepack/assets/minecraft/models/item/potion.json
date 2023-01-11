@@ -76,6 +76,14 @@
 	{ "predicate": { "custom_model_data": 8361068 }, "model": "sanguine:entity/gore_zombie/head" },
 	{ "predicate": { "custom_model_data": 8361069 }, "model": "sanguine:entity/gore_zombie/arm" },
 	{ "predicate": { "custom_model_data": 8361070 }, "model": "sanguine:entity/gore_skeleton/head" },
-	{ "predicate": { "custom_model_data": 8361071 }, "model": "sanguine:entity/gore_skeleton/arm" }
+	{ "predicate": { "custom_model_data": 8361071 }, "model": "sanguine:entity/gore_skeleton/arm" },
+	{ "predicate": { "custom_model_data": 8361072 }, "model": "sanguine:entity/maul/idle" },
+	{ "predicate": { "custom_model_data": 8361073 }, "model": "sanguine:entity/maul/idle_hurt" },
+	{ "predicate": { "custom_model_data": 8361074 }, "model": "sanguine:entity/maul/spit" },
+	{ "predicate": { "custom_model_data": 8361075 }, "model": "sanguine:entity/maul/spit_hurt" },
+	{ "predicate": { "custom_model_data": 8361076 }, "model": "sanguine:entity/maul/trigger" },
+	{ "predicate": { "custom_model_data": 8361077 }, "model": "sanguine:entity/maul/trigger_hurt" },
+	{ "predicate": { "custom_model_data": 8361078 }, "model": "sanguine:entity/maul/spawn" },
+	{ "predicate": { "custom_model_data": 8361079 }, "model": "sanguine:entity/maul/despawn" }
   ]
 }

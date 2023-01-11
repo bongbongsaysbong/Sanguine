@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/maul/spit",
+	"textures": {
+		"0": "sanguine:entity/maul/spit_hurt"
+	}
+}

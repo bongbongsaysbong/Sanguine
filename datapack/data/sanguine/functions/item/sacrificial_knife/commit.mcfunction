@@ -1,7 +1,6 @@
 # Set Objectives
 execute store result score #blood_bottles_count sanguine.dummy run clear @s structure_block{sanguine:{id:"blood_bottle"}} 0
 execute if entity @s[gamemode=creative] run scoreboard players set #blood_bottles_count sanguine.dummy 0
-execute if predicate nucleus:entity/sneaking run scoreboard players set #blood_bottles_count sanguine.dummy 0
 
 execute store result score #temp_health sanguine.dummy run data get entity @s Health
 scoreboard players set #health_output sanguine.dummy 0

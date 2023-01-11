@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:dispenser\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{smithed:{block:{id:\"sanguine:flesh_tuner\"}}}}]},CustomModelData:8361007,sanguine:{id:\"flesh_tuner\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.sanguine.flesh_tuner",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.sanguine",
+                  "color": "#880f0f",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:dispenser"
+        }
+      ]
+    }
+  ]
+}

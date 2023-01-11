@@ -19,6 +19,7 @@
   "subtitle.sanguine.offal.slide": "Offal slides",
   "subtitle.sanguine.offal.hurt": "Offal hurts",
   "subtitle.sanguine.offal.death": "Offal dies",
+  "subtitle.sanguine.offal.player_hurt": "Offal swells",
 
   "entity.sanguine.reaper": "Reaper",
   "subtitle.sanguine.reaper.idle": "Reaper clicks",
@@ -62,6 +63,16 @@
   "subtitle.sanguine.butcher_skull.gore": "Butcher Skull gores",
   "subtitle.sanguine.butcher_skull.charge": "Butcher Skull charges",
   "subtitle.sanguine.butcher_skull.equip": "Butcher Skull rattles",
+
+  "entity.sanguine.maul": "Maul",
+  "subtitle.sanguine.maul.idle": "Maul grunts",
+  "subtitle.sanguine.maul.hurt": "Maul hurts",
+  "subtitle.sanguine.maul.death": "Maul dies",
+  "subtitle.sanguine.maul.spit": "Maul spits",
+  "subtitle.sanguine.maul.trigger": "Maul roars",
+  "subtitle.sanguine.maul.player_hurt": "Maul gores",
+  "subtitle.sanguine.maul.mine_explode": "Bloodmine combusts",
+  "death.sanguine.maul": "%s was blown to guts by Maul",
 
   "item.sanguine.butcher_horn": "Butcher Horn",
   "item.sanguine.amalgamate_flesh": "Amalgamate Flesh",
@@ -134,7 +145,8 @@
   "item.sanguine.blood_binding.soul_shriek.lore": "Chance to echo attacks in a sonic boom",
   "ui.sanguine.blood_binding.unbound": "Blood Binding must be bound",
   "ui.sanguine.blood_binding.too_many": "Too many Blood Bindings active",
-  "ui.sanguine.blood_binding.duplicate": "This Blood Binding is already active",
+  "ui.sanguine.blood_binding.low_health": "Not enough health to apply Blood Binding",
+  "ui.sanguine.blood_binding.duplicate": "Blood Binding is already active",
   "ui.sanguine.blood_binding.xp": "Blood Binding requires %s levels; consumes %s levels",
   "death.sanguine.selfish_heart": "%s was pricked to death by Selfish Heart",
   "death.sanguine.scarlet_carnage": "%s was exsanguinated by Scarlet Carnage",
@@ -178,6 +190,14 @@
   "subtitle.sanguine.sanguine_urn.repair": "Item coated",
   "block.sanguine.sewing_table": "Sewing Table",
   "block.sanguine.sewing_table.name": " ",
+  "block.sanguine.flesh_tuner": "Flesh Tuner",
+  "block.sanguine.flesh_tuner.name": " ",
+  "ui.sanguine.flesh_tuner.join": "Bound to Flesh Tuner",
+  "ui.sanguine.flesh_tuner.leave": "Unbound from Flesh Tuner",
+  "ui.sanguine.flesh_tuner.error": "Already bound to team",
+  "ui.sanguine.flesh_tuner.blocked": "Flesh Tuner is disabled",
+  "subtitle.sanguine.flesh_tuner.bind": "Flesh Tuner coils",
+  "subtitle.sanguine.flesh_tuner.unbind": "Flesh Tuner releases",
 
   "advancement.sanguine.root": "Sanguine",
   "advancement.sanguine.root.desc": "All things blood and guts",
@@ -207,6 +227,8 @@
   "advancement.sanguine.gut_bundle.desc": "Craft a Gut Bundle in a Credence to store items",
   "advancement.sanguine.sanguine_chalice": "Blood of my Enemies",
   "advancement.sanguine.sanguine_chalice.desc": "Craft a Sanguine Chalice in a Credence to heal using killed enemies' blood",
+  "advancement.sanguine.flesh_tuner": "Fine Tuning",
+  "advancement.sanguine.flesh_tuner.desc": "Craft a Flesh Tuner in a Credence and bind yourself to become passive to friends",
 
   "gamerule.sanguine.title": "Sanguine Gamerules",
   "gamerule.sanguine.true": "True",
@@ -238,6 +260,8 @@
   "gamerule.sanguine.blood_moon_frequency": "Blood Moon Frequency (%s)",
   "gamerule.sanguine.blood_moon_frequency.desc": "Controls how many days apart Blood Moons happen",
   "gamerule.sanguine.mob_cap": "Blood Moon Monster Cap (%s)",
-  "gamerule.sanguine.mob_cap.desc": "Controls the maximum number of Blood Moon monsters allowed; 30% is added for every nearby player"
+  "gamerule.sanguine.mob_cap.desc": "Controls the maximum number of Blood Moon monsters allowed; 30% is added for every nearby player",
+  "gamerule.sanguine.flesh_tuner": "Allow Flesh Tuner Usage: %s",
+  "gamerule.sanguine.flesh_tuner.desc": "Allows players to bind themselves to a flesh tuner, preventing them from damaging each other"
 
 }

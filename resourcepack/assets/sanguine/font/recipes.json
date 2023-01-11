@@ -71,6 +71,15 @@
       "chars": [
         "\ua007"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/flesh_tuner.png",
+      "ascent": 5,
+      "height": 48,
+      "chars": [
+        "\ua008"
+      ]
     }
   ]
 }

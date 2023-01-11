@@ -1,3 +1,3 @@
 tag @s remove sanguine.scheduled.engorge
-scoreboard players set @s sanguine.hide_sanity 45
-title @s actionbar {"translate":"record.nowPlaying","with":[{"translate":"record.sanguine.engorge"}],"color":"#880f0f"}
+data modify storage smithed.actionbar:input message set value {freeze:45,priority:'notification',json:'{"translate":"record.nowPlaying","with":[{"translate":"record.sanguine.engorge"}],"color":"#880f0f"}'}
+function #smithed.actionbar:message

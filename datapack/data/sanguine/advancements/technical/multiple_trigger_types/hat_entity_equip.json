@@ -37,6 +37,6 @@
     ]
   ],
   "rewards": {
-    "function": "sanguine:item/hat_entity_equip"
+    "function": "sanguine:item/hat_entity_equip/main"
   }
 }

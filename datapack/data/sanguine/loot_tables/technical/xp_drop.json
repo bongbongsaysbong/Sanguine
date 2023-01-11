@@ -12,11 +12,14 @@
               "tag": "{CustomModelData:8361000,nucleus:{id:\"death_item\",xp:0,no_death_particles:1b}}",
               "conditions": [
                 {
-                  "condition": "minecraft:entity_scores",
-                  "entity": "this",
-                  "scores": {
-                    "sanguine.scale_value": {
-                      "max": 0
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                      "sanguine.scale_value": {
+                        "min": 1
+                      }
                     }
                   }
                 }

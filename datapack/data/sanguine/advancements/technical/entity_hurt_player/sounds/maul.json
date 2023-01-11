@@ -1,0 +1,19 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:drowned",
+            "nbt": "{Tags:[\"sanguine.maul\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:entity/technical/sounds/attack/maul"
+  }
+}

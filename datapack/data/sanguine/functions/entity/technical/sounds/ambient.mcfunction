@@ -4,3 +4,4 @@ execute if entity @s[tag=sanguine.reaper] run playsound sanguine:entity.reaper.a
 execute if entity @s[tag=sanguine.carrion] run playsound sanguine:entity.carrion.ambient hostile @a
 execute if entity @s[tag=sanguine.gurgle] run playsound sanguine:entity.gurgle.ambient hostile @a
 execute if entity @s[tag=sanguine.butcher] run playsound sanguine:entity.butcher.ambient hostile @a
+execute if entity @s[tag=sanguine.maul] run playsound sanguine:entity.maul.ambient hostile @a

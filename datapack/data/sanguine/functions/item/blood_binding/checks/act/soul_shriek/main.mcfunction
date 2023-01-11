@@ -1,6 +1,8 @@
 data remove storage sanguine:storage root.temp
 data modify storage sanguine:storage root.temp.UUID set from entity @s UUID
 data modify storage sanguine:storage root.temp.Rotation set from entity @s Rotation
+scoreboard players set #tuned sanguine.dummy 0
+execute if entity @s[team=sanguine.flesh_tuner] run scoreboard players set #tuned sanguine.dummy 1
 scoreboard players operation #damage sanguine.dummy = @s sanguine.dealt_damage
 
 summon armor_stand ^ ^ ^ {Marker:1b,Invisible:1b,Tags:["sanguine.binding.soul_shriek","nucleus.entity","sanguine.entity"],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:8361000}}]}

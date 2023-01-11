@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dispenser",
+      "nbt": "{CustomModelData:8361007}"
+    },
+    "title": {
+      "translate": "advancement.sanguine.flesh_tuner"
+    },
+    "description": [
+      {
+        "translate": "advancement.sanguine.flesh_tuner.desc"
+      },
+      "\n",
+      {
+        "text": "ꀈ",
+        "color": "white",
+        "font": "sanguine:recipes"
+      },
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/credence",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

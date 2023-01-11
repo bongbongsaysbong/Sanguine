@@ -6,3 +6,6 @@ execute unless score #sanguine.blood_moon.phase sanguine.dummy matches 1.. run p
 
 # Binding Clock
 execute if score @s sanguine.bindings matches 1.. run function sanguine:item/blood_binding/checks/second_clock
+
+# Equipment
+execute as @e[distance=..10,type=#nucleus:preset/wears_equipment,tag=!smithed.strict,predicate=sanguine:entity/wearing/butcher_skull] run function sanguine:item/hat_entity_equip/butcher_skull

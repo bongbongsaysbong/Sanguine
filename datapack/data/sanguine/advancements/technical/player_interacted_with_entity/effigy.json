@@ -4,6 +4,41 @@
     "check": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:warped_fungus_on_a_stick"
+                    ],
+                    "nbt": "{sanguine:{id:\"blood_binding\"}}"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": [
+                      "minecraft:gold_ingot"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
         "entity": {
           "nbt": "{Tags:[\"sanguine.effigy.blank\"]}"
         }

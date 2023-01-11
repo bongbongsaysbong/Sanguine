@@ -1,5 +1,10 @@
 tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{"translate":"gamerule.sanguine.title","bold":true,"color":"#880f0f"},"\n"]
 
+# Flesh Tuner
+execute store result score #flesh_tuner sanguine.dummy run data get storage sanguine:storage root.gamerules.flesh_tuner
+execute if score #flesh_tuner sanguine.dummy matches 0 run tellraw @s {"translate":"gamerule.sanguine.flesh_tuner","with":[{"translate":"gamerule.sanguine.false","color":"#bf1515","clickEvent":{"action":"run_command","value":"/function sanguine:entity/player/gamerules/flesh_tuner"}}],"color":"#ed6b61","hoverEvent":{"action":"show_text","contents":[{"translate":"gamerule.sanguine.flesh_tuner.desc","color":"gray"}]}}
+execute if score #flesh_tuner sanguine.dummy matches 1 run tellraw @s {"translate":"gamerule.sanguine.flesh_tuner","with":[{"translate":"gamerule.sanguine.true","color":"#b9d132","clickEvent":{"action":"run_command","value":"/function sanguine:entity/player/gamerules/flesh_tuner"}}],"color":"#ed6b61","hoverEvent":{"action":"show_text","contents":[{"translate":"gamerule.sanguine.flesh_tuner.desc","color":"gray"}]}}
+
 # Butchers Break Blocks
 execute store result score #butchers_break_blocks sanguine.dummy run data get storage sanguine:storage root.gamerules.butchers_break_blocks
 execute if score #butchers_break_blocks sanguine.dummy matches 0 run tellraw @s {"translate":"gamerule.sanguine.butchers_break_blocks","with":[{"translate":"gamerule.sanguine.false","color":"#bf1515","clickEvent":{"action":"run_command","value":"/function sanguine:entity/player/gamerules/butchers_break_blocks"}}],"color":"#ed6b61","hoverEvent":{"action":"show_text","contents":[{"translate":"gamerule.sanguine.butchers_break_blocks.desc","color":"gray"}]}}

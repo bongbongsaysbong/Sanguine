@@ -61,6 +61,7 @@
   "death.sanguine.butcher_skull": "%s 被 %s 刺伤",
   "subtitle.sanguine.butcher_skull.gore": "屠夫骷髅血块",
   "subtitle.sanguine.butcher_skull.charge": "屠夫骷髅蓄力",
+  "subtitle.sanguine.butcher_skull.equip": "屠夫骷髅嘎嘎作响",
 
   "item.sanguine.butcher_horn": "屠夫号角",
   "item.sanguine.amalgamate_flesh": "融合血肉",
@@ -91,6 +92,8 @@
   "item.sanguine.toxic_sac": "毒囊",
   "item.sanguine.gut_bundle": "内脏包",
   "record.sanguine.engorge": "Dizzistitch - 吞噬",
+  "item.sanguine.bloody_stitches": "血缝针",
+  "item.sanguine.twisted_pin": "双绞线",
 
   "item.sanguine.blood_binding": "鲜血绑定",
   "item.sanguine.blood_binding.lore": "绑定时:",
@@ -173,6 +176,8 @@
   "subtitle.sanguine.sanguine_urn.boil": "血污瓮冒泡",
   "subtitle.sanguine.sanguine_urn.dip_binding": "血缚涂抹",
   "subtitle.sanguine.sanguine_urn.repair": "物品涂抹",
+  "block.sanguine.sewing_table": "缝纫台",
+  "block.sanguine.sewing_table.name": " ",
 
   "advancement.sanguine.root": "血污",
   "advancement.sanguine.root.desc": "鲜血与内脏",

@@ -4,7 +4,7 @@ execute unless predicate sanguine:entity/wearing/butcher_skull run function sang
 execute if predicate sanguine:entity/holding/mending_item/any positioned ~ ~0.805 ~ run function sanguine:item/durability/mending/xp_orb_test/main
 
 scoreboard players add @s sanguine.playtime 1
-execute if score @s sanguine.playtime matches 4800000.. run scoreboard players set @s sanguine.playtime 4800000
+execute if score @s sanguine.playtime matches 2147483600.. run scoreboard players set @s sanguine.playtime 2147483600
 
 # Bindings
 execute if score @s sanguine.bindings matches 1.. run function sanguine:item/blood_binding/checks/tick

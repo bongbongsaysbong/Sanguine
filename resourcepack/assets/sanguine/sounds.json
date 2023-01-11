@@ -9,6 +9,28 @@
       "sanguine:ambience/blood_moon/loop/loop5"
     ]
   },
+  "ambient.blood_moon.mood": {
+    "sounds": [
+      "sanguine:ambience/blood_moon/mood/mood0",
+      "sanguine:ambience/blood_moon/mood/mood1",
+      "sanguine:ambience/blood_moon/mood/mood2",
+      "sanguine:ambience/blood_moon/mood/mood3",
+      "sanguine:ambience/blood_moon/mood/mood4",
+      "sanguine:ambience/blood_moon/mood/mood5",
+      "sanguine:ambience/blood_moon/mood/mood6",
+      "sanguine:ambience/blood_moon/mood/mood7"
+    ]
+  },
+  "ambient.blood_moon.additions": {
+    "sounds": [
+      "sanguine:ambience/blood_moon/additions/additions0",
+      "sanguine:ambience/blood_moon/additions/additions1",
+      "sanguine:ambience/blood_moon/additions/additions2",
+      "sanguine:ambience/blood_moon/additions/additions3",
+      "sanguine:ambience/blood_moon/additions/additions4",
+      "sanguine:ambience/blood_moon/additions/additions5"
+    ]
+  },
   "ambient.blood_moon.warning": {
     "subtitle" :"subtitle.sanguine.blood_moon_warning",
     "sounds": [
@@ -76,6 +98,15 @@
     "sounds": [
       "sanguine:entity/offal/death0",
       "sanguine:entity/offal/death1"
+    ]
+  },
+  "entity.offal.player_hurt": {
+    "subtitle": "subtitle.sanguine.offal.player_hurt",
+    "sounds": [
+      {"name": "sanguine:entity/offal/player_hurt0", "pitch": 1.0},
+      {"name": "sanguine:entity/offal/player_hurt0", "pitch": 0.9},
+      {"name": "sanguine:entity/offal/player_hurt1", "pitch": 1.0},
+      {"name": "sanguine:entity/offal/player_hurt1", "pitch": 0.9}
     ]
   },
   "entity.reaper.ambient": {
@@ -309,6 +340,66 @@
       "sanguine:entity/butcher/step_water2",
       "sanguine:entity/butcher/step_water3",
       "sanguine:entity/butcher/step_water4"
+    ]
+  },
+  "entity.maul.ambient": {
+    "subtitle": "subtitle.sanguine.maul.idle",
+    "sounds": [
+      {"name": "sanguine:entity/maul/ambient0", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/ambient0", "pitch": 0.9},
+      {"name": "sanguine:entity/maul/ambient1", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/ambient1", "pitch": 0.9}
+    ]
+  },
+  "entity.maul.hurt": {
+    "subtitle": "subtitle.sanguine.maul.hurt",
+    "sounds": [
+      {"name": "sanguine:entity/maul/hurt0", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/hurt0", "pitch": 0.9},
+      {"name": "sanguine:entity/maul/hurt1", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/hurt1", "pitch": 0.9}
+    ]
+  },
+  "entity.maul.player_hurt": {
+    "subtitle": "subtitle.sanguine.maul.player_hurt",
+    "sounds": [
+      {"name": "sanguine:entity/maul/attack", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/attack", "pitch": 0.9}
+    ]
+  },
+  "entity.maul.death": {
+    "subtitle": "subtitle.sanguine.maul.death",
+    "sounds": [
+      {"name": "sanguine:entity/maul/death", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/death", "pitch": 0.9}
+    ]
+  },
+  "entity.maul.spit": {
+    "subtitle": "subtitle.sanguine.maul.spit",
+    "sounds": [
+      {"name": "sanguine:entity/maul/spit0", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/spit0", "pitch": 0.9},
+      {"name": "sanguine:entity/maul/spit1", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/spit1", "pitch": 0.9},
+      {"name": "sanguine:entity/maul/spit2", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/spit2", "pitch": 0.9}
+    ]
+  },
+  "entity.maul.trigger": {
+    "subtitle": "subtitle.sanguine.maul.trigger",
+    "sounds": [
+      {"name": "sanguine:entity/maul/trigger0", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/trigger0", "pitch": 0.9},
+      {"name": "sanguine:entity/maul/trigger1", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/trigger1", "pitch": 0.9}
+    ]
+  },
+  "entity.maul.mine_explode": {
+    "subtitle": "subtitle.sanguine.maul.mine_explode",
+    "sounds": [
+      {"name": "sanguine:entity/maul/explode", "pitch": 1.0},
+      {"name": "sanguine:entity/maul/explode", "pitch": 0.9},
+      {"name": "sanguine:entity/maul/explode", "pitch": 0.8}
     ]
   },
   "item.blood_oath.stab": {
@@ -576,6 +667,20 @@
 	  "sounds": [
       {"name": "sanguine:item/butcher_skull/equip", "pitch": 1.0},
       {"name": "sanguine:item/butcher_skull/equip", "pitch": 0.9}
+    ]
+  },
+  "block.flesh_tuner.bind": {
+    "subtitle": "subtitle.sanguine.flesh_tuner.bind",
+	  "sounds": [
+      {"name": "sanguine:block/flesh_tuner/bind", "pitch": 1.0},
+      {"name": "sanguine:block/flesh_tuner/bind", "pitch": 0.9}
+    ]
+  },
+  "block.flesh_tuner.unbind": {
+    "subtitle": "subtitle.sanguine.flesh_tuner.unbind",
+	  "sounds": [
+      {"name": "sanguine:block/flesh_tuner/unbind", "pitch": 1.0},
+      {"name": "sanguine:block/flesh_tuner/unbind", "pitch": 0.9}
     ]
   }
 }

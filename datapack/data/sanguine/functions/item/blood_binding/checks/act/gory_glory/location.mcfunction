@@ -1,5 +1,6 @@
 scoreboard players set #gory_glory.entity_count sanguine.dummy 0
-execute as @e[type=#nucleus:preset/can_take_damage/include_players,tag=!smithed.strict,tag=!smithed.block,distance=..6,sort=nearest] at @s run function sanguine:item/blood_binding/checks/act/gory_glory/entity/check
+execute unless score #tuned sanguine.dummy matches 1 as @e[type=#nucleus:preset/can_take_damage/include_players,tag=!smithed.strict,tag=!smithed.block,distance=..6,sort=nearest] at @s run function sanguine:item/blood_binding/checks/act/gory_glory/entity/check
+execute if score #tuned sanguine.dummy matches 1 as @e[type=#nucleus:preset/can_take_damage/include_players,team=!sanguine.flesh_tuner,tag=!smithed.strict,tag=!smithed.block,distance=..6,sort=nearest] at @s run function sanguine:item/blood_binding/checks/act/gory_glory/entity/check
 
 scoreboard players set #gory_glory.damage sanguine.dummy 30
 execute if score #gory_glory.entity_count sanguine.dummy matches ..0 run scoreboard players set #gory_glory.entity_count sanguine.dummy 1

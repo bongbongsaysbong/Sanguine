@@ -3,3 +3,4 @@ execute if entity @s[type=wandering_trader,tag=sanguine.reaper] run function san
 execute if entity @s[type=wandering_trader,tag=sanguine.carrion] run function sanguine:entity/carrion/tick
 execute if entity @s[type=wandering_trader,tag=sanguine.gurgle] run function sanguine:entity/gurgle/tick
 execute if entity @s[type=wandering_trader,tag=sanguine.butcher] run function sanguine:entity/butcher/tick
+execute if entity @s[type=drowned,tag=sanguine.maul] run function sanguine:entity/maul/tick
