@@ -1,6 +1,8 @@
 scoreboard players set @s smithed.damage 12
 
-effect give @s instant_damage 1 30 true
+function nucleus:entity/player/fake_damage/main
+playsound minecraft:entity.player.hurt player @a
+
 tag @s add sanguine.damage.scarlet_carnage
 function #smithed.damage:entity/apply/armor
 tag @s remove sanguine.damage.scarlet_carnage

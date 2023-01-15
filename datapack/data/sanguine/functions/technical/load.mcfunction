@@ -58,4 +58,4 @@ team modify sanguine.flesh_tuner color red
 
 # Initialise
 scoreboard players set #sanguine.installed sanguine.dummy 1
-execute unless data storage sanguine:storage root.version{major:0,release:3,semiver:1} run function sanguine:technical/first_load/main
+execute unless data storage sanguine:storage root.version{major:0,release:3,semiver:2} run function sanguine:technical/first_load/main

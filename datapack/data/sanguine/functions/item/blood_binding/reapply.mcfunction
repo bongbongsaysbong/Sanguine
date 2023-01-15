@@ -18,5 +18,5 @@ execute if entity @s[tag=sanguine.binding.scarlet_carnage] run attribute @s mine
 execute if entity @s[tag=sanguine.binding.hungry_soul] run attribute @s minecraft:generic.max_health modifier add 8-3-6-2-1553 sanguine.max_health -2 add
 execute if entity @s[tag=sanguine.binding.soul_shriek] run attribute @s minecraft:generic.max_health modifier add 8-3-6-2-1554 sanguine.max_health -2 add
 
-effect give @s instant_health 1 30 true
-effect give @s instant_damage 1 30 true
+function nucleus:entity/player/fake_damage/main
+playsound minecraft:entity.player.hurt player @a

@@ -17,7 +17,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"nucleus.entity.animating\"]}"
+                "nbt": "{Tags:[\"nucleus.animating\"]}"
               }
             }
           },

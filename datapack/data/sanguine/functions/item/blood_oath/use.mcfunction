@@ -1,6 +1,8 @@
 data remove storage sanguine:storage root.temp
 
-effect give @s[gamemode=!creative] instant_damage 1 30 true
+function nucleus:entity/player/fake_damage/main
+playsound minecraft:entity.player.hurt player @a
+
 playsound sanguine:item.blood_oath.stab player @a
 particle item structure_block{CustomModelData:8361001} ~ ~1.25 ~ 0.25 0.5 0.25 0.05 20 force
 

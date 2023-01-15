@@ -11,4 +11,4 @@ execute if entity @s[tag=sanguine.butcher.end_charge] run function sanguine:enti
 
 execute if score @s nucleus.footstep matches 5.. run function sanguine:entity/butcher/charge/footstep
 
-execute at @s if block ~ ~-1 ~ #sanguine:underwater run function sanguine:entity/butcher/charge/on_water
+execute at @s if block ~ ~-1 ~ #nucleus:underwater run function sanguine:entity/butcher/charge/on_water

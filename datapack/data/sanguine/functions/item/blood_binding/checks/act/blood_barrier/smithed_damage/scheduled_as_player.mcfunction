@@ -5,4 +5,5 @@ scoreboard players reset @s sanguine.binding.blood_barrier
 tag @s remove sanguine.binding.blood_barrier.active
 tag @s remove sanguine.binding.blood_barrier.scheduled
 
-effect give @s instant_damage 1 30 true
+function nucleus:entity/player/fake_damage/main
+playsound minecraft:entity.player.hurt player @a

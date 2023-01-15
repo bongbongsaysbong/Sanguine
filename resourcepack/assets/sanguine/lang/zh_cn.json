@@ -19,6 +19,7 @@
   "subtitle.sanguine.offal.slide": "脏器滑动",
   "subtitle.sanguine.offal.hurt": "脏器受伤",
   "subtitle.sanguine.offal.death": "脏器死亡",
+  "subtitle.sanguine.offal.player_hurt": "脏器膨胀",
 
   "entity.sanguine.reaper": "收割者",
   "subtitle.sanguine.reaper.idle": "收割者滴答",
@@ -62,6 +63,16 @@
   "subtitle.sanguine.butcher_skull.gore": "屠夫骷髅血块",
   "subtitle.sanguine.butcher_skull.charge": "屠夫骷髅蓄力",
   "subtitle.sanguine.butcher_skull.equip": "屠夫骷髅嘎嘎作响",
+
+  "entity.sanguine.maul": "撕咬者",
+  "subtitle.sanguine.maul.idle": "撕咬者呼噜",
+  "subtitle.sanguine.maul.hurt": "撕咬者受伤",
+  "subtitle.sanguine.maul.death": "撕咬者死亡",
+  "subtitle.sanguine.maul.spit": "撕咬者吐痰",
+  "subtitle.sanguine.maul.trigger": "撕咬者咆哮",
+  "subtitle.sanguine.maul.player_hurt": "撕咬者血块",
+  "subtitle.sanguine.maul.mine_explode": "血雷燃烧",
+  "death.sanguine.maul": "%s 被撕咬者炸得魂飞魄散",
 
   "item.sanguine.butcher_horn": "屠夫号角",
   "item.sanguine.amalgamate_flesh": "融合血肉",
@@ -117,7 +128,7 @@
   "item.sanguine.blood_binding.glass_heart": "玻璃心",
   "item.sanguine.blood_binding.glass_heart.lore": "+%s%% %s 处于较低生命值时",
   "item.sanguine.blood_binding.blood_deviant": "鲜血突变",
-  "item.sanguine.blood_binding.blood_deviant.lore": "被动回复鲜血",
+  "item.sanguine.blood_binding.blood_deviant.lore": "杀死实体后获得临时属性提升",
   "item.sanguine.blood_binding.swift_strike": "迅捷打击",
   "item.sanguine.blood_binding.punished_heart": "惩罚之心",
   "item.sanguine.blood_binding.chthonic_canny": "神秘精明",
@@ -134,6 +145,7 @@
   "item.sanguine.blood_binding.soul_shriek.lore": "有机会以音爆回响攻击",
   "ui.sanguine.blood_binding.unbound": "必须绑定血缚",
   "ui.sanguine.blood_binding.too_many": "太多血缚被激活",
+  "ui.sanguine.blood_binding.low_health": "没有足够的生命值来使用血缚",
   "ui.sanguine.blood_binding.duplicate": "此血缚已经激活",
   "ui.sanguine.blood_binding.xp": "血缚需要 %s 等级; 消耗 %s 等级",
   "death.sanguine.selfish_heart": "%s 被自私之心刺死",
@@ -178,6 +190,14 @@
   "subtitle.sanguine.sanguine_urn.repair": "物品涂抹",
   "block.sanguine.sewing_table": "缝纫台",
   "block.sanguine.sewing_table.name": " ",
+  "block.sanguine.flesh_tuner": "肉体调谐器",
+  "block.sanguine.flesh_tuner.name": " ",
+  "ui.sanguine.flesh_tuner.join": "绑定到肉体调谐器",
+  "ui.sanguine.flesh_tuner.leave": "不受肉体调谐器约束",
+  "ui.sanguine.flesh_tuner.error": "已经绑定到队伍",
+  "ui.sanguine.flesh_tuner.blocked": "肉体调谐器已禁用",
+  "subtitle.sanguine.flesh_tuner.bind": "肉体调谐器线圈",
+  "subtitle.sanguine.flesh_tuner.unbind": "肉体调谐器释放",
 
   "advancement.sanguine.root": "血污",
   "advancement.sanguine.root.desc": "鲜血与内脏",
@@ -207,6 +227,8 @@
   "advancement.sanguine.gut_bundle.desc": "在祭器台中制作内脏包以存储物品",
   "advancement.sanguine.sanguine_chalice": "敌人之血",
   "advancement.sanguine.sanguine_chalice.desc": "在祭器台中制作一个血色圣杯以使用杀死的敌人的血来治疗",
+  "advancement.sanguine.flesh_tuner": "微调",
+  "advancement.sanguine.flesh_tuner.desc": "在祭器台中制作一个肉体调谐器并使自己对朋友变得被动",
 
   "gamerule.sanguine.title": "血污游戏规则",
   "gamerule.sanguine.true": "开启",
@@ -238,6 +260,8 @@
   "gamerule.sanguine.blood_moon_frequency": "血月频率 (%s)",
   "gamerule.sanguine.blood_moon_frequency.desc": "控制血月发生的天数",
   "gamerule.sanguine.mob_cap": "血月怪物 (%s)",
-  "gamerule.sanguine.mob_cap.desc": "控制允许的最大血月怪物数量; 附近的每个玩家都会增加 30%"
+  "gamerule.sanguine.mob_cap.desc": "控制允许的最大血月怪物数量; 附近的每个玩家都会增加 30%",
+  "gamerule.sanguine.flesh_tuner": "允许使用肉体调谐器: %s",
+  "gamerule.sanguine.flesh_tuner.desc": "允许玩家将自己绑定到肉体调谐器, 防止他们互相伤害"
 
 }

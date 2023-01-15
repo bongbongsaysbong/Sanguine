@@ -3,6 +3,7 @@ data modify storage smithed.actionbar:input message set value {freeze:45,priorit
 function #smithed.actionbar:message
 
 data modify storage sanguine:storage root.temp.vfx set value 1
-effect give @s minecraft:instant_damage 1 30 true
+function nucleus:entity/player/fake_damage/main
+playsound minecraft:entity.player.hurt player @a
 
 advancement grant @s only sanguine:sanguine/flesh_tuner

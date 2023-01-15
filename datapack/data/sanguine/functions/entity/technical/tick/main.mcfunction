@@ -1,8 +1,7 @@
 # Mobs
-execute if entity @s[tag=sanguine.entity.spawn_animations,tag=!nucleus.entity.animating] run function sanguine:entity/technical/tick/non_animated
+execute if entity @s[tag=!nucleus.animating,tag=sanguine.entity.spawn_animations] run function sanguine:entity/technical/tick/non_animated
+execute if entity @s[tag=nucleus.animating] run function sanguine:entity/technical/tick/animated
 execute if entity @s[type=wandering_trader,tag=sanguine.butcher.unhorned] run function sanguine:entity/butcher/add_cmd
-execute if entity @s[tag=nucleus.entity.animating,tag=!sanguine.maul] run particle item leather_horse_armor{CustomModelData:8361010} ~ ~ ~ 0.5 0.15 0.5 0 5 force
-execute if entity @s[tag=nucleus.entity.animating,tag=sanguine.maul] run particle item leather_horse_armor{CustomModelData:8361010} ~ ~1 ~ 0.5 0.15 0.5 0 5 force
 execute if entity @s[type=vindicator,tag=sanguine.offal] run function sanguine:entity/offal/tick
 execute if entity @s[type=armor_stand,tag=sanguine.gurgle_spit] run function sanguine:entity/gurgle/spit/tick
 execute if entity @s[type=armor_stand,tag=sanguine.maul_mine] run function sanguine:entity/maul/mine/tick

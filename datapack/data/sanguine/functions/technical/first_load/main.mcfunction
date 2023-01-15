@@ -1,6 +1,6 @@
 data modify storage sanguine:storage root.version.major set value 0
 data modify storage sanguine:storage root.version.release set value 3
-data modify storage sanguine:storage root.version.semiver set value 1
+data modify storage sanguine:storage root.version.semiver set value 2
 
 data modify storage sanguine:storage root.gamerules.butchers_break_blocks set value 1b
 data modify storage sanguine:storage root.gamerules.butchers_break_containers set value 0b

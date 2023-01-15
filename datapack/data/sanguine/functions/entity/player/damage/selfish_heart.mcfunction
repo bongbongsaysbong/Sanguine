@@ -1,7 +1,9 @@
 scoreboard players operation @s smithed.damage = #sanguine.damage_temp sanguine.dummy
 scoreboard players operation @s smithed.damage /= #10 sanguine.dummy
 
-effect give @s instant_damage 1 30 true
+function nucleus:entity/player/fake_damage/main
+playsound minecraft:entity.player.hurt player @a
+
 tag @s add sanguine.damage.selfish_heart
 function #smithed.damage:entity/apply/armor
 tag @s remove sanguine.damage.selfish_heart
