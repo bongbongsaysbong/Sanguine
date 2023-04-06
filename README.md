@@ -10,7 +10,8 @@ Sanguine is a datapack for Minecraft that adds blood moons with a unique spin. T
 
 ## 🔗 Links 🔗
 * [Discord Server](https://discord.gg/jsbRvexYqA)
-* [Smithed Page](https://smithed.dev/packs/visi/sanguine) (recommended download)
+* [Modrinth](https://modrinth.com/datapack/sanguine)
+* [Smithed](https://smithed.dev/packs/sanguine)
 * [Wiki](https://github.com/VisiVersa/Sanguine/wiki)
 
 ## 📦 Additional 📦
@@ -44,8 +45,8 @@ Sanguine is a datapack for Minecraft that adds blood moons with a unique spin. T
   </summary>
   
   __Can I run Sanguine with other datapacks?__<br/>
-  It depends, but if the datapack is on Smithed, then it likely can. You may have to merge the resource pack and/or datapack with Mito.<br/>
-  ➼ [mito](https://mito.thenuclearnexus.live)<br/>
+  It depends, but if the datapack is on Smithed, then it likely can. You may have to merge the resource pack and/or datapack with Weld.<br/>
+  ➼ [weld](https://weld.smithed.dev)<br/>
   
   __I am experiencing various rendering issues__<br/>
   OptiFine tends to cause issues with our datapacks. These may include flipped or invisible monsters, a sanity bar offset and more. We're not exactly sure why, as OptiFine is closed source. There's many better alternatives here.<br/>
