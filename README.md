@@ -4,9 +4,9 @@
 
 ## 👁️ About 👁️
 
-Challenge your skills with horrific blood moons and a plethora of new, unique monsters. Shed their blood and advance further than ever before.
+Challenge your skills with horrific blood moons and a plethora of unique, gory monsters. Shed their blood and perform taboo magic.
 
-Sanguine is a datapack for Minecraft that adds blood moons with a unique spin. These blood moons get tougher with time, have unique monsters, and bring a handful of new rewards. Use drying racks and blood wells to create jerky and store the blood of your victims, challenge yourself by adding blood bindings that take up maximum health but add sort of "player enchants," play with new weapons such as the sacrificial knife and butcher skull, or just enjoy the added challenge.
+Sanguine adds brutal blood moons to test your survival. Fend off hordes of terrifying new monsters that evolve with your skill. Use your blood to perform forbidden binding rituals and empower yourself to new heights. Wield unique items and brand new weapons, and use strange new blocks. Maybe even uncover the mysteries of what made the world this way...
 
 ## 🔗 Links 🔗
 * [Discord Server](https://discord.gg/jsbRvexYqA)
