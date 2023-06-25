@@ -9,7 +9,7 @@ Challenge your skills with horrific blood moons and a plethora of unique, gory m
 Sanguine adds brutal blood moons to test your survival. Fend off hordes of terrifying new monsters that evolve with your skill. Use your blood to perform forbidden binding rituals and empower yourself to new heights. Wield unique items and brand new weapons, and use strange new blocks. Maybe even uncover the mysteries of what made the world this way...
 
 ## 🔗 Links 🔗
-* [Discord Server](https://discord.gg/jsbRvexYqA)
+* [Discord server](https://discord.gg/jsbRvexYqA)
 * [Modrinth](https://modrinth.com/datapack/sanguine)
 * [Smithed](https://smithed.dev/packs/sanguine)
 * [Wiki](https://github.com/VisiVersa/Sanguine/wiki)
@@ -22,14 +22,14 @@ Sanguine adds brutal blood moons to test your survival. Fend off hordes of terri
   </summary>
   
   __User Credits:__<br/>
-  VisiVersa - Main Programmer<br/>
-  ElBones - Artist, Brainstorming<br/>
-  CreeperMagnet_ - Miscellaneous Code<br/>
-  the der discohund - [Shader Code](https://github.com/HalbFettKaese/)<br/>
+  VisiVersa - Main programmer<br/>
+  ElBones - Artist, brainstorming<br/>
+  CreeperMagnet_ - Miscellaneous code<br/>
+  the der discohund - [Shader code](https://github.com/HalbFettKaese/)<br/>
   
   __Libraries:__<br/>
-  TheNuclearNexus & co. - [Various Smithed Libraries](https://smithed.dev/libraries)<br/>
-  ShockMicro - [Emissive Textures](https://github.com/ShockMicro/VanillaDynamicEmissives)<br/>
+  TheNuclearNexus & co. - [Various smithed libraries](https://smithed.dev/libraries)<br/>
+  ShockMicro - [Emissive textures](https://github.com/ShockMicro/VanillaDynamicEmissives)<br/>
   Godlander - [ObjMC](https://github.com/Godlander/objmc)<br/>
   Ancientkingg - [FancyPants](https://github.com/Ancientkingg/fancyPants)<br/>
   
@@ -54,12 +54,9 @@ Sanguine adds brutal blood moons to test your survival. Fend off hordes of terri
   ➼ [weld](https://weld.smithed.dev)<br/>
   
   __I am experiencing various rendering issues__<br/>
-  OptiFine tends to cause issues with our datapacks. These may include flipped or invisible monsters, a sanity bar offset and more. We're not exactly sure why, as OptiFine is closed source. There's many better alternatives here.<br/>
+  OptiFine tends to cause issues with our datapacks. These may include flipped or invisible monsters, a sanity bar offset and more. We're not exactly sure why, as OptiFine is closed source. There's many better alternatives here. Also note that even Iris shaders don't work.<br/>
   ➼ [on optifine](https://tinyurl.com/optifine-is-mid)<br/>
-  
-  __Why am I receiving items constantly?__<br/>
-  This is an issue caused by mods or datapacks that unlock all recipe advancements, notably VanillaTweaks and Quark (though Quark's can be configured off). This is due to how datapacks handle custom recipes.<br/>
-  
+
   __This feature is broken__<br/>
   Some server or plugin software may cause issues with our datapacks. This notoriously includes Paper, Spigot, Bukkit, Paper and Purpur. You can try to mess around with the config files, but it's recommended to use Vanilla or Fabric, and sometimes Forge with varying results.<br/><br/>
 
@@ -70,9 +67,7 @@ Sanguine adds brutal blood moons to test your survival. Fend off hordes of terri
     💻 Commands 💻
   </summary>
 
-  ➼ gamerules: /function sanguine:commands/gamerules<br/>
-  ➼ spawning items: /loot give @s loot sanguine:items/...<br/>
-  ➼ spawning mobs: /function sanguine:commands/summon/...<br/>
-  ➼ blood moons: /function sanguine:commands/blood_moon/<start,end><br/>
+__You can open up a menu with all custom commands here:__<br/>
+  ➼ /function nucleus:menu<br/>
 
 </details>
