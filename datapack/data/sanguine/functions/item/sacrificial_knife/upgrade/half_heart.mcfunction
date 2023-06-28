@@ -7,9 +7,9 @@ effect give @s instant_health 1 24 true
 tag @s add sanguine.scheduled.remove_attributes
 schedule function sanguine:item/sacrificial_knife/upgrade/scheduled 2t replace
 
-scoreboard players set #item_durability_change sanguine.dummy 6
-scoreboard players operation #item_durability_change sanguine.dummy -= #temp_health sanguine.dummy
-scoreboard players add #item_durability_change sanguine.dummy 1
+scoreboard players set #item_durability_change nucleus.dummy 6
+scoreboard players operation #item_durability_change nucleus.dummy -= #temp_health sanguine.dummy
+scoreboard players add #item_durability_change nucleus.dummy 1
 
 execute if score #hand sanguine.dummy matches 0 run function nucleus:item/durability/slots/mainhand
 execute if score #hand sanguine.dummy matches 1 run function nucleus:item/durability/slots/offhand

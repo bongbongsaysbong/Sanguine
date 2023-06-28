@@ -1,2 +1,2 @@
-execute unless score #sanguine.blood_moon.phase sanguine.dummy matches 1..2 if predicate nucleus:chance/0.33 unless entity @a[distance=..16,gamemode=!spectator] unless score @s nucleus.frames matches 1.. run function sanguine:entity/technical/despawn/despawn
-execute unless entity @a[distance=..64,gamemode=!spectator] if predicate nucleus:chance/0.33 unless score @s nucleus.frames matches 1.. run function sanguine:entity/technical/despawn/despawn
+scoreboard players add @s sanguine.despawn_timer 1
+execute if predicate sanguine:entity/despawn unless entity @a[distance=..16,gamemode=!spectator,nbt=!{Health:0.0f}] run function sanguine:entity/technical/despawn/despawn

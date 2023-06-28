@@ -11,7 +11,7 @@
 		"predicate": {
 		  "custom_model_data": 8361001
 		},
-		"model": "sanguine:item/amalgamate_flesh"
+		"model": "sanguine:item/gore_flesh"
 	  },
 	  {
 		"predicate": {
@@ -53,13 +53,19 @@
 		"predicate": {
 		  "custom_model_data": 8361008
 		},
-		"model": "sanguine:item/toxic_sac"
+		"model": "sanguine:item/toxic_pus"
 	  },
 	  {
 		"predicate": {
 		  "custom_model_data": 8361009
 		},
 		"model": "sanguine:item/bloody_stitches"
+	  },
+	  {
+		"predicate": {
+		  "custom_model_data": 8361010
+		},
+		"model": "sanguine:item/blood_binding"
 	  }
 	]
   }

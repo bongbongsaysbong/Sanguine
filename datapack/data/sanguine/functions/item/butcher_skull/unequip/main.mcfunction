@@ -1,4 +1,5 @@
 advancement revoke @s only sanguine:technical/inventory_changed/butcher_skull/unequip
+tag @s remove sanguine.has_butcher_skull
 
 data remove storage sanguine:storage root.temp
 function sanguine:item/butcher_skull/unequip/get_nbt

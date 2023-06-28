@@ -5,11 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:structure_block",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{RepairCost:999,CustomModelData:8361010,sanguine:{id:\"blood_binding\"}}"
+              "tag": "{CustomModelData:8361010,sanguine:{id:\"blood_binding\"}}"
             },
             {
               "function": "minecraft:set_lore",
@@ -20,9 +20,13 @@
                   "italic": false
                 },
                 {
-                  "translate": "pack.sanguine",
-                  "color": "#880f0f",
-                  "italic": true
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
                 }
               ]
             },

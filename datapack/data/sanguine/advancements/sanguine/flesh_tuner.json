@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dispenser",
+      "item": "minecraft:dropper",
       "nbt": "{CustomModelData:8361007}"
     },
     "title": {
-      "translate": "advancement.sanguine.flesh_tuner"
+      "translate": "advancements.sanguine.flesh_tuner"
     },
     "description": [
       {
-        "translate": "advancement.sanguine.flesh_tuner.desc"
+        "translate": "advancements.sanguine.flesh_tuner.description"
       },
       "\n",
       {
@@ -17,9 +17,6 @@
         "color": "white",
         "font": "sanguine:recipes"
       },
-      "\n",
-      "\n",
-      "\n",
       "\n",
       "\n"
     ],

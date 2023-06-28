@@ -1,0 +1,10 @@
+execute summon marker run function sanguine:entity/bruiser/debris/spawning/initiate
+execute summon marker run function sanguine:entity/bruiser/debris/spawning/initiate
+execute summon marker run function sanguine:entity/bruiser/debris/spawning/initiate
+execute summon marker run function sanguine:entity/bruiser/debris/spawning/initiate
+execute summon marker run function sanguine:entity/bruiser/debris/spawning/initiate
+execute summon marker run function sanguine:entity/bruiser/debris/spawning/initiate
+execute summon marker run function sanguine:entity/bruiser/debris/spawning/initiate
+execute summon marker run function sanguine:entity/bruiser/debris/spawning/initiate
+execute summon marker run function sanguine:entity/bruiser/debris/spawning/initiate
+execute summon marker run function sanguine:entity/bruiser/debris/spawning/initiate

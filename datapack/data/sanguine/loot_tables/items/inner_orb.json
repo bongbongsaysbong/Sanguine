@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:999,Unbreakable:1b,HideFlags:4,CustomModelData:8361021,sanguine:{id:\"inner_orb\",selection:0},nucleus:{prevent_striders:1b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.sanguine.inner_orb.description",
+                  "color": "#c99993",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.use","color":"#db5853"}
+                  ]
+                },
+                {
+                  "translate": "item.sanguine.inner_orb.description2",
+                  "color": "#c99993",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.sneak","color":"#db5853"}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.sanguine.inner_orb.header",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    {"translate":"blood_binding.sanguine.blister","color":"#db5853","italic":false}
+                  ]
+                },
+                [
+                  " ",
+                  {
+                    "translate": "item.sanguine.inner_orb.ingredient",
+                    "color": "#c99993",
+                    "italic": true,
+                    "with": [
+                      {"translate":"item.minecraft.prismarine_crystals"}
+                    ]
+                  }
+                ],
+                [
+                  " ",
+                  {
+                    "translate": "blood_binding.sanguine.blister.lore",
+                    "color": "#c99993",
+                    "italic": false
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.sanguine.inner_orb",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

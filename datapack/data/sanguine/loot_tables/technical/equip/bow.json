@@ -1,4 +1,6 @@
 {
+  "type": "minecraft:generic",
+  "random_sequence": "sanguine:technical/equip/bow",
   "pools": [
     {
       "rolls": 1,
@@ -19,7 +21,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.4
+              "chance": 0.1
             }
           ]
         }

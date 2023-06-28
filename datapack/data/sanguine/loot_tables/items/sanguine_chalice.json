@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8361006,sanguine:{id:\"sanguine_chalice\",chalice_state:1,chalice_toggle:0}}"
+              "tag": "{Unbreakable:1b,HideFlags:4,CustomModelData:8361006,sanguine:{id:\"sanguine_chalice\",chalice_state:1,chalice_toggle:0},nucleus:{prevent_striders:1b}}"
             },
             {
               "function": "minecraft:set_lore",
@@ -28,9 +28,27 @@
                   "italic": false
                 },
                 {
-                  "translate": "pack.sanguine",
-                  "color": "#880f0f",
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.sanguine.sanguine_chalice.description",
+                  "color": "#c99993",
                   "italic": true
+                },
+                {
+                  "translate": "item.sanguine.sanguine_chalice.description2",
+                  "color": "#c99993",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.use","color":"#db5853"}
+                  ]
                 }
               ]
             },

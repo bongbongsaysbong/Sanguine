@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{color:0},HideFlags:68,Unbreakable:1b,sanguine:{id:\"butcher_skull\",allow_sac_repair:1b},nucleus:{durability:[256,256],repaired:1b},CustomModelData:8361000}"
+              "tag": "{display:{color:0},HideFlags:68,Unbreakable:1b,sanguine:{id:\"butcher_skull\",allow_pus_repair:1b,peppino_hat:0b},nucleus:{durability:[256,256],repaired:1b,prevent_striders:1b},CustomModelData:8361000}"
             },
             {
               "function": "minecraft:set_name",
@@ -32,8 +32,23 @@
                   "italic": false
                 },
                 {
-                  "translate": "pack.sanguine",
-                  "color": "#880f0f",
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.sanguine.butcher_skull.description",
+                  "color": "#c99993",
+                  "italic": true
+                },
+                {
+                  "translate": "item.sanguine.butcher_skull.description2",
+                  "color": "#c99993",
                   "italic": true
                 }
               ]

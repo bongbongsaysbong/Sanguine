@@ -1,7 +1,7 @@
 # VFX
 playsound sanguine:entity.offal.spawn hostile @a
 particle dust 0.627 0.133 0.098 2 ~ ~1.25 ~ 2 2 2 0.1 70 force
-particle item leather_horse_armor{CustomModelData:8361010} ~ ~1.25 ~ 1 1 1 0.1 50 force
+particle item potion{CustomModelData:8361910} ~ ~1.25 ~ 1 1 1 0.1 50 force
 function sanguine:entity/technical/gibs/create
 
 # Offal Spawning
@@ -18,8 +18,10 @@ scoreboard players reset #reaper_spawned_offal sanguine.dummy
 schedule function sanguine:entity/offal/reaper/scheduled 2t replace
 
 # Explosion
-execute unless score #self_detonate sanguine.dummy matches 1 run function sanguine:entity/reaper/animation_end/scaling_explosion
-execute if score #self_detonate sanguine.dummy matches 1 run summon creeper ~ ~ ~ {ExplosionRadius:3b,Fuse:0,CustomName:'{"translate":"entity.sanguine.reaper"}'}
+execute if score @s sanguine.scale_value matches 5..6 run summon creeper ~ ~ ~ {ExplosionRadius:3b,Fuse:0,CustomName:'{"translate":"entity.sanguine.reaper"}'}
+execute if score @s sanguine.scale_value matches 7..8 run summon creeper ~ ~ ~ {ExplosionRadius:4b,Fuse:0,CustomName:'{"translate":"entity.sanguine.reaper"}'}
+execute if score @s sanguine.scale_value matches 9.. run summon creeper ~ ~ ~ {ExplosionRadius:5b,Fuse:0,CustomName:'{"translate":"entity.sanguine.reaper"}'}
 
 # Finish
+ride @s dismount
 tp @s ~ -512 ~

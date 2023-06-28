@@ -1,0 +1,2 @@
+data merge entity @s {Rotation:[0.0f,0.0f],CustomName:'{"translate":"block.sanguine.vile_viscus"}',Tags:["sanguine.vile_viscus_drips","smithed.block"],transformation:{translation:[0.0f,1.05f,0.0f],left_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f]},item:{id:"minecraft:potion",Count:1b,tag:{CustomModelData:8361929,CustomPotionColor:16777215}},view_range:4.0}
+data modify entity @s Rotation set from storage sanguine:storage root.temp.rotation

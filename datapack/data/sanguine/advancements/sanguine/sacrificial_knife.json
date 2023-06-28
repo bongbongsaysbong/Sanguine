@@ -5,10 +5,10 @@
       "nbt": "{CustomModelData:8361002}"
     },
     "title": {
-      "translate": "advancement.sanguine.sacrificial_knife"
+      "translate": "advancements.sanguine.sacrificial_knife"
     },
     "description": [
-      {"translate": "advancement.sanguine.sacrificial_knife.desc"},
+      {"translate": "advancements.sanguine.sacrificial_knife.description"},
       "\n",
       {"text":"\ua002","font":"sanguine:recipes","color":"white"},
       "\n",
@@ -22,7 +22,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sanguine:sanguine/credence",
+  "parent": "sanguine:sanguine/blood_bottle",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

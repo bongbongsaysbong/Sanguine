@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:dispenser\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{smithed:{block:{id:\"sanguine:blood_well\"}}}}]},CustomModelData:8361000,sanguine:{id:\"blood_well\"}}"
+              "tag": "{BlockEntityTag:{id:\"minecraft:hopper\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{nucleus:{block:{placed_block:1b,id:\"sanguine:blood_well\"}}}}]},CustomModelData:8361000,sanguine:{id:\"blood_well\"}}"
             },
             {
               "function": "minecraft:set_name",
@@ -22,14 +22,18 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.sanguine",
-                  "color": "#880f0f",
-                  "italic": true
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
                 }
               ]
             }
           ],
-          "name": "minecraft:dispenser"
+          "name": "minecraft:hopper"
         }
       ]
     }

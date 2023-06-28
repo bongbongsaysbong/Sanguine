@@ -5,7 +5,7 @@ attribute @s minecraft:generic.movement_speed modifier add 8-3-6-2-0 sanguine.mo
 
 tp @s ~ ~ ~ facing entity @p[gamemode=!creative,gamemode=!spectator]
 
-scoreboard players set @s nucleus.frames 20
+scoreboard players set @s nucleus.frames 40
 function nucleus:entity/technical/animate
 
 tag @s add sanguine.carrion.animation.trap

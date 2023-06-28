@@ -1,4 +1,5 @@
 tp @s ~ ~0.01 ~
-title @s actionbar {"translate":"sleep.not_possible","color":"red"}
-execute unless score @s manic.hide_sanity matches 60.. run scoreboard players set @s manic.hide_sanity 60
+data modify storage smithed.actionbar:input message set value {freeze:45,priority:'notification',json:'{"translate":"sleep.not_possible","color":"red"}'}
+function #smithed.actionbar:message
+
 scoreboard players set @s manic.last_slept 1000

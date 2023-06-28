@@ -1,0 +1,1296 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "sanguine:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.selection",
+        "target": "sanguine.selection",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.blister",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.minecraft.prismarine_crystals"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.blister.lore",
+          "color": "#c99993",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 0
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.blood_barrier",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.minecraft.scute"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.blood_barrier.lore",
+          "color": "#c99993",
+          "italic": false
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.blood_barrier.lore2",
+          "color": "#c99993",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.blood_deviant",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.minecraft.charcoal"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.blood_deviant.lore",
+          "color": "#c99993",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 2
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.glass_heart",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.minecraft.quartz"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.glass_heart.lore",
+          "color": "#c99993",
+          "italic": "false",
+          "with": [
+            "75",
+            {
+              "translate": "attribute.name.generic.attack_speed"
+            }
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.glass_heart.lore",
+          "color": "#c99993",
+          "italic": "false",
+          "with": [
+            "30",
+            {
+              "translate": "attribute.name.generic.movement_speed"
+            }
+          ]
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 3
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.gory_glory",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.sanguine.gore_flesh"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.gory_glory.lore",
+          "color": "#c99993",
+          "italic": false
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.gory_glory.lore2",
+          "color": "#c99993",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 4
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.heritage",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.minecraft.gold_nugget"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.heritage.lore",
+          "color": "#c99993",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 5
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.hungry_soul",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.minecraft.rotten_flesh"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.hungry_soul.lore",
+          "color": "#c99993",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 6
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.punished_heart",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.minecraft.fermented_spider_eye"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "attribute.modifier.plus.0",
+          "color": "#c99993",
+          "italic": "false",
+          "with": [
+            "4",
+            {
+              "translate": "attribute.name.generic.attack_damage"
+            }
+          ]
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 7
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.hungry_soul",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.minecraft.rotten_flesh"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.hungry_soul.lore",
+          "color": "#c99993",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 6
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.selfish_heart",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.sanguine.bloody_fragment"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.selfish_heart.lore",
+          "color": "#c99993",
+          "italic": false
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.selfish_heart.lore2",
+          "color": "#c99993",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 8
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.soul_shriek",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.minecraft.echo_shard"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.soul_shriek.lore",
+          "color": "#c99993",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 9
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.swift_strike",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.minecraft.rabbit_foot"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "attribute.modifier.plus.1",
+          "color": "#c99993",
+          "italic": "false",
+          "with": [
+            "35",
+            {
+              "translate": "attribute.name.generic.attack_speed"
+            }
+          ]
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 10
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.tough_skin",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.sanguine.scarred_hide"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "attribute.modifier.plus.1",
+          "color": "#c99993",
+          "italic": "false",
+          "with": [
+            "100",
+            {
+              "translate": "attribute.name.generic.knockback_resistance"
+            }
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "attribute.modifier.plus.0",
+          "color": "#c99993",
+          "italic": "false",
+          "with": [
+            "2",
+            {
+              "translate": "attribute.name.generic.armor_toughness"
+            }
+          ]
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 11
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "translate": "sanguine.tooltip",
+        "with": [
+          {
+            "translate": "pack.sanguine",
+            "color": "#880f0f",
+            "font": "minecraft:default",
+            "italic": true
+          }
+        ],
+        "color": "white",
+        "font": "sanguine:tooltip",
+        "italic": false
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.description",
+        "with": [
+          {
+            "keybind": "key.use",
+            "color": "#db5853"
+          }
+        ],
+        "color": "#c99993",
+        "italic": true
+      },
+      {
+        "translate": "item.sanguine.inner_orb.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.sneak","color":"#db5853"}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.inner_orb.header",
+        "with": [
+          {
+            "translate": "blood_binding.sanguine.venom_tongue",
+            "color": "#db5853",
+            "italic": false
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      },
+      [
+        " ",
+        {
+          "translate": "item.sanguine.inner_orb.ingredient",
+          "color": "#c99993",
+          "italic": true,
+          "with": [
+            {"translate":"item.sanguine.toxic_pus"}
+          ]
+        }
+      ],
+      [
+        " ",
+        {
+          "translate": "blood_binding.sanguine.venom_tongue.lore",
+          "color": "#c99993",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#selection"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": 12
+      }
+    ]
+  }
+]

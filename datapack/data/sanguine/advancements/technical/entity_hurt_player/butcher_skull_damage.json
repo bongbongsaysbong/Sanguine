@@ -7,17 +7,17 @@
         "player": [
           {
             "condition": "minecraft:reference",
-            "name": "sanguine:entity/wearing/butcher_skull"
+            "name": "sanguine:item/wearing/butcher_skull"
           }
         ],
         "damage": {
           "type": {
-            "is_fire": false,
-            "is_magic": false,
-            "is_lightning": false,
-            "bypasses_armor": false,
-            "bypasses_invulnerability": false,
-            "bypasses_magic": false
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              }
+            ]
           }
         }
       }

@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#sanguine.blood_moon.force_started"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": 1
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#sanguine.blood_moon.cycle"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": 0
+    }
+  }
+]

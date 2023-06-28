@@ -5,10 +5,10 @@
       "nbt": "{CustomModelData:8361002}"
     },
     "title": {
-      "translate": "advancement.sanguine.kill_all_blood_mobs"
+      "translate": "advancements.sanguine.kill_all_blood_mobs"
     },
     "description": {
-      "translate": "advancement.sanguine.kill_all_blood_mobs.desc"
+      "translate": "advancements.sanguine.kill_all_blood_mobs.description"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -70,6 +70,60 @@
           "nbt": "{Tags:[\"sanguine.reaper\"]}"
         }
       }
+    },
+    "maul": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:drowned",
+          "nbt": "{Tags:[\"sanguine.maul\"]}"
+        }
+      }
+    },
+    "gore_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"sanguine.gore_zombie\"]}"
+        }
+      }
+    },
+    "gore_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"sanguine.gore_skeleton\"]}"
+        }
+      }
+    },
+    "grub": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+          "nbt": "{Tags:[\"sanguine.grub\"]}"
+        }
+      }
+    },
+    "anemone": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.anemone\"]}"
+        }
+      }
+    },
+    "bruiser": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.bruiser\"]}"
+        }
+      }
     }
   },
   "requirements": [
@@ -90,9 +144,27 @@
     ],
     [
       "reaper"
+    ],
+    [
+      "maul"
+    ],
+    [
+      "gore_zombie"
+    ],
+    [
+      "gore_skeleton"
+    ],
+    [
+      "grub"
+    ],
+    [
+      "bruiser"
+    ],
+    [
+      "anemone"
     ]
   ],
   "rewards": {
-    "experience": 45
+    "experience": 75
   }
 }

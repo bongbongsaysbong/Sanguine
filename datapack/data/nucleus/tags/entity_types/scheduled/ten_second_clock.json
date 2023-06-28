@@ -1,6 +1,10 @@
 {
     "values":[
-        "minecraft:armor_stand",
-        "minecraft:marker"
+        "minecraft:zombie",
+        "minecraft:drowned",
+        "minecraft:vindicator",
+        "minecraft:marker",
+        "minecraft:item_display",
+        "minecraft:wandering_trader"
     ]
 }

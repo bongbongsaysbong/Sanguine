@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"sanguine.scheduled.blood_moon_tint\"]}"
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#sanguine.blood_moon.phase"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    }
+  ]
+}

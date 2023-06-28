@@ -1,1 +1,0 @@
-execute if data block ~ ~ ~ RecordItem.tag.sanguine{id:"music_disc_engorge"} run function sanguine:block/jukebox/engorge/play/as_jukebox

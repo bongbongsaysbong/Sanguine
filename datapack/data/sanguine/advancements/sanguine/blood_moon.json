@@ -5,10 +5,10 @@
       "nbt": "{CustomModelData:8361001}"
     },
     "title": {
-      "translate": "advancement.sanguine.blood_moon"
+      "translate": "advancements.sanguine.blood_moon"
     },
     "description": {
-      "translate": "advancement.sanguine.blood_moon.desc"
+      "translate": "advancements.sanguine.blood_moon.description"
     },
     "frame": "task",
     "show_toast": true,

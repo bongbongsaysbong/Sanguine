@@ -1,5 +1,6 @@
 {
   "type": "minecraft:entity",
+  "random_sequence": "sanguine:entities/reaper",
   "pools": [
     {
       "rolls": 1,
@@ -14,6 +15,29 @@
               "predicate": {
                 "type": "minecraft:skeleton"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
             }
           ]
         }
@@ -89,7 +113,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "sanguine:items/amalgamate_flesh",
+          "name": "sanguine:items/gore_flesh",
           "functions": [
             {
               "function": "minecraft:set_count",

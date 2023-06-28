@@ -1,4 +1,6 @@
 {
+  "type": "minecraft:generic",
+  "random_sequence": "sanguine:technical/equip/leggings",
   "pools": [
     {
       "rolls": 1,
@@ -17,7 +19,7 @@
                 },
                 "score": "sanguine.dummy"
               },
-              "range": 1
+              "range": 17
             }
           ]
         },
@@ -35,7 +37,7 @@
                 },
                 "score": "sanguine.dummy"
               },
-              "range": 2
+              "range": 18
             }
           ]
         },
@@ -53,7 +55,7 @@
                 },
                 "score": "sanguine.dummy"
               },
-              "range": 3
+              "range": 19
             }
           ]
         },
@@ -71,7 +73,7 @@
                 },
                 "score": "sanguine.dummy"
               },
-              "range": 4
+              "range": 20
             }
           ]
         }
@@ -83,13 +85,12 @@
             "minecraft:fire_protection",
             "minecraft:projectile_protection",
             "minecraft:blast_protection",
-            "minecraft:protection",
-            "minecraft:thorns"
+            "minecraft:protection"
           ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.4
+              "chance": 0.1
             }
           ]
         }

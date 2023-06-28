@@ -1,0 +1,16 @@
+execute if score @s sanguine.dummy2 matches 1 run function sanguine:block/credence/take_output/recipes/dirt
+execute if score @s sanguine.dummy2 matches 2 run function sanguine:block/credence/take_output/recipes/drying_rack
+execute if score @s sanguine.dummy2 matches 3 run function sanguine:block/credence/take_output/recipes/blood_well
+execute if score @s sanguine.dummy2 matches 4 run function sanguine:block/credence/take_output/recipes/sacrificial_knife
+execute if score @s sanguine.dummy2 matches 5 run function sanguine:block/credence/take_output/recipes/sanguine_chalice
+execute if score @s sanguine.dummy2 matches 6 run function sanguine:block/credence/take_output/recipes/flesh_tuner
+execute if score @s sanguine.dummy2 matches 7 run function sanguine:block/credence/take_output/recipes/crimson_shrine
+execute if score @s sanguine.dummy2 matches 8 run function sanguine:block/credence/take_output/recipes/sanguine_urn
+execute if score @s sanguine.dummy2 matches 9 run function sanguine:block/credence/take_output/recipes/effigy
+execute if score @s sanguine.dummy2 matches 10 run function sanguine:block/credence/take_output/recipes/noxious_gut
+execute if score @s sanguine.dummy2 matches 11 run function sanguine:block/credence/take_output/recipes/gut_bundle
+execute if score @s sanguine.dummy2 matches 12 run function sanguine:block/credence/take_output/recipes/vile_viscus
+execute if score @s sanguine.dummy2 matches 13 run function sanguine:block/credence/take_output/recipes/dyed_gut_bundle
+execute if score @s sanguine.dummy2 matches 14 run function sanguine:block/credence/take_output/recipes/redye_gut_bundle
+execute if score @s sanguine.dummy2 matches 15 run function sanguine:block/credence/take_output/recipes/inner_orb
+execute if score @s sanguine.dummy2 matches 16 run function sanguine:block/credence/take_output/recipes/bone_needle

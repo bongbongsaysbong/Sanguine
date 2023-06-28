@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:999,Unbreakable:1b,HideFlags:4,CustomModelData:8361019,sanguine:{id:\"bone_needle\",bone_needle:{serum:\"none\",durability:[0,0]}},nucleus:{prevent_striders:1b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.sanguine.bone_needle.description",
+                  "color": "#c99993",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.use","color":"#db5853"}
+                  ]
+                },
+                {
+                  "translate": "item.sanguine.bone_needle.properties.serum.blank.description",
+                  "color": "#c99993",
+                  "italic": true
+                },
+                "",
+                {
+                  "translate": "item.sanguine.bone_needle.properties",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  " ",
+                  {
+                  "translate": "item.sanguine.bone_needle.properties.serum",
+                  "color": "#c99993",
+                  "italic": false,
+                  "with": [
+                    {"translate":"item.sanguine.bone_needle.properties.serum.blank"}
+                  ]
+                 }
+                ],
+                [
+                  " ",
+                  {
+                  "translate": "item.sanguine.bone_needle.properties.durability",
+                  "color": "#c99993",
+                  "italic": false,
+                  "with": [
+                    0,
+                    0
+                  ]
+                 }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.sanguine.bone_needle",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

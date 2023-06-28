@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b,HideFlags:6,CustomModelData:8361001,sanguine:{id:\"sacrificial_knife\",allow_sac_repair:1b,knife_stage:0},nucleus:{durability:[512,512],repaired:1b}}"
+              "tag": "{Unbreakable:1b,HideFlags:6,CustomModelData:8361001,sanguine:{id:\"sacrificial_knife\",allow_pus_repair:1b,knife_stage:0},nucleus:{durability:[512,512],repaired:1b,prevent_striders:1b}}"
             },
             {
               "function": "minecraft:set_attributes",
@@ -43,8 +43,27 @@
                   ]
                 },
                 {
-                  "translate": "pack.sanguine",
-                  "color": "#880f0f",
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.sanguine.sacrificial_knife.description",
+                  "color": "#c99993",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.sneak","color":"#db5853"},
+                    {"keybind":"key.use","color":"#db5853"}
+                  ]
+                },
+                {
+                  "translate": "item.sanguine.sacrificial_knife.description2",
+                  "color": "#c99993",
                   "italic": true
                 },
                 "",

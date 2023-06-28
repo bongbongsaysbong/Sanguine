@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "sanguine:item/blood_binding/checks/act/venom_tongue/main"
+    "function": "sanguine:item/blood_binding/effects/venom_tongue"
   }
 }

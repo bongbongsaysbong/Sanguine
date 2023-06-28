@@ -1,0 +1,59 @@
+data modify storage sanguine:storage root.temp.success set value 1b
+
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:chicken"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:porkchop"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:rabbit"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:cod"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:salmon"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:tropical_fish"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:pufferfish"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:bone"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:rotten_flesh"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:spider_eye"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:feather"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:slime_ball"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:magma_cream"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:egg"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:ink_sac"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:glow_ink_sac"}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:porkchop",tag:{tcc:{id:"rotten_porkchop"}}}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:porkchop",tag:{tcc:{id:"snail_mucus"}}}} run function sanguine:block/noxious_gut/interact/feed/very_weak
+
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:beef"}} run function sanguine:block/noxious_gut/interact/feed/weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:mutton"}} run function sanguine:block/noxious_gut/interact/feed/weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:leather"}} run function sanguine:block/noxious_gut/interact/feed/weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:rabbit_hide"}} run function sanguine:block/noxious_gut/interact/feed/weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:honeycomb"}} run function sanguine:block/noxious_gut/interact/feed/weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:fermented_spider_eye"}} run function sanguine:block/noxious_gut/interact/feed/weak
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:goat_horn"}} run function sanguine:block/noxious_gut/interact/feed/weak
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:rabbit_hide",tag:{tcc:{id:"bat_wing"}}}} run function sanguine:block/noxious_gut/interact/feed/weak
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:tropical_fish",tag:{sanguine:{id:"chevon"}}}} run function sanguine:block/noxious_gut/interact/feed/weak
+
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:cooked_chicken"}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:cooked_porkchop"}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:cooked_rabbit"}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:cooked_cod"}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:cooked_salmon"}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:phantom_membrane"}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:turtle_egg"}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"endlessencore:chitin"}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:structure_block",tag:{manic:{id:"necroplasm"}}}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:structure_block",tag:{manic:{id:"lysosome"}}}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:rabbit_hide",tag:{sanguine:{id:"scarred_hide"}}}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:structure_block",tag:{sanguine:{id:"gore_flesh"}}}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:structure_block",tag:{sanguine:{id:"bloody_fragment"}}}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:structure_block",tag:{sanguine:{id:"toxic_pus"}}}} run function sanguine:block/noxious_gut/interact/feed/moderate
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:tropical_fish",tag:{sanguine:{id:"flesh_jerky"}}}} run function sanguine:block/noxious_gut/interact/feed/moderate
+
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:cooked_beef"}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:cooked_mutton"}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:nautilus_shell"}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:rabbit_foot"}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{vanilla_item:1b,item:{id:"minecraft:scute"}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:structure_block",tag:{manic:{id:"reticulum"}}}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:structure_block",tag:{manic:{id:"vacuuole"}}}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:structure_block",tag:{sanguine:{id:"binding_veins"}}}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:tropical_fish",tag:{sanguine:{id:"chevon_jerky"}}}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:golden_carrot",tag:{manic:{id:"writhing_eye"}}}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:structure_block",tag:{manic:{id:"oozing_nucleus"}}}} run function sanguine:block/noxious_gut/interact/feed/strong
+execute if data storage sanguine:storage root.temp{item:{id:"minecraft:structure_block",tag:{manic:{id:"elderskin"}}}} run function sanguine:block/noxious_gut/interact/feed/strong

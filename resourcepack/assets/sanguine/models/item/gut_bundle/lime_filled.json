@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sanguine:item/gut_bundle/lime_filled"
+  }
+}

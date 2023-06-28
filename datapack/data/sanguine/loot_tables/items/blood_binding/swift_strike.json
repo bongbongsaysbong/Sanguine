@@ -5,40 +5,60 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:structure_block",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{RepairCost:999,CustomModelData:8361010,sanguine:{id:\"blood_binding\",binding:\"swift_strike\"}}"
+              "tag": "{HideFlags:1,CustomModelData:8361010,sanguine:{id:\"blood_binding\",binding:\"swift_strike\"}}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:binding_curse": 1
+              }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "item.sanguine.blood_binding.swift_strike",
-                  "color": "red",
+                  "translate": "blood_binding.sanguine.swift_strike",
+                  "color": "#c99993",
                   "italic": false
                 },
                 {
-                  "translate": "pack.sanguine",
-                  "color": "#880f0f",
-                  "italic": true
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {
+                      "translate": "pack.sanguine",
+                      "font": "minecraft:default",
+                      "color": "#880f0f",
+                      "italic": true
+                    }
+                  ]
                 },
                 "",
                 {
                   "translate": "item.sanguine.blood_binding.lore",
                   "color": "gray",
-                  "italic":"false"
+                  "italic": "false"
                 },
-                {
-                  "translate": "attribute.modifier.plus.1",
-                  "color": "red",
-                  "italic":"false",
-                  "with": [
-                    "35",
-                    {"translate":"attribute.name.generic.attack_speed"}
-                  ]
-                }
+                [
+                  " ",
+                  {
+                    "translate": "attribute.modifier.plus.1",
+                    "color": "#c99993",
+                    "italic": "false",
+                    "with": [
+                      "35",
+                      {
+                        "translate": "attribute.name.generic.attack_speed"
+                      }
+                    ]
+                  }
+                ]
               ]
             },
             {

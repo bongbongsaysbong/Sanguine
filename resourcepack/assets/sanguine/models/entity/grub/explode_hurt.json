@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/grub/explode",
+	"textures": {
+		"0": "sanguine:entity/grub/explode_hurt"
+	}
+}

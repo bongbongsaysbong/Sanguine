@@ -5,10 +5,10 @@
       "nbt": "{CustomModelData:8361012}"
     },
     "title": {
-      "translate": "advancement.sanguine.sanguine_urn"
+      "translate": "advancements.sanguine.sanguine_urn"
     },
     "description": [
-      {"translate": "advancement.sanguine.sanguine_urn.desc"},
+      {"translate": "advancements.sanguine.sanguine_urn.description"},
       "\n",
       {"text":"\ua005","font":"sanguine:recipes","color":"white"},
       "\n",

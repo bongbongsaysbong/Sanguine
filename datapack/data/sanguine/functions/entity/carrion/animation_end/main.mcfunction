@@ -4,3 +4,5 @@ attribute @s minecraft:generic.movement_speed modifier remove 8-3-6-2-0
 
 tag @s remove sanguine.carrion.animation.trap
 tag @s remove sanguine.carrion.animation.summon
+
+scoreboard players reset @s nucleus.frames

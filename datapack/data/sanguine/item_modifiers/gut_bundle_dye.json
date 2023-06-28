@@ -1,0 +1,342 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361000,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#toxic_pus"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361001,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.white_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#white_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361002,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.light_gray_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#light_gray_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361003,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.gray_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#gray_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361004,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.black_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#black_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361005,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.brown_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#brown_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361006,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.red_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#red_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361007,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.orange_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#orange_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361008,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.yellow_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#yellow_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361009,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.lime_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#lime_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361010,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.green_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#green_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361011,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.cyan_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#cyan_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361012,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.light_blue_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#light_blue_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361013,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.blue_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#blue_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361014,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.purple_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#purple_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361015,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.magenta_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#magenta_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:8361016,display:{Name:'{\"italic\":\"false\",\"color\":\"white\",\"translate\":\"item.sanguine.pink_gut_bundle\"}'}}",
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#pink_dye"
+          },
+          "score": "sanguine.dummy"
+        },
+        "range": {
+          "min": 1
+        }
+      }
+    ]
+  }
+]

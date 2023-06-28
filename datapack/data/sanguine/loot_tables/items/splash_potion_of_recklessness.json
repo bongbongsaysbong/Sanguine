@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionColor:10397484,HideFlags:32,sanguine:{id:\"splash_potion_recklessness\"},nucleus:{potion:{can_enhance:1b,can_extend:1b,can_linger:1b}},CustomPotionEffects:[{Id:3,Amplifier:1b,Duration:2400},{Id:17,Amplifier:2b,Duration:2400}]}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "potion.withDuration",
+                  "color": "#db5853",
+                  "italic": false,
+                  "with": [
+                    {"translate":"potion.withAmplifier","with":[{"translate":"effect.minecraft.hunger"},{"translate":"potion.potency.2"}]},
+                    {"text":"02:00"}
+                  ]
+                },
+                {
+                  "translate": "potion.withDuration",
+                  "color": "#c99993",
+                  "italic": false,
+                  "with": [
+                    {"translate":"potion.withAmplifier","with":[{"translate":"effect.minecraft.haste"},{"translate":"potion.potency.1"}]},
+                    {"text":"02:00"}
+                  ]
+                },
+                {
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "potion.whenDrank",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "attribute.modifier.plus.1",
+                  "italic": false,
+                  "color": "#c99993",
+                  "with": [
+                    20,
+                    {
+                      "translate": "attribute.name.generic.attack_speed"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.sanguine.splash_potion.effect.recklessness",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

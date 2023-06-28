@@ -1,5 +1,6 @@
 {
   "type": "minecraft:entity",
+  "random_sequence": "sanguine:entities/butcher/main",
   "pools": [
     {
       "rolls": 1,
@@ -102,7 +103,7 @@
           "name": "sanguine:items/butcher_skull",
           "conditions": [
             {
-              "condition": "minecraft:alternative",
+              "condition": "minecraft:any_of",
               "terms": [
                 {
                   "condition": "minecraft:random_chance",

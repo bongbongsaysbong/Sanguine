@@ -5,10 +5,10 @@
       "nbt": "{CustomModelData:8361000}"
     },
     "title": {
-      "translate": "advancement.sanguine.credence"
+      "translate": "advancements.sanguine.credence"
     },
     "description": [
-      {"translate": "advancement.sanguine.credence.desc"},
+      {"translate": "advancements.sanguine.credence.description"},
       "\n",
       {"text":"\ua000","font":"sanguine:recipes","color":"white"},
       "\n",

@@ -1,19 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:tropical_fish",
-      "nbt": "{CustomModelData:8361000}"
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:8361011}"
     },
     "title": {
-      "translate": "advancement.sanguine.drying_rack"
+      "translate": "advancements.sanguine.drying_rack"
     },
     "description": [
-      {"translate": "advancement.sanguine.drying_rack.desc"},
+      {"translate": "advancements.sanguine.drying_rack.description"},
       "\n",
       {"text":"\ua004","font":"sanguine:recipes","color":"white"},
-      "\n",
-      "\n",
-      "\n",
       "\n",
       "\n"
     ],
@@ -22,43 +19,10 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sanguine:sanguine/credence",
+  "parent": "sanguine:sanguine/blood_well",
   "criteria": {
-    "chevon": {
-      "trigger": "minecraft:player_interacted_with_entity",
-      "conditions": {
-        "item": {
-          "items": [
-            "minecraft:tropical_fish"
-          ],
-          "nbt": "{sanguine:{id:\"chevon\"}}"
-        },
-        "entity": {
-          "type": "minecraft:wandering_trader",
-          "nbt": "{Tags:[\"sanguine.drying_rack.awaiting_item\"]}"
-        }
-      }
-    },
-    "amalgamate_flesh": {
-      "trigger": "minecraft:player_interacted_with_entity",
-      "conditions": {
-        "item": {
-          "items": [
-            "minecraft:structure_block"
-          ],
-          "nbt": "{sanguine:{id:\"amalgamate_flesh\"}}"
-        },
-        "entity": {
-          "type": "minecraft:wandering_trader",
-          "nbt": "{Tags:[\"sanguine.drying_rack.awaiting_item\"]}"
-        }
-      }
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "chevon",
-      "amalgamate_flesh"
-    ]
-  ]
+  }
 }

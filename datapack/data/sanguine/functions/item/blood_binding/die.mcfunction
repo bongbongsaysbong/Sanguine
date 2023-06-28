@@ -1,5 +1,5 @@
 execute unless entity @s[tag=sanguine.binding.heritage] run function sanguine:item/blood_binding/remove_all
-execute if entity @s[tag=sanguine.binding.heritage] run function sanguine:item/blood_binding/checks/act/heritage/reapply
+execute if entity @s[tag=sanguine.binding.heritage] run function sanguine:item/blood_binding/effects/heritage/reapply
 
 scoreboard players reset @s sanguine.binding.blood_barrier
 scoreboard players reset @s sanguine.binding.blood_deviant

@@ -2,7 +2,12 @@
   "parent": "sanguine:technical/blood_bindings/root",
   "criteria": {
     "impossible": {
-      "trigger": "minecraft:entity_hurt_player"
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false
+        }
+      }
     }
   },
   "rewards": {

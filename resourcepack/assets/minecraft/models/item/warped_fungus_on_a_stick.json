@@ -99,6 +99,42 @@
         "custom_model_data": 8361015
       },
       "model": "sanguine:item/blood_oath_bloody"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361016
+      },
+      "model": "sanguine:item/music_disc_engorge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361017
+      },
+      "model": "sanguine:item/peppino_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361018
+      },
+      "model": "sanguine:item/vile_viscus"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361019
+      },
+      "model": "sanguine:item/bone_needle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361020
+      },
+      "model": "sanguine:item/bone_needle_tipped"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361021
+      },
+      "model": "sanguine:item/inner_orb"
     }
   ]
 }

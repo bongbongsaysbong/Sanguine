@@ -1,30 +1,35 @@
+# Setup
 data remove entity @s[type=wandering_trader] Offers.Recipes
 tag @s add sanguine.processed
 tag @s add sanguine.entity
 
-scoreboard players set @s sanguine.scale_value 0
+# Determine Scaling
 scoreboard players operation #my_scaling sanguine.dummy = #scaling sanguine.dummy
-execute unless data storage sanguine:storage root.gamerules{difficulty:1b} run scoreboard players operation #my_scaling sanguine.dummy /= #2 sanguine.dummy
-execute if score #my_scaling sanguine.dummy matches 1 run function sanguine:entity/technical/scale_stats/range/1
-execute if score #my_scaling sanguine.dummy matches 2 run function sanguine:entity/technical/scale_stats/range/2
-execute if score #my_scaling sanguine.dummy matches 3 run function sanguine:entity/technical/scale_stats/range/3
-execute if score #my_scaling sanguine.dummy matches 4 run function sanguine:entity/technical/scale_stats/range/4
-execute if score #my_scaling sanguine.dummy matches 5 run function sanguine:entity/technical/scale_stats/range/5
-execute if score #my_scaling sanguine.dummy matches 6 run function sanguine:entity/technical/scale_stats/range/6
-execute if score #my_scaling sanguine.dummy matches 7 run function sanguine:entity/technical/scale_stats/range/7
-execute if score #my_scaling sanguine.dummy matches 8 run function sanguine:entity/technical/scale_stats/range/8
-execute if score #my_scaling sanguine.dummy matches 9 run function sanguine:entity/technical/scale_stats/range/9
-execute if score #my_scaling sanguine.dummy matches 10.. run function sanguine:entity/technical/scale_stats/range/10
+scoreboard players add #my_scaling sanguine.dummy 0
+scoreboard players operation #my_scaling sanguine.dummy /= #2 sanguine.dummy
+execute if score #my_scaling sanguine.dummy matches 10.. run scoreboard players set #my_scaling sanguine.dummy 10
+
+# Set Attributes
+function sanguine:entity/technical/scale_stats/stat/max_health
+#tellraw @a ["health: ",{"score":{"name":"#attribute","objective":"sanguine.dummy"},"color":"red"}]
+function sanguine:entity/technical/scale_stats/stat/armor
+#tellraw @a ["armor: ",{"score":{"name":"#attribute","objective":"sanguine.dummy"},"color":"gray"}]
+function sanguine:entity/technical/scale_stats/stat/armor_toughness
+#tellraw @a ["armor toughness: ",{"score":{"name":"#attribute","objective":"sanguine.dummy"},"color":"light_gray"}]
+function sanguine:entity/technical/scale_stats/stat/attack_damage
+#tellraw @a ["attack damage: ",{"score":{"name":"#attribute","objective":"sanguine.dummy"},"color":"dark_red"}]
+function sanguine:entity/technical/scale_stats/stat/movement_speed
+#tellraw @a ["movement speed: ",{"score":{"name":"#attribute","objective":"sanguine.dummy"},"color":"aqua"}]
+
+scoreboard players operation @s sanguine.scale_value = #my_scaling sanguine.dummy
+scoreboard players operation @s sanguine.scale_value /= #2 sanguine.dummy
 execute if entity @s[type=wandering_trader] run scoreboard players add @s sanguine.scale_value 5
 
+# Mob Initiation
 execute if entity @s[tag=sanguine.gore_zombie] run function sanguine:entity/technical/scale_stats/zombie/main
 execute if entity @s[tag=sanguine.gore_skeleton] run function sanguine:entity/technical/scale_stats/skeleton/main
-
-execute store result entity @s Health int 1 run attribute @s minecraft:generic.max_health get
-
 execute if entity @s[tag=sanguine.entity.spawn_animations] run function sanguine:entity/technical/spawn_effects
 
+# Persistency
 execute if score #persistent sanguine.dummy matches 1 run function sanguine:entity/technical/nametag/persistent
 scoreboard players set #persistent sanguine.dummy 0
-
-execute if entity @s[tag=sanguine.offal] run function sanguine:entity/offal/init

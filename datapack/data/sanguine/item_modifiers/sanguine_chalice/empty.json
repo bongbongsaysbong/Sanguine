@@ -21,9 +21,27 @@
         "italic": false
       },
       {
-        "translate": "pack.sanguine",
-        "color": "#880f0f",
+        "translate": "sanguine.tooltip",
+        "font": "sanguine:tooltip",
+        "color": "white",
+        "italic": false,
+        "with": [
+          {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+        ]
+      },
+      "",
+      {
+        "translate": "item.sanguine.sanguine_chalice.description",
+        "color": "#c99993",
         "italic": true
+      },
+      {
+        "translate": "item.sanguine.sanguine_chalice.description2",
+        "color": "#c99993",
+        "italic": true,
+        "with": [
+          {"keybind":"key.use","color":"#db5853"}
+        ]
       }
     ],
     "replace": true

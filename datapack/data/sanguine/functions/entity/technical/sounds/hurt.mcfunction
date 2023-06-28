@@ -6,6 +6,6 @@ execute if entity @s[tag=sanguine.gurgle] run playsound sanguine:entity.gurgle.h
 execute if entity @s[tag=sanguine.butcher] run playsound sanguine:entity.butcher.hurt hostile @a
 execute if entity @s[tag=sanguine.maul] run playsound sanguine:entity.maul.hurt hostile @a
 
-execute if entity @s[tag=sanguine.drying_rack] run function sanguine:block/drying_rack/hurt
-execute if entity @s[tag=sanguine.effigy] run function sanguine:block/effigy/hurt
-execute if entity @s[tag=sanguine.sanguine_urn] run function sanguine:block/sanguine_urn/hurt
+execute if entity @s[tag=sanguine.grub] run function sanguine:entity/grub/hurt
+execute if entity @s[tag=sanguine.anemone] run playsound sanguine:entity.anemone.hurt hostile @a
+execute if entity @s[tag=sanguine.bruiser] run playsound sanguine:entity.bruiser.hurt hostile @a

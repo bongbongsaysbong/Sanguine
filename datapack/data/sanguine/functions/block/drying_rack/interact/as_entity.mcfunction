@@ -1,3 +1,4 @@
-execute if data storage sanguine:storage root.temp{action:1} run function sanguine:block/drying_rack/interact/type/fill
-execute if data storage sanguine:storage root.temp{action:2} run function sanguine:block/drying_rack/interact/type/empty
-data modify entity @s ArmorItems[3].tag.sanguine.effigy_break_state set value 0
+data remove entity @s interaction
+
+execute if entity @s[tag=sanguine.drying_rack.has_item] run function sanguine:block/drying_rack/interact/remove
+execute unless entity @s[tag=sanguine.drying_rack.has_item] if data storage sanguine:storage root.temp.item run function sanguine:block/drying_rack/interact/hang/main

@@ -7,7 +7,7 @@
 §cEternal!
 §cYou will be DooMed!
 §cWarning: May Contain Guts
-§cWell well well...
+§cWell, well, well...
 §cToss a coin to your butcher!
 §cBlood, not to be confused with redstone!
 §cCredence where credence is due!
@@ -18,3 +18,11 @@
 §cFeeling offal!
 §cReap what you sow!
 §cNot in vein!
+§cNot the result of chemical warfare!
+§cA sanguillion copies sold!
+§cIn the flesh!
+§cWomen want me, mauls fear me!
+§cReaper, aww man!
+§cGuts and bolts!
+§cUnresponsibly sourced!
+§cFleshed out!

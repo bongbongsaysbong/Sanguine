@@ -1,0 +1,88 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"4": "sanguine:block/credence/bottle",
+		"particle": "sanguine:block/credence/warped/side",
+		"west": "sanguine:block/credence/warped/side",
+		"up": "sanguine:block/credence/top",
+		"down": "sanguine:block/credence/warped/bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#west"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#west"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#west"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down"}
+			}
+		},
+		{
+			"from": [2, 26, 6.9],
+			"to": [8, 29, 12.9],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5, 16, 11]},
+			"faces": {
+				"north": {"uv": [10, 5, 16, 8], "texture": "#4"},
+				"east": {"uv": [10, 5, 16, 8], "texture": "#4"},
+				"south": {"uv": [10, 5, 16, 8], "texture": "#4"},
+				"west": {"uv": [10, 5, 16, 8], "texture": "#4"},
+				"up": {"uv": [10, 0, 16, 6], "texture": "#4"},
+				"down": {"uv": [10, 0, 16, 6], "texture": "#4"}
+			}
+		},
+		{
+			"from": [3, 24, 7.9],
+			"to": [7, 26, 11.9],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5, 16, 11]},
+			"faces": {
+				"north": {"uv": [2, 6, 6, 8], "texture": "#4"},
+				"east": {"uv": [2, 6, 6, 8], "texture": "#4"},
+				"south": {"uv": [2, 6, 6, 8], "texture": "#4"},
+				"west": {"uv": [2, 6, 6, 8], "texture": "#4"},
+				"up": {"uv": [6, 4, 10, 8], "texture": "#4"},
+				"down": {"uv": [6, 4, 10, 8], "texture": "#4"}
+			}
+		},
+		{
+			"from": [1, 16, 5.9],
+			"to": [9, 24, 13.9],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5, 16, 11]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#4"},
+				"east": {"uv": [0, 8, 8, 16], "texture": "#4"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#4"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#4"},
+				"up": {"uv": [8, 8, 16, 16], "texture": "#4"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#4"}
+			}
+		},
+		{
+			"from": [3, 27, 7.9],
+			"to": [7, 30, 11.9],
+			"rotation": {"angle": -45, "axis": "y", "origin": [5, 16, 11]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 3], "texture": "#4"},
+				"east": {"uv": [0, 0, 4, 3], "texture": "#4"},
+				"south": {"uv": [0, 0, 4, 3], "texture": "#4"},
+				"west": {"uv": [0, 0, 4, 3], "texture": "#4"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#4"},
+				"down": {"uv": [4, 0, 8, 4], "texture": "#4"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "bottle",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [1, 2, 3, 4]
+		}
+	]
+}

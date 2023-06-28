@@ -1,0 +1,6 @@
+{
+  "parent": "sanguine:item/bone_needle",
+  "textures": {
+    "layer0": "sanguine:item/bone_needle_tipped"
+  }
+}

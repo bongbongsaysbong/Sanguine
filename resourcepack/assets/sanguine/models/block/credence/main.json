@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "sanguine:block/credence/side",
+    "north": "sanguine:block/credence/side",
+    "south": "sanguine:block/credence/side",
+    "east": "sanguine:block/credence/side",
+    "west": "sanguine:block/credence/side",
+    "up": "sanguine:block/credence/top",
+    "down": "sanguine:block/credence/bottom"
+  }
+}

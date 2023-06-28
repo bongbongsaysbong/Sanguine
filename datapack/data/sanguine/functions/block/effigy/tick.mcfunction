@@ -1,1 +1,0 @@
-execute unless predicate sanguine:block/effigy_check run function sanguine:block/effigy/break

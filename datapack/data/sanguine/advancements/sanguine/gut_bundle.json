@@ -5,15 +5,12 @@
       "nbt": "{CustomModelData:8361000}"
     },
     "title": {
-      "translate": "advancement.sanguine.gut_bundle"
+      "translate": "advancements.sanguine.gut_bundle"
     },
     "description": [
-      {"translate": "advancement.sanguine.gut_bundle.desc"},
+      {"translate": "advancements.sanguine.gut_bundle.description"},
       "\n",
       {"text":"\ua007","font":"sanguine:recipes","color":"white"},
-      "\n",
-      "\n",
-      "\n",
       "\n",
       "\n"
     ],
@@ -22,7 +19,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sanguine:sanguine/credence",
+  "parent": "sanguine:sanguine/toxic_pus",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

@@ -9,7 +9,7 @@
           ]
         },
         "entity": {
-          "nbt": "{Tags:[\"sanguine.entity.despawns\"]}"
+          "nbt": "{Tags:[\"sanguine.despawns\"]}"
         }
       }
     }

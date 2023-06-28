@@ -5,10 +5,10 @@
       "nbt": "{CustomModelData:8361007}"
     },
     "title": {
-      "translate": "advancement.sanguine.root"
+      "translate": "advancements.sanguine.root"
     },
     "description": {
-      "translate": "advancement.sanguine.root.desc"
+      "translate": "advancements.sanguine.root.description"
     },
     "background": "minecraft:textures/block/polished_blackstone_bricks.png",
     "frame": "task",

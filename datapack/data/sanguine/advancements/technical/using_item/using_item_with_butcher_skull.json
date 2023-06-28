@@ -1,0 +1,27 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "sanguine.butcher_skull.timer": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "item": {
+          "tag": "nucleus:useable_item"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/butcher_skull/using_item"
+  }
+}

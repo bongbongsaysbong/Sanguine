@@ -1,0 +1,19 @@
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:white_dye"}].Count byte 1 run scoreboard players remove #white_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:light_gray_dye"}].Count byte 1 run scoreboard players remove #light_gray_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:gray_dye"}].Count byte 1 run scoreboard players remove #gray_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:black_dye"}].Count byte 1 run scoreboard players remove #black_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:brown_dye"}].Count byte 1 run scoreboard players remove #brown_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:red_dye"}].Count byte 1 run scoreboard players remove #red_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:orange_dye"}].Count byte 1 run scoreboard players remove #orange_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:yellow_dye"}].Count byte 1 run scoreboard players remove #yellow_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:lime_dye"}].Count byte 1 run scoreboard players remove #lime_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:green_dye"}].Count byte 1 run scoreboard players remove #green_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:cyan_dye"}].Count byte 1 run scoreboard players remove #cyan_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:light_blue_dye"}].Count byte 1 run scoreboard players remove #light_blue_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:blue_dye"}].Count byte 1 run scoreboard players remove #blue_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:purple_dye"}].Count byte 1 run scoreboard players remove #purple_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:magenta_dye"}].Count byte 1 run scoreboard players remove #magenta_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:pink_dye"}].Count byte 1 run scoreboard players remove #pink_dye sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:structure_block",tag:{sanguine:{id:"toxic_pus"}}}].Count byte 1 run scoreboard players remove #toxic_pus sanguine.dummy 1
+
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:bundle",tag:{sanguine:{id:"gut_bundle"}}}].Count byte 1 run scoreboard players remove #gut_bundle sanguine.dummy 1

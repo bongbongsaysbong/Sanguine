@@ -1,0 +1,5 @@
+particle dust_color_transition 0.682 0.208 0.165 2 0.435 0.098 0.102 ~ ~ ~ 0.25 0.25 0.25 1 10 force
+tag @s add sanguine.crimson_shrine.has_blood
+
+execute if entity @s[tag=!sanguine.crimson_shrine.alt_rotation] run summon item_display ~ ~ ~ {Rotation:[0.0f,0.0f],item:{id:"minecraft:dropper",Count:1b,tag:{CustomModelData:8361008}},transformation:{scale:[2.001,2.001,2.001],left_rotation:{axis:[0f,0f,0f],angle:0f},right_rotation:{axis:[0f,0f,0f],angle:0f},translation:[0.0,1.2,0.0]},Tags:["smithed.entity","smithed.block","sanguine.crimson_shrine_lung","sanguine.entity"],CustomName:'{"translate":"block.sanguine.crimson_shrine"}'}
+execute if entity @s[tag=sanguine.crimson_shrine.alt_rotation] run summon item_display ~ ~ ~ {Rotation:[270.0f,0.0f],item:{id:"minecraft:dropper",Count:1b,tag:{CustomModelData:8361008}},transformation:{scale:[2.001,2.001,2.001],left_rotation:{axis:[0f,0f,0f],angle:0f},right_rotation:{axis:[0f,0f,0f],angle:0f},translation:[0.0,1.2,0.0]},Tags:["smithed.entity","smithed.block","sanguine.crimson_shrine_lung","sanguine.entity"],CustomName:'{"translate":"block.sanguine.crimson_shrine"}'}

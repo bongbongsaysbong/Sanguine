@@ -1,0 +1,95 @@
+{
+  "parent": "minecraft:block/dropper",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8361000
+      },
+      "model": "sanguine:block/blood_well/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361001
+      },
+      "model": "sanguine:block/blood_well/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361002
+      },
+      "model": "sanguine:block/blood_well/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361003
+      },
+      "model": "sanguine:block/blood_well/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361004
+      },
+      "model": "sanguine:block/blood_well/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361005
+      },
+      "model": "sanguine:block/sewing_table/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361006
+      },
+      "model": "sanguine:block/sewing_table/full"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361007
+      },
+      "model": "sanguine:block/flesh_tuner"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361008
+      },
+      "model": "sanguine:block/crimson_shrine/lung"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361009
+      },
+      "model": "sanguine:block/crimson_shrine/dried"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361010
+      },
+      "model": "sanguine:block/crimson_shrine/full_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361011
+      },
+      "model": "sanguine:block/crimson_shrine/full_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361012
+      },
+      "model": "sanguine:block/crimson_shrine/full_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361013
+      },
+      "model": "sanguine:block/crimson_shrine/full_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361014
+      },
+      "model": "sanguine:block/noxious_gut"
+    }
+  ]
+}

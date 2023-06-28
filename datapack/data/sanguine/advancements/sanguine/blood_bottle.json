@@ -5,17 +5,17 @@
       "nbt": "{CustomModelData:8361006}"
     },
     "title": {
-      "translate": "advancement.sanguine.blood_bottle"
+      "translate": "advancements.sanguine.blood_bottle"
     },
     "description": {
-      "translate": "advancement.sanguine.blood_bottle.desc"
+      "translate": "advancements.sanguine.blood_bottle.description"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sanguine:sanguine/blood_well",
+  "parent": "sanguine:sanguine/drying_rack",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

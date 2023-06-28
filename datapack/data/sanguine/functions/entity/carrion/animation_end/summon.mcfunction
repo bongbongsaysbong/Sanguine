@@ -1,6 +1,6 @@
 # FX
 particle dust 0.627 0.133 0.098 2 ~ ~ ~ 0.5 0.5 0.5 0.1 10 force
-particle item leather_horse_armor{CustomModelData:8361010} ~ ~ ~ 0.5 0.5 0.5 0.1 15 force
+particle item potion{CustomModelData:8361910} ~ ~ ~ 0.5 0.5 0.5 0.1 15 force
 playsound sanguine:entity.offal.spawn hostile @a
 
 # Scaling

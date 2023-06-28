@@ -1,0 +1,17 @@
+{
+  "parent": "sanguine:recipes/craft/root",
+  "criteria": {
+    "recipe_crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "sanguine:crimson_credence"
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/crafted_item",
+    "loot": [
+      "sanguine:items/crimson_credence"
+    ]
+  }
+}

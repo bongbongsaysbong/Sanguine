@@ -13,6 +13,7 @@ attribute @s minecraft:generic.max_health modifier remove 8-3-6-2-1551
 attribute @s minecraft:generic.max_health modifier remove 8-3-6-2-1552
 attribute @s minecraft:generic.max_health modifier remove 8-3-6-2-1553
 attribute @s minecraft:generic.max_health modifier remove 8-3-6-2-1554
+attribute @s minecraft:generic.max_health modifier remove 8-3-6-2-1600
 scoreboard players set @s sanguine.bindings 0
 
 tag @s remove sanguine.binding.gory_glory
@@ -36,5 +37,6 @@ attribute @s minecraft:generic.attack_speed modifier remove 8-3-6-2-1565
 attribute @s minecraft:generic.attack_damage modifier remove 8-3-6-2-1564
 attribute @s minecraft:generic.knockback_resistance modifier remove 8-3-6-2-51205
 attribute @s minecraft:generic.armor_toughness modifier remove 8-3-6-2-51205
-function sanguine:item/blood_binding/checks/act/glass_heart/remove
-function sanguine:item/blood_binding/checks/act/blood_deviant/update_attributes/main
+function sanguine:item/blood_binding/effects/glass_heart/remove
+function sanguine:item/blood_binding/effects/blood_deviant/update_attributes/main
+scoreboard players set #removed_bindings sanguine.dummy 1

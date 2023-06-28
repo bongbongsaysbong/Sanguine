@@ -15,9 +15,28 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.sanguine",
-                  "color": "#880f0f",
-                  "italic": true
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "ui.sanguine.when_eaten",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "potion.withDuration",
+                  "color": "#c99993",
+                  "italic": false,
+                  "with": [
+                    {"translate":"potion.withAmplifier","with":[{"translate":"effect.minecraft.regeneration"},{"translate":"potion.potency.1"}]},
+                    {"text":"00:05"}
+                  ]
                 }
               ]
             },

@@ -6,33 +6,26 @@
       "conditions": {
         "damage": {
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_magic": false,
-            "is_projectile": false,
-            "is_lightning": false
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              }
+            ]
           }
         },
         "entity": [
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"smithed.block\"]}"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"smithed.strict\"]}"
-              }
-            }
+            "condition": "minecraft:reference",
+            "name": "nucleus:entity/neutral"
           }
         ]
       }

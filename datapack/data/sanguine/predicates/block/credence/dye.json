@@ -1,0 +1,229 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#white_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#light_gray_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#gray_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#black_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#brown_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#red_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#orange_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#yellow_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#lime_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#green_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#cyan_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#light_blue_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#blue_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#purple_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#magenta_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": "#pink_dye"
+        },
+        "score": "sanguine.dummy"
+      },
+      "range": {
+        "min": 1
+      }
+    }
+  ]
+}

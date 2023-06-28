@@ -40,4 +40,5 @@ data modify storage sanguine:storage root.temp.item.tag set from entity @s Inven
 
 #data modify storage sanguine:storage root.temp.item.tag set from entity @s Inventory[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{sanguine:{id:"butcher_skull"}}}].tag
 
-data modify storage sanguine:storage root.temp.item.tag.CustomModelData set value 8361005
+data modify storage sanguine:storage root.temp.item.tag.CustomModelData set value 8361000
+execute if data storage sanguine:storage root.temp.item.tag.sanguine{peppino_hat:1b} run data modify storage sanguine:storage root.temp.item.tag.CustomModelData set value 8361001

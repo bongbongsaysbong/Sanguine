@@ -1,0 +1,5 @@
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:structure_block",tag:{sanguine:{id:"toxic_pus"}}}].Count byte 1 run scoreboard players remove #toxic_pus sanguine.dummy 6
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:structure_block",tag:{sanguine:{id:"gore_flesh"}}}].Count byte 1 run scoreboard players remove #gore_flesh sanguine.dummy 2
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:glistering_melon_slice",tag:{sanguine:{id:"bile"}}}].Count byte 1 run scoreboard players remove #bile sanguine.dummy 2
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:iron_ingot"}].Count byte 1 run scoreboard players remove #iron_ingot sanguine.dummy 2
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:structure_block",tag:{sanguine:{id:"blood_bottle"}}}].Count byte 1 run scoreboard players remove #blood_bottle sanguine.dummy 2

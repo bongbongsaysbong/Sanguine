@@ -5,18 +5,42 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "sanguine:items/credence",
-          "functions": [
+          "name": "sanguine:items/crimson_credence",
+          "conditions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
+              "condition": "minecraft:value_check",
+              "value": {
                 "type": "minecraft:score",
                 "target": {
                   "type": "minecraft:fixed",
-                  "name": "#count"
+                  "name": "#credence_type"
                 },
                 "score": "sanguine.dummy"
-              }
+              },
+              "range": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/warped_credence",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#credence_type"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 1
             }
           ]
         }

@@ -6,6 +6,18 @@
       "conditions": {
         "player": [
           {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "sanguine.binding.gory_glory.delay": {
+                  "min": 1
+                }
+              }
+            }
+          },
+          {
             "condition": "minecraft:random_chance",
             "chance": 0.5
           },
@@ -17,16 +29,32 @@
             }
           }
         ],
+        "entity": [
+          {
+            "condition": "minecraft:reference",
+            "name": "nucleus:entity/neutral"
+          }
+        ],
         "killing_blow": {
-          "is_explosion": false,
-          "is_fire": false,
-          "is_projectile": false,
-          "is_lightning": false
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": false
+            },
+            {
+              "id": "minecraft:is_fire",
+              "expected": false
+            },
+            {
+              "id": "minecraft:is_explosion",
+              "expected": false
+            }
+          ]
         }
       }
     }
   },
   "rewards": {
-    "function": "sanguine:item/blood_binding/checks/act/gory_glory/kill_entity"
+    "function": "sanguine:item/blood_binding/effects/gory_glory/kill_entity"
   }
 }

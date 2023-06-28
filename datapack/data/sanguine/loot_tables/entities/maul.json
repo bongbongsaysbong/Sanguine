@@ -1,5 +1,6 @@
 {
   "type": "minecraft:entity",
+  "random_sequence": "sanguine:entities/maul",
   "pools": [
     {
       "rolls": 1,
@@ -49,7 +50,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "sanguine:items/amalgamate_flesh",
+          "name": "sanguine:items/gore_flesh",
           "functions": [
             {
               "function": "minecraft:looting_enchant",

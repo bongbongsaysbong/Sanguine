@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/hopper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8361000
+      },
+      "model": "sanguine:block/blood_well/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361001
+      },
+      "model": "sanguine:block/crimson_shrine/dried"
+    }
+  ]
+}

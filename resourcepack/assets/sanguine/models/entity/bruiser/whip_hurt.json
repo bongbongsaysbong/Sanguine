@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/bruiser/whip",
+	"textures": {
+		"0": "sanguine:entity/bruiser/whip_hurt"
+	}
+}

@@ -14,14 +14,222 @@
       "predicate": {
         "custom_model_data": 8361000
       },
-      "model": "sanguine:item/gut_bundle"
+      "model": "sanguine:item/gut_bundle/toxic_pus"
     },
     {
       "predicate": {
         "filled": 0.0000001,
         "custom_model_data": 8361000
       },
-      "model": "sanguine:item/gut_bundle_filled"
+      "model": "sanguine:item/gut_bundle/toxic_pus_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361001
+      },
+      "model": "sanguine:item/gut_bundle/white"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361001
+      },
+      "model": "sanguine:item/gut_bundle/white_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361002
+      },
+      "model": "sanguine:item/gut_bundle/light_gray"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361002
+      },
+      "model": "sanguine:item/gut_bundle/light_gray_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361003
+      },
+      "model": "sanguine:item/gut_bundle/gray"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361003
+      },
+      "model": "sanguine:item/gut_bundle/gray_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361004
+      },
+      "model": "sanguine:item/gut_bundle/black"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361004
+      },
+      "model": "sanguine:item/gut_bundle/black_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361005
+      },
+      "model": "sanguine:item/gut_bundle/brown"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361005
+      },
+      "model": "sanguine:item/gut_bundle/brown_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361006
+      },
+      "model": "sanguine:item/gut_bundle/red"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361006
+      },
+      "model": "sanguine:item/gut_bundle/red_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361007
+      },
+      "model": "sanguine:item/gut_bundle/orange"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361007
+      },
+      "model": "sanguine:item/gut_bundle/orange_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361008
+      },
+      "model": "sanguine:item/gut_bundle/yellow"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361008
+      },
+      "model": "sanguine:item/gut_bundle/yellow_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361009
+      },
+      "model": "sanguine:item/gut_bundle/lime"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361009
+      },
+      "model": "sanguine:item/gut_bundle/lime_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361010
+      },
+      "model": "sanguine:item/gut_bundle/green"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361010
+      },
+      "model": "sanguine:item/gut_bundle/green_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361011
+      },
+      "model": "sanguine:item/gut_bundle/cyan"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361011
+      },
+      "model": "sanguine:item/gut_bundle/cyan_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361012
+      },
+      "model": "sanguine:item/gut_bundle/light_blue"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361012
+      },
+      "model": "sanguine:item/gut_bundle/light_blue_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361013
+      },
+      "model": "sanguine:item/gut_bundle/blue"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361013
+      },
+      "model": "sanguine:item/gut_bundle/blue_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361014
+      },
+      "model": "sanguine:item/gut_bundle/purple"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361014
+      },
+      "model": "sanguine:item/gut_bundle/purple_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361015
+      },
+      "model": "sanguine:item/gut_bundle/magenta"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361015
+      },
+      "model": "sanguine:item/gut_bundle/magenta_filled"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361016
+      },
+      "model": "sanguine:item/gut_bundle/pink"
+    },
+    {
+      "predicate": {
+        "filled": 0.0000001,
+        "custom_model_data": 8361016
+      },
+      "model": "sanguine:item/gut_bundle/pink_filled"
     }
   ]
 }

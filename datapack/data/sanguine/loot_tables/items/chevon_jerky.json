@@ -9,15 +9,19 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8361001,sanguine:{id:\"chevon_jerky\"},manic:{sanity:\"very_good\"}}"
+              "tag": "{CustomModelData:8361001,sanguine:{id:\"chevon_jerky\"},manic:{sanity:\"very_good\"},tcc:{gobblerift_meat:1b}}"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.sanguine",
-                  "color": "#880f0f",
-                  "italic": true
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
                 }
               ]
             },

@@ -1,1 +1,1 @@
-execute if entity @s[tag=sanguine.entity] run function sanguine:entity/technical/second_clock/main
+execute if entity @s[tag=sanguine.second_clock] run function sanguine:entity/technical/second_clock/main

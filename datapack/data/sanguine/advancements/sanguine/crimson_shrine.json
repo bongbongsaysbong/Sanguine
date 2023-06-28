@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dropper",
+      "nbt": "{CustomModelData:8361009}"
+    },
+    "title": {
+      "translate": "advancements.sanguine.crimson_shrine"
+    },
+    "description": [
+      {"translate": "advancements.sanguine.crimson_shrine.description"},
+      "\n",
+      {"text":"\ua009","font":"sanguine:recipes","color":"white"},
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/sanguine_urn",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:hopper"
+            ],
+            "nbt": "{sanguine:{id:\"crimson_shrine\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

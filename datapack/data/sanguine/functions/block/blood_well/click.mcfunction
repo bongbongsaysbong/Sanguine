@@ -1,5 +1,5 @@
 advancement revoke @s only sanguine:technical/item_used_on_block/click_blood_well
-stopsound @a[distance=..16] * block.chest.locked
+
 
 data remove storage sanguine:storage root.temp
 data modify storage sanguine:storage root.temp.item set from entity @s SelectedItem

@@ -2,13 +2,13 @@
   "display": {
     "icon": {
       "item": "minecraft:warped_fungus_on_a_stick",
-      "nbt": "{CustomModelData:8361010}"
+      "nbt": "{CustomModelData:8361009}"
     },
     "title": {
-      "translate": "advancement.sanguine.blood_binding"
+      "translate": "advancements.sanguine.blood_binding"
     },
     "description": [
-      {"translate": "advancement.sanguine.blood_binding.desc"},
+      {"translate": "advancements.sanguine.blood_binding.description"},
       "\n",
       {"text":"\ua006","font":"sanguine:recipes","color":"white"},
       "\n",
@@ -22,7 +22,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sanguine:sanguine/sanguine_urn",
+  "parent": "sanguine:sanguine/inner_orb",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

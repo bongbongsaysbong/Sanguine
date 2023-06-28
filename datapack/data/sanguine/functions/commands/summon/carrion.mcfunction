@@ -1,8 +1,6 @@
-summon wandering_trader ~ ~ ~ {Silent:1b,DeathTime:19,DeathLootTable:"sanguine:entities/carrion",Team:"smithed.prevent_aggression",Health:50f,Tags:["nucleus.deletes_vehicles","sanguine.entity.despawns","nucleus.entity","nucleus.trader_entity","nucleus.trader_entity.model_based","sanguine.carrion","sanguine.entity","sanguine.entity.gives_blood","smithed.entity","sanguine.entity.gives_blood","sanguine.entity.spawn_animations","nucleus.iron_golem_target"],CustomName:'{"translate":"entity.sanguine.carrion"}',ArmorItems:[{},{},{},{id:'minecraft:structure_block',Count:1b,tag:{CustomModelData:8361000,nucleus:{custom_model_data:{idle:8361016,moving:8361018,anim:{spawn:8361024,spawn_frames:66,despawn:8361025,despawn_frames:90}}},CustomPotionColor:16777215}}],HandItems:[{id:"minecraft:potion",Count:1b,tag:{CustomPotionColor:16777215,CustomModelData:8361025}}],ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F],HandDropChances:[-10000.0f,-10000.0f],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:50},{Name:generic.knockback_resistance,Base:0.75},{Name:generic.movement_speed,Base:0.53},{Name:generic.armor,Base:4}],PersistenceRequired:1b}
-
 execute if entity @s[type=player] run scoreboard players set #persistent sanguine.dummy 1
-execute as @e[type=wandering_trader,tag=sanguine.carrion,tag=!sanguine.processed] run function sanguine:entity/technical/scale_stats/main
+execute summon wandering_trader run function sanguine:entity/carrion/initiate
 
 execute store result score #debug sanguine.dummy run gamerule sendCommandFeedback
 execute if score #debug sanguine.dummy matches 1 run tellraw @s {"translate":"commands.summon.success","with": [{"translate":"entity.sanguine.carrion"}]}
-execute if entity @s[type=player] run function sanguine:entity/player/gamerules/no_feedback/main
+execute if entity @s[type=player] run function nucleus:entity/player/commands/no_feedback/main

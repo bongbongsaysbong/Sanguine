@@ -1,4 +1,6 @@
 {
+  "type": "minecraft:generic",
+  "random_sequence": "sanguine:technical/equip/sword",
   "pools": [
     {
       "rolls": 1,
@@ -17,25 +19,7 @@
                 },
                 "score": "sanguine.dummy"
               },
-              "range": 1
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_axe",
-          "conditions": [
-            {
-              "condition": "minecraft:value_check",
-              "value": {
-                "type": "minecraft:score",
-                "target": {
-                  "type": "minecraft:fixed",
-                  "name": "#armour"
-                },
-                "score": "sanguine.dummy"
-              },
-              "range": 2
+              "range": 17
             }
           ]
         },
@@ -53,7 +37,7 @@
                 },
                 "score": "sanguine.dummy"
               },
-              "range": 3
+              "range": 18
             }
           ]
         },
@@ -71,7 +55,25 @@
                 },
                 "score": "sanguine.dummy"
               },
-              "range": 4
+              "range": 19
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "#armour"
+                },
+                "score": "sanguine.dummy"
+              },
+              "range": 20
             }
           ]
         }
@@ -82,13 +84,12 @@
           "enchantments": [
             "minecraft:fire_aspect",
             "minecraft:sharpness",
-            "minecraft:knockback",
-            "minecraft:protection"
+            "minecraft:knockback"
           ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.4
+              "chance": 0.1
             }
           ]
         }

@@ -1,0 +1,33 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#sanguine:accepts_libido",
+              "nbt": "{Tags:[\"sanguine.has_serum.libido\"]}"
+            }
+          }
+        ],
+        "partner": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#sanguine:accepts_libido",
+              "nbt": "{Tags:[\"sanguine.has_serum.libido\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/bone_needle/bred_with_libido/main"
+  }
+}

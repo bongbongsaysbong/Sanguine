@@ -8,7 +8,7 @@
 		"minecraft:blast_furnace",
 		"minecraft:hopper",
 		"minecraft:dropper",
-		"minecraft:dispenser",
+		"minecraft:dropper",
 		"minecraft:brewing_stand"
 	]
 }

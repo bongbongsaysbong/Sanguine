@@ -5,10 +5,10 @@
       "nbt": "{CustomModelData:8361004}"
     },
     "title": {
-      "translate": "advancement.sanguine.kill_blood_mob"
+      "translate": "advancements.sanguine.kill_blood_mob"
     },
     "description": {
-      "translate": "advancement.sanguine.kill_blood_mob.desc"
+      "translate": "advancements.sanguine.kill_blood_mob.description"
     },
     "frame": "goal",
     "show_toast": true,
@@ -70,6 +70,60 @@
           "nbt": "{Tags:[\"sanguine.reaper\"]}"
         }
       }
+    },
+    "maul": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.maul\"]}"
+        }
+      }
+    },
+    "gore_zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"sanguine.gore_zombie\"]}"
+        }
+      }
+    },
+    "gore_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"sanguine.gore_skeleton\"]}"
+        }
+      }
+    },
+    "grub": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:vindicator",
+          "nbt": "{Tags:[\"sanguine.grub\"]}"
+        }
+      }
+    },
+    "anemone": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.anemone\"]}"
+        }
+      }
+    },
+    "bruiser": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.bruiser\"]}"
+        }
+      }
     }
   },
   "requirements": [
@@ -79,7 +133,13 @@
       "carrion",
       "offal",
       "butcher",
-      "reaper"
+      "reaper",
+      "maul",
+      "gore_zombie",
+      "gore_skeleton",
+      "grub",
+      "bruiser",
+      "anemone"
     ]
   ]
 }

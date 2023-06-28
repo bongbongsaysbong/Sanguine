@@ -5,10 +5,10 @@
       "nbt": "{CustomModelData:8361006}"
     },
     "title": {
-      "translate": "advancement.sanguine.sanguine_chalice"
+      "translate": "advancements.sanguine.sanguine_chalice"
     },
     "description": [
-      {"translate": "advancement.sanguine.sanguine_chalice.desc"},
+      {"translate": "advancements.sanguine.sanguine_chalice.description"},
       "\n",
       {"text":"\ua001","font":"sanguine:recipes","color":"white"},
       "\n",
@@ -22,7 +22,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sanguine:sanguine/credence",
+  "parent": "sanguine:sanguine/blood_bottle",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

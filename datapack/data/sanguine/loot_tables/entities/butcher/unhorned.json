@@ -1,5 +1,6 @@
 {
   "type": "minecraft:entity",
+  "random_sequence": "sanguine:entities/butcher/unhorned",
   "pools": [
     {
       "rolls": 1,

@@ -9,15 +9,19 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{RepairCost:999,Unbreakable:1b,HideFlags:4,CustomModelData:8361011,sanguine:{id:\"drying_rack\"}}"
+              "tag": "{RepairCost:999,Unbreakable:1b,HideFlags:4,CustomModelData:8361011,sanguine:{id:\"drying_rack\"},nucleus:{prevent_striders:1b}}"
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "pack.sanguine",
-                  "color": "#880f0f",
-                  "italic": true
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
                 }
               ]
             },

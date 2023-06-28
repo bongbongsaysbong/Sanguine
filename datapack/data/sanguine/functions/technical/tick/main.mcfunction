@@ -5,6 +5,5 @@ scoreboard players operation #sanguine.blood_moon.cycle sanguine.dummy %= #sangu
 
 # Blood Moon Management
 execute store result score #sanguine.daytime sanguine.dummy run time query daytime
-execute if score #sanguine.blood_moon.phase sanguine.dummy matches 0..2 unless score #sanguine.blood_moon.cycle sanguine.dummy matches 0 run function sanguine:technical/blood_moon/end
-execute if score #sanguine.blood_moon.phase sanguine.dummy matches 0..2 if score #sanguine.day sanguine.dummy matches 0 run function sanguine:technical/blood_moon/end
-execute if score #sanguine.blood_moon.cycle sanguine.dummy matches 0 unless score #sanguine.day sanguine.dummy matches 0 run function sanguine:technical/blood_moon/check
+execute if score #sanguine.blood_moon.phase sanguine.dummy matches 0..2 if predicate sanguine:end_blood_moon run function sanguine:technical/blood_moon/end
+execute if score #sanguine.blood_moon.cycle sanguine.dummy matches 0 unless predicate sanguine:end_blood_moon run function sanguine:technical/blood_moon/check

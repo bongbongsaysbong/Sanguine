@@ -1,0 +1,21 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "nbt": "{sanguine:{id:\"butcher_skull\",peppino_hat:0b},display:{Name:'{\"text\":\"Peppino Spaghetti\"}'}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:item/butcher_skull/pizza/main"
+  }
+}

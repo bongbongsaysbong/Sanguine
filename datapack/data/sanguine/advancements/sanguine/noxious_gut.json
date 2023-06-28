@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dropper",
+      "nbt": "{CustomModelData:8361014}"
+    },
+    "title": {
+      "translate": "advancements.sanguine.noxious_gut"
+    },
+    "description": [
+      {"translate": "advancements.sanguine.noxious_gut.description"},
+      "\n",
+      {"text":"\ua010","font":"sanguine:recipes","color":"white"},
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n"
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/toxic_pus",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

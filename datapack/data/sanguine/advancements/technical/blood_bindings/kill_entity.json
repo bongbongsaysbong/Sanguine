@@ -1,57 +1,34 @@
 {
   "parent": "sanguine:technical/blood_bindings/root",
   "criteria": {
-    "killed_blood_entity": {
+    "requirement": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": [
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "nbt": "{Tags:[\"smithed.entity\"]}"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "#sanguine:blood_giving_entity"
-            }
+            "condition": "minecraft:reference",
+            "name": "nucleus:entity/neutral"
           }
         ],
         "killing_blow": {
-          "is_explosion": false,
-          "is_fire": false,
-          "is_projectile": false,
-          "is_lightning": false
-        }
-      }
-    },
-    "killed_sanguine_entity": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "nbt": "{Tags:[\"sanguine.entity.gives_blood\"]}"
-        },
-        "killing_blow": {
-          "is_explosion": false,
-          "is_fire": false,
-          "is_projectile": false,
-          "is_lightning": false
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": false
+            },
+            {
+              "id": "minecraft:is_explosion",
+              "expected": false
+            },
+            {
+              "id": "minecraft:is_fire",
+              "expected": false
+            }
+          ]
         }
       }
     }
   },
-  "requirements": [
-    [
-      "killed_blood_entity",
-      "killed_sanguine_entity"
-    ]
-  ],
   "rewards": {
     "function": "sanguine:item/blood_binding/checks/kill_entity"
   }

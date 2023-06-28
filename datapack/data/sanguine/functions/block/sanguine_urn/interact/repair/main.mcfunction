@@ -1,11 +1,5 @@
-scoreboard players set #allow sanguine.dummy 0
-scoreboard players set #temp sanguine.dummy 1
-data remove storage sanguine:storage root.temp.item.tag.RepairCost
-data remove storage sanguine:storage root.temp.item.tag.Damage
-data remove storage sanguine:storage root.temp.item.tag.display
-data remove storage sanguine:storage root.temp.item.tag.Enchantments
-execute if data storage sanguine:storage root.temp.item.tag.sanguine.allow_sac_repair run scoreboard players set #temp sanguine.dummy 0
-execute store success score #allow sanguine.dummy run data modify storage sanguine:storage root.temp.item.tag set value {}
-execute if score #temp sanguine.dummy matches 0 run scoreboard players set #allow sanguine.dummy 0
+data modify storage nucleus:storage root.temp.item set from storage sanguine:storage root.temp.item
+function nucleus:item/check_vanilla_item
 
-execute if score #allow sanguine.dummy matches 0 run function sanguine:block/sanguine_urn/interact/repair/success
+execute if data storage sanguine:storage root.temp.item.tag.sanguine{allow_pus_repair:1b} run data modify storage nucleus:storage root.temp.vanilla_item set value 1b
+execute if data storage nucleus:storage root.temp{vanilla_item:1b} run function sanguine:block/sanguine_urn/interact/repair/success

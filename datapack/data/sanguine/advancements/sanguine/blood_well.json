@@ -1,19 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dispenser",
+      "item": "minecraft:dropper",
       "nbt": "{CustomModelData:8361000}"
     },
     "title": {
-      "translate": "advancement.sanguine.blood_well"
+      "translate": "advancements.sanguine.blood_well"
     },
     "description": [
-      {"translate": "advancement.sanguine.blood_well.desc"},
+      {"translate": "advancements.sanguine.blood_well.description"},
       "\n",
       {"text":"\ua003","font":"sanguine:recipes","color":"white"},
-      "\n",
-      "\n",
-      "\n",
       "\n",
       "\n"
     ],
@@ -30,7 +27,7 @@
         "items": [
           {
             "items": [
-              "minecraft:dispenser"
+              "minecraft:hopper"
             ],
             "nbt": "{sanguine:{id:\"blood_well\"}}"
           }

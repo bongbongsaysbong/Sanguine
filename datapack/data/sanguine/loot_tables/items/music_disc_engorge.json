@@ -5,8 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_11",
+          "name": "minecraft:warped_fungus_on_a_stick",
           "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.minecraft.music_disc_13",
+                "color": "#FF1E00",
+                "italic": false
+              }
+            },
             {
               "function": "minecraft:set_lore",
               "lore": [
@@ -16,15 +24,19 @@
                   "italic": false
                 },
                 {
-                  "translate": "pack.sanguine",
-                  "color": "#880f0f",
-                  "italic": true
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
                 }
               ]
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:8361000,HideFlags:32,sanguine:{id:\"music_disc_engorge\"},nucleus:{custom_disc:1b}}"
+              "tag": "{CustomModelData:8361016,HideFlags:4,sanguine:{id:\"music_disc_engorge\"},nucleus:{music_disc:\"sanguine:engorge\"},nucleus:{prevent_striders:1b}}"
             }
           ]
         }

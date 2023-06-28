@@ -1,0 +1,41 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "sanguine:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        " ",
+        {
+        "translate": "item.sanguine.bone_needle.properties.durability",
+        "with": [
+          {
+            "nbt": "root.temp.item.tag.sanguine.bone_needle.durability[0]",
+            "storage": "sanguine:storage"
+          },
+          {
+            "nbt": "root.temp.item.tag.sanguine.bone_needle.durability[1]",
+            "storage": "sanguine:storage"
+          }
+        ],
+        "color": "#c99993",
+        "italic": false
+       }
+      ]
+    ],
+    "replace": false
+  }
+]

@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/anemone/walk",
+	"textures": {
+		"0": "sanguine:entity/anemone/walk_hurt"
+	}
+}

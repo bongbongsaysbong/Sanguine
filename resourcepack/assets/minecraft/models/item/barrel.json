@@ -5,7 +5,37 @@
       "predicate": {
         "custom_model_data": 8361000
       },
-      "model": "sanguine:block/credence"
+      "model": "sanguine:block/credence/main"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361001
+      },
+      "model": "sanguine:block/credence/bottle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361002
+      },
+      "model": "sanguine:block/credence/blood"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361003
+      },
+      "model": "sanguine:block/credence/warped/main"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361004
+      },
+      "model": "sanguine:block/credence/warped/bottle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361005
+      },
+      "model": "sanguine:block/credence/warped/blood"
     }
   ]
 }

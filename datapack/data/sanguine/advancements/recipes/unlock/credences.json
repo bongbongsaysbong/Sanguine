@@ -1,0 +1,45 @@
+{
+  "parent": "sanguine:recipes/root",
+  "rewards": {
+    "recipes": [
+      "sanguine:crimson_credence",
+      "sanguine:warped_credence"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz",
+              "minecraft:gold_ingot",
+              "minecraft:crimson_planks",
+              "minecraft:warped_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_crimson_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "sanguine:crimson_credence"
+      }
+    },
+    "has_warped_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "sanguine:warped_credence"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item",
+      "has_crimson_recipe",
+      "has_warped_recipe"
+    ]
+  ]
+}
