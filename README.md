@@ -26,6 +26,7 @@ Sanguine adds brutal blood moons to test your survival. Fend off hordes of terri
   ElBones - Artist, brainstorming<br/>
   CreeperMagnet_ - Miscellaneous code<br/>
   the der discohund - [Shader code](https://github.com/HalbFettKaese/)<br/>
+  Nuclear Crackhead-239 - Soundtrack<br/>
   
   __Libraries:__<br/>
   TheNuclearNexus & co. - [Various smithed libraries](https://smithed.dev/libraries)<br/>
