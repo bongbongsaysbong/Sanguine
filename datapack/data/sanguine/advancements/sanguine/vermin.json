@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish",
+      "nbt": "{CustomModelData:8361000}"
+    },
+    "title": {
+      "translate": "advancements.sanguine.vermin"
+    },
+    "description": [
+      {
+        "translate": "advancements.sanguine.vermin.description"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/deserted_city",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

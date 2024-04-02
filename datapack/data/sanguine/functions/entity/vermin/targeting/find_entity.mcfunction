@@ -1,0 +1,1 @@
+$execute as @e[type=minecraft:wandering_trader,tag=sanguine.vermin,distance=..24,nbt={ArmorItems:[{},{},{},{tag:{sanguine:{targets:{owner:$(me)}}}}]}] unless score @s sanguine.dummy matches 20.. at @s run data modify entity @s ArmorItems[3].tag.sanguine.targets.victim set from storage sanguine:storage root.temp.uuid.victim

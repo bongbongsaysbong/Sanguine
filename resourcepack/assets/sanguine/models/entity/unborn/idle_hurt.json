@@ -1,6 +1,0 @@
-{
-	"parent": "sanguine:entity/unborn/idle",
-	"textures": {
-		"0": "sanguine:entity/unborn/idle_hurt"
-	}
-}

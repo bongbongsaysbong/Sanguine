@@ -1,0 +1,28 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:[\"sanguine.claw_trap\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sanguine:block/claw_trap/interact/main"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "sanguine:technical/blood_bindings/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"sanguine.binding.punished_heart\"]}"
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Tags:[\"sanguine.binding.punished_heart.applied\"]}"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "damage": {
+          "blocked": false
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "sanguine:item/blood_binding/effects/punished_heart/apply"
+  }
+}

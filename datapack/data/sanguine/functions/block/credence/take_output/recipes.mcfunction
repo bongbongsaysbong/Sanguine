@@ -14,3 +14,6 @@ execute if score @s sanguine.dummy2 matches 13 run function sanguine:block/crede
 execute if score @s sanguine.dummy2 matches 14 run function sanguine:block/credence/take_output/recipes/redye_gut_bundle
 execute if score @s sanguine.dummy2 matches 15 run function sanguine:block/credence/take_output/recipes/inner_orb
 execute if score @s sanguine.dummy2 matches 16 run function sanguine:block/credence/take_output/recipes/bone_needle
+execute if score @s sanguine.dummy2 matches 17 run function sanguine:block/credence/take_output/recipes/claw_trap
+execute if score @s sanguine.dummy2 matches 18 run function sanguine:block/credence/take_output/recipes/flesh_pylon
+execute if score @s sanguine.dummy2 matches 19 run function sanguine:block/credence/take_output/recipes/nail_bat

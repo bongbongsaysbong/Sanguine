@@ -1,4 +1,4 @@
-playsound sanguine:entity.bruiser.slam.impact hostile @a
+playsound sanguine:entity.bruiser.slam.impact hostile @a[distance=..16]
 scoreboard players reset @s sanguine.dummy
 
 scoreboard players operation #scaling_damage sanguine.dummy = @s sanguine.scale_value

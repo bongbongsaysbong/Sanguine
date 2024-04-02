@@ -1,0 +1,5 @@
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:structure_block",tag:{sanguine:{id:"rusty_nail"}}}].Count byte 1 run scoreboard players remove #rusty_nail sanguine.dummy 5
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:structure_block",tag:{sanguine:{id:"binding_veins"}}}].Count byte 1 run scoreboard players remove #binding_veins sanguine.dummy 1
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:structure_block",tag:{sanguine:{id:"bloody_fragment"}}}].Count byte 1 run scoreboard players remove #bloody_fragment sanguine.dummy 3
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:iron_ingot"}].Count byte 1 run scoreboard players remove #iron_ingot sanguine.dummy 2
+execute store result storage sanguine:storage root.temp.credence.compiled[{id:"minecraft:structure_block",tag:{sanguine:{id:"blood_bottle"}}}].Count byte 1 run scoreboard players remove #blood_bottle sanguine.dummy 1

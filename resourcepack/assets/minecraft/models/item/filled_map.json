@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+      "layer0": "item/filled_map",
+      "layer1": "item/filled_map_markings"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 8361000
+        },
+        "model": "sanguine:item/urban_explorer_map"
+      }
+    ]
+}

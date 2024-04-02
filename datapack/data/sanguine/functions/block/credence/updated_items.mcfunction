@@ -10,3 +10,4 @@ execute unless entity @s[tag=sanguine.credence.outputting] run function sanguine
 
 execute unless entity @s[tag=sanguine.credence.warped] run function sanguine:block/credence/display/crimson
 execute if entity @s[tag=sanguine.credence.warped] run function sanguine:block/credence/display/warped
+data modify entity @s item.tag.sanguine.credence.dropped_items set from block ~ ~ ~ Items

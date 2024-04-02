@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map",
+      "nbt": "{CustomModelData:8361000}"
+    },
+    "title": {
+      "translate": "advancements.sanguine.deserted_city"
+    },
+    "description": {
+      "translate": "advancements.sanguine.deserted_city.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/credence",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "sanguine:deserted_city"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

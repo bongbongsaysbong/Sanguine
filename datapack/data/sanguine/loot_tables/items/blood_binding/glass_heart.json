@@ -43,36 +43,30 @@
                 {
                   "translate": "item.sanguine.blood_binding.lore",
                   "color": "gray",
-                  "italic": "false"
+                  "italic": false
                 },
-                [
-                  " ",
-                  {
-                    "translate": "blood_binding.sanguine.glass_heart.lore",
-                    "color": "#c99993",
-                    "italic": "false",
-                    "with": [
-                      "75",
-                      {
-                        "translate": "attribute.name.generic.attack_speed"
-                      }
-                    ]
-                  }
-                ],
-                [
-                  " ",
-                  {
-                    "translate": "blood_binding.sanguine.glass_heart.lore",
-                    "color": "#c99993",
-                    "italic": "false",
-                    "with": [
-                      "30",
-                      {
-                        "translate": "attribute.name.generic.movement_speed"
-                      }
-                    ]
-                  }
-                ]
+                {
+                  "translate": "blood_binding.sanguine.glass_heart.lore",
+                  "color": "#c99993",
+                  "italic": false,
+                  "with": [
+                    "75",
+                    {
+                      "translate": "attribute.name.generic.attack_speed"
+                    }
+                  ]
+                },
+                {
+                  "translate": "blood_binding.sanguine.glass_heart.lore",
+                  "color": "#c99993",
+                  "italic": false,
+                  "with": [
+                    "30",
+                    {
+                      "translate": "attribute.name.generic.movement_speed"
+                    }
+                  ]
+                }
               ]
             },
             {

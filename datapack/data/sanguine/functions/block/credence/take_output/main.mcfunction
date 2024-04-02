@@ -11,6 +11,6 @@ execute if data block ~ ~ ~ Items[{Slot:16b}] run function sanguine:block/creden
 scoreboard players operation #glass_bottle sanguine.dummy -= #blood_bottle sanguine.dummy
 execute if score #glass_bottle sanguine.dummy matches 1.. run function sanguine:block/credence/take_output/add_bottle/main
 
-playsound sanguine:block.credence.take_result block @a
+playsound sanguine:block.credence.take_result block @a[distance=..16]
 tag @s add sanguine.credence.outputting
 schedule function sanguine:block/credence/scheduled 2t replace

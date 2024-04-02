@@ -31,5 +31,10 @@
   },
   "rewards": {
     "function": "sanguine:item/sanguine_chalice/kill"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

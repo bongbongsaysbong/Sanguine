@@ -43,36 +43,30 @@
                 {
                   "translate": "item.sanguine.blood_binding.lore",
                   "color": "gray",
-                  "italic": "false"
+                  "italic": false
                 },
-                [
-                  " ",
-                  {
-                    "translate": "attribute.modifier.plus.1",
-                    "color": "#c99993",
-                    "italic": "false",
-                    "with": [
-                      "100",
-                      {
-                        "translate": "attribute.name.generic.knockback_resistance"
-                      }
-                    ]
-                  }
-                ],
-                [
-                  " ",
-                  {
-                    "translate": "attribute.modifier.plus.0",
-                    "color": "#c99993",
-                    "italic": "false",
-                    "with": [
-                      "2",
-                      {
-                        "translate": "attribute.name.generic.armor_toughness"
-                      }
-                    ]
-                  }
-                ]
+                {
+                  "translate": "attribute.modifier.plus.1",
+                  "color": "#c99993",
+                  "italic": false,
+                  "with": [
+                    "100",
+                    {
+                      "translate": "attribute.name.generic.knockback_resistance"
+                    }
+                  ]
+                },
+                {
+                  "translate": "attribute.modifier.plus.0",
+                  "color": "#c99993",
+                  "italic": false,
+                  "with": [
+                    "2",
+                    {
+                      "translate": "attribute.name.generic.armor_toughness"
+                    }
+                  ]
+                }
               ]
             },
             {

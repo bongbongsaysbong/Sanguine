@@ -8,9 +8,15 @@
       "translate": "advancements.sanguine.sanguine_urn"
     },
     "description": [
-      {"translate": "advancements.sanguine.sanguine_urn.description"},
+      {
+        "translate": "advancements.sanguine.sanguine_urn.description"
+      },
       "\n",
-      {"text":"\ua005","font":"sanguine:recipes","color":"white"},
+      {
+        "text": "ꀅ",
+        "color": "white",
+        "font": "sanguine:recipes"
+      },
       "\n",
       "\n",
       "\n",
@@ -22,10 +28,15 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sanguine:sanguine/blood_bottle",
+  "parent": "sanguine:sanguine/inner_orb",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:block/smoker",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8361000
+      },
+      "model": "sanguine:item/claw_trap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361001
+      },
+      "model": "sanguine:item/cracked_claw_trap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361002
+      },
+      "model": "sanguine:item/bloody_claw_trap"
+    }
+  ]
+}

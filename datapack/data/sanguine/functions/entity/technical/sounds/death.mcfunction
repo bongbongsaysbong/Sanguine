@@ -9,3 +9,8 @@ execute if entity @s[nbt={Item:{tag:{sanguine:{entity:"maul"}}}}] run playsound 
 execute if entity @s[nbt={Item:{tag:{sanguine:{entity:"grub"}}}}] run playsound sanguine:entity.grub.death hostile @a[distance=..16]
 execute if entity @s[nbt={Item:{tag:{sanguine:{entity:"anemone"}}}}] run playsound sanguine:entity.anemone.death hostile @a[distance=..16]
 execute if entity @s[nbt={Item:{tag:{sanguine:{entity:"bruiser"}}}}] run playsound sanguine:entity.bruiser.death hostile @a[distance=..16]
+
+execute if entity @s[nbt={Item:{tag:{sanguine:{entity:"scavenger"}}}}] run function sanguine:entity/scavenger/death
+execute if entity @s[nbt={Item:{tag:{sanguine:{entity:"vermin"}}}}] run playsound sanguine:entity.vermin.death neutral @a[distance=..16]
+execute if entity @s[nbt={Item:{tag:{sanguine:{entity:"chupacabra"}}}}] run playsound sanguine:entity.chupacabra.death neutral @a[distance=..16]
+execute if entity @s[nbt={Item:{tag:{sanguine:{entity:"watchman"}}}}] run playsound sanguine:entity.watchman.death hostile @a[distance=..16]

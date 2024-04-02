@@ -19,5 +19,10 @@
   },
   "rewards": {
     "function": "sanguine:block/drying_rack/interact/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

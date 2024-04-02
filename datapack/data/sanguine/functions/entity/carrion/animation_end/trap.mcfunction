@@ -5,4 +5,4 @@ execute as @a[distance=..2] run function sanguine:entity/carrion/animation_end/d
 tag @s remove sanguine.damager
 
 particle crit ~ ~1 ~ 0.5 0.5 0.5 0 10 force
-playsound sanguine:entity.carrion.trap_hit hostile @a
+playsound sanguine:entity.carrion.trap_hit hostile @a[distance=..16]

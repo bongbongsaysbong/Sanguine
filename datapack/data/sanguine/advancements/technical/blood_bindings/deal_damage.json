@@ -1,9 +1,21 @@
 {
   "parent": "sanguine:technical/blood_bindings/root",
   "criteria": {
-    "impossible": {
+    "requirement": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Health:0f}"
+              }
+            }
+          }
+        ],
         "damage": {
           "type": {
             "tags": [
@@ -33,5 +45,10 @@
   },
   "rewards": {
     "function": "sanguine:item/blood_binding/checks/deal_damage"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

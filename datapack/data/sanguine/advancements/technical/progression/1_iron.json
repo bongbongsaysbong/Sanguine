@@ -11,7 +11,8 @@
               "minecraft:iron_helmet",
               "minecraft:iron_chestplate",
               "minecraft:iron_leggings",
-              "minecraft:iron_boots"
+              "minecraft:iron_boots",
+              "minecraft:shield"
             ]
           }
         ]
@@ -20,5 +21,10 @@
   },
   "rewards": {
     "function": "sanguine:entity/player/progression/1_iron"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -1,0 +1,38 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"sanguine.nail_bat_timer\"]}"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus_on_a_stick"
+            ],
+            "nbt": "{CustomModelData:8361025,sanguine:{id:\"nail_bat\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "sanguine:item/nail_bat/inventory/default"
+  }
+}

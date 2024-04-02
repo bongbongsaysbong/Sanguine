@@ -11,6 +11,7 @@ scoreboard players reset #binding_veins sanguine.dummy
 scoreboard players reset #scarred_hide sanguine.dummy
 scoreboard players reset #bile sanguine.dummy
 scoreboard players reset #gut_bundle sanguine.dummy
+scoreboard players reset #rusty_nail sanguine.dummy
 
 scoreboard players reset #polished_blackstone sanguine.dummy
 scoreboard players reset #iron_ingot sanguine.dummy
@@ -20,6 +21,7 @@ scoreboard players reset #ghast_tear sanguine.dummy
 scoreboard players reset #bone_block sanguine.dummy
 scoreboard players reset #bone sanguine.dummy
 scoreboard players reset #string sanguine.dummy
+scoreboard players reset #iron_plate sanguine.dummy
 
 scoreboard players reset #white_dye sanguine.dummy
 scoreboard players reset #light_gray_dye sanguine.dummy

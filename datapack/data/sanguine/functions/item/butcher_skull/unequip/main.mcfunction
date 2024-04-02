@@ -1,5 +1,4 @@
 advancement revoke @s only sanguine:technical/inventory_changed/butcher_skull/unequip
-tag @s remove sanguine.has_butcher_skull
 
 data remove storage sanguine:storage root.temp
 function sanguine:item/butcher_skull/unequip/get_nbt
@@ -41,3 +40,5 @@ loot replace entity @s[nbt={Inventory:[{Slot:33b,id:"minecraft:warped_fungus_on_
 loot replace entity @s[nbt={Inventory:[{Slot:34b,id:"minecraft:warped_fungus_on_a_stick",tag:{sanguine:{id:"butcher_skull"}}}]}] container.34 loot sanguine:technical/copy_nbt/leather_helmet
 loot replace entity @s[nbt={Inventory:[{Slot:35b,id:"minecraft:warped_fungus_on_a_stick",tag:{sanguine:{id:"butcher_skull"}}}]}] container.35 loot sanguine:technical/copy_nbt/leather_helmet
 #loot replace entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{sanguine:{id:"butcher_skull"}}}]}] weapon.offhand loot sanguine:technical/copy_nbt/leather_helmet
+
+execute unless predicate sanguine:item/wearing/butcher_skull run tag @s remove sanguine.has_butcher_skull

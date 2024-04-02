@@ -44,5 +44,10 @@
   },
   "rewards": {
     "function": "sanguine:block/effigy/remove_bindings/as_player"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -25,5 +25,10 @@
   },
   "rewards": {
     "function": "sanguine:item/butcher_skull/damage"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -4,6 +4,18 @@
     "requirement": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Health:0f}"
+              }
+            }
+          }
+        ],
         "entity": [
           {
             "condition": "minecraft:reference",
@@ -31,5 +43,10 @@
   },
   "rewards": {
     "function": "sanguine:item/blood_binding/checks/kill_entity"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

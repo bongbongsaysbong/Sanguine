@@ -1,0 +1,437 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story0",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story0b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story0c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story1",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story1b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story1c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story2",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story2b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story2c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story3",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story3b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story3c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story4",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story4b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/houses/one_story4c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story0",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story0b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story0c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story1",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story1b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story1c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story2",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story2b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story2c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story3",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story3b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story3c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story4",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story4b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "sanguine:deserted_city/houses/two_story4c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/houses/three_story0",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/houses/three_story0b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/houses/three_story1",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/houses/three_story1b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/houses/three_story2",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/houses/three_story2b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/church",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/library",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/shop0",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/shop1",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/shop2",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/tavern",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/bell_tower",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/statue",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/park",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/armoury",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/stable",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "sanguine:deserted_city/buildings/casino",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

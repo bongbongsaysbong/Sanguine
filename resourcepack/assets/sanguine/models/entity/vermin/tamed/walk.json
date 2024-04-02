@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/vermin/walk",
+	"textures": {
+		"0": "sanguine:entity/vermin/tamed/walk"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/scavenger/attack",
+	"textures": {
+		"0": "sanguine:entity/scavenger/strengthen"
+	}
+}

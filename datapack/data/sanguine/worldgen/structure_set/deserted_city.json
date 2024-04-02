@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "sanguine:deserted_city",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1832564150,
+    "spread_type": "triangular",
+    "spacing": 250,
+    "separation": 75
+  }
+}

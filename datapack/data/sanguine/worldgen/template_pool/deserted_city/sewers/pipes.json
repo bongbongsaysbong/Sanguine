@@ -1,0 +1,122 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe0",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe0b",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe0c",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe1",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe1b",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe1c",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe2",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe2b",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe2c",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe3",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe3b",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/pipe3c",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/pipes/large_pipe",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:8361024}"
+    },
+    "title": {
+      "translate": "advancements.sanguine.parry_potion"
+    },
+    "description": {
+      "translate": "advancements.sanguine.parry_potion.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "sanguine:sanguine/nail_bat",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "experience": 15
+  }
+}

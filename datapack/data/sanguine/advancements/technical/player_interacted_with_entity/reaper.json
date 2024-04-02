@@ -45,5 +45,10 @@
   },
   "rewards": {
     "function": "sanguine:entity/reaper/interact/raycast_start"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

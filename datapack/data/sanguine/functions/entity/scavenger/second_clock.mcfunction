@@ -1,0 +1,3 @@
+execute if predicate sanguine:world/night_time if entity @a[distance=..12,gamemode=!creative,gamemode=!spectator,nbt=!{Health:0f}] run return run function nucleus:entity/trader/ai/track_nearest_player_survival
+execute unless predicate sanguine:world/night_time if entity @a[distance=..24,gamemode=!creative,gamemode=!spectator,nbt=!{Health:0f}] run return run function nucleus:entity/trader/ai/track_nearest_player_survival
+execute if predicate nucleus:chance/0.1 unless entity @e[type=minecraft:wandering_trader,tag=sanguine.watchman.summoning,distance=..48] run function sanguine:entity/scavenger/return_home

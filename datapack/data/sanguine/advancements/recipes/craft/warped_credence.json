@@ -8,6 +8,11 @@
       }
     }
   },
+  "requirements": [
+    [
+      "recipe_crafted"
+    ]
+  ],
   "rewards": {
     "function": "sanguine:item/crafted_item",
     "loot": [

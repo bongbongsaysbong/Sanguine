@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BlockEntityTag:{id:\"minecraft:smoker\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{nucleus:{block:{placed_block:1b,id:\"sanguine:claw_trap\",claw_trap_state:2}}}}]},CustomModelData:8361002,sanguine:{id:\"claw_trap\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "block.sanguine.bloody_claw_trap",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:smoker"
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 		"predicate": {
 		  "custom_model_data": 8361000
 		},
-		"model": "sanguine:null"
+		"model": "nucleus:item/null"
 	  },
 	  {
 		"predicate": {
@@ -59,7 +59,7 @@
 		"predicate": {
 		  "custom_model_data": 8361009
 		},
-		"model": "sanguine:item/bloody_stitches"
+		"model": "sanguine:item/rusty_nail"
 	  },
 	  {
 		"predicate": {
@@ -68,4 +68,4 @@
 		"model": "sanguine:item/blood_binding"
 	  }
 	]
-  }
+}

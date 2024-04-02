@@ -15,5 +15,10 @@
   },
   "rewards": {
     "function": "sanguine:item/consume/flesh_jerky"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

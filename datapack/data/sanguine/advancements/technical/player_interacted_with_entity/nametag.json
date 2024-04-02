@@ -16,5 +16,10 @@
   },
   "rewards": {
     "function": "sanguine:entity/technical/nametag/nametag"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

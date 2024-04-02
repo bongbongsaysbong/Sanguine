@@ -1,0 +1,112 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,HideFlags:6,CustomModelData:8361024,sanguine:{id:\"nail_bat\",allow_pus_repair:1b,knife_stage:0},nucleus:{durability:[512,512],repaired:1b,prevent_striders:1b}}"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "nail_bat",
+                  "amount": 11,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "nail_bat",
+                  "amount": -3.2,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    512,
+                    512
+                  ]
+                },
+                {
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.sanguine.nail_bat.description",
+                  "color": "#c99993",
+                  "italic": true,
+                  "with": [
+                    {"keybind":"key.use","color":"#db5853"}
+                  ]
+                },
+                "",
+                {
+                  "translate": "item.modifiers.mainhand",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  " ",
+                  {
+                    "translate": "attribute.modifier.equals.0",
+                    "italic": false,
+                    "color": "dark_green",
+                    "with": [
+                      12,
+                      {
+                        "translate": "attribute.name.generic.attack_damage"
+                      }
+                    ]
+                  }
+                ],
+                [
+                  " ",
+                  {
+                    "translate": "attribute.modifier.equals.0",
+                    "italic": false,
+                    "color": "dark_green",
+                    "with": [
+                      0.8,
+                      {
+                        "translate": "attribute.name.generic.attack_speed"
+                      }
+                    ]
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.sanguine.nail_bat",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

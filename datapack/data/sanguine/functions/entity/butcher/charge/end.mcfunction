@@ -12,6 +12,6 @@ tag @s remove sanguine.damager
 
 scoreboard players reset @s sanguine.dummy
 scoreboard players reset @s sanguine.dummy2
-playsound sanguine:entity.butcher.charge_end hostile @a
+playsound sanguine:entity.butcher.charge_end hostile @a[distance=..16]
 
 function sanguine:entity/butcher/animation_begin/raise

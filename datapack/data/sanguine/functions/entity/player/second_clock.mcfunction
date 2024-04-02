@@ -4,10 +4,10 @@ execute unless predicate sanguine:entity/show_tint run particle minecraft:entity
 execute if entity @s[tag=sanguine.has_tint] run function sanguine:entity/player/ambient/shader
 
 # Playtime
-scoreboard players add @s sanguine.playtime 1
-execute if score @s sanguine.playtime matches 2147483600.. run scoreboard players set @s sanguine.playtime 2147483600
+execute unless score @s sanguine.playtime matches 2147483600.. run scoreboard players add @s sanguine.playtime 1
 
 # Misc
 execute if score @s sanguine.bindings matches 1.. run function sanguine:item/blood_binding/checks/second_clock
 execute unless score #sanguine.blood_moon.phase sanguine.dummy matches 2 if score @s sanguine.offals_killed matches 1.. run scoreboard players reset @s sanguine.offals_killed
-execute if score @s sanguine.leave_game matches 1.. run function sanguine:item/blood_binding/reapply/reapply_with_heritage
+execute if score @s sanguine.claw_trap_timer matches 1.. run scoreboard players remove @s sanguine.claw_trap_timer 1
+execute if score @s sanguine.music_timer matches 1.. run function sanguine:entity/player/ambient/music

@@ -1,8 +1,8 @@
 data modify entity @s Invulnerable set value 1b
 tag @s add sanguine.offal.scheduled_invulnerable
 
-execute store result score #dir sanguine.dummy run loot spawn ~ ~ ~ loot sanguine:technical/rng/1_4
-execute store result score #dir2 sanguine.dummy run loot spawn ~ ~ ~ loot sanguine:technical/rng/1_4
+execute store result score #dir sanguine.dummy run random value 1..4 sanguine:rng/1..4
+execute store result score #dir2 sanguine.dummy run random value 1..4 sanguine:rng/1..4
 
 execute if score #dir sanguine.dummy matches 1 run data modify entity @s Motion[0] set value -0.75
 execute if score #dir sanguine.dummy matches 2 run data modify entity @s Motion[0] set value -0.25

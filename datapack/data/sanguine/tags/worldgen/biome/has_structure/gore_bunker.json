@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:flower_forest",
+    "minecraft:swamp",
+    "minecraft:dark_forest",
+    "minecraft:taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:cherry_grove",
+    {"id": "blooming_biosphere:oak_woodland", "required": false},
+    {"id": "blooming_biosphere:autumnal_forest", "required": false},
+    {"id": "blooming_biosphere:marsh", "required": false},
+    {"id": "blooming_biosphere:rainforest", "required": false},
+    {"id": "horizons:boreal_forest", "required": false},
+    {"id": "horizons:golden_woods", "required": false},
+    {"id": "horizons:pumpkin_patch", "required": false},
+    {"id": "horizons:rainforest", "required": false}
+  ]
+}

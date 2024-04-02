@@ -1,6 +1,6 @@
-playsound sanguine:entity.offal.spawn hostile @a
+playsound sanguine:entity.offal.spawn hostile @a[distance=..16]
 particle dust 0.627 0.133 0.098 2 ~ ~0.25 ~ 0.75 0.75 0.75 0.1 10 force
-particle item potion{CustomModelData:8361910} ~ ~0.25 ~ 0.75 0.75 0.75 0.1 20 force
+particle item leather_boots{CustomModelData:8361903,Damage:4} ~ ~0.25 ~ 0.75 0.75 0.75 0.1 20 force
 function sanguine:entity/technical/gibs/create
 
 execute positioned ~-0.5 ~ ~0.5 run function sanguine:commands/summon/offal

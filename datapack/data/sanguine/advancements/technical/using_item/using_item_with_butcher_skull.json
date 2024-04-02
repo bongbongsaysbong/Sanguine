@@ -23,5 +23,10 @@
   },
   "rewards": {
     "function": "sanguine:item/butcher_skull/using_item"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

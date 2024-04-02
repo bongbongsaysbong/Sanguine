@@ -54,12 +54,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 8361008
-      },
-      "model": "sanguine:item/blood_oath"
-    },
-    {
-      "predicate": {
         "custom_model_data": 8361009
       },
       "model": "sanguine:item/effigy"
@@ -84,27 +78,9 @@
     },
     {
       "predicate": {
-        "custom_model_data": 8361013
-      },
-      "model": "sanguine:item/twisted_pin"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8361014
-      },
-      "model": "sanguine:item/twisted_pin_bloody"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8361015
-      },
-      "model": "sanguine:item/blood_oath_bloody"
-    },
-    {
-      "predicate": {
         "custom_model_data": 8361016
       },
-      "model": "sanguine:item/music_disc_engorge"
+      "model": "sanguine:item/music_disc_bloodletting"
     },
     {
       "predicate": {
@@ -135,6 +111,36 @@
         "custom_model_data": 8361021
       },
       "model": "sanguine:item/inner_orb"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361022
+      },
+      "model": "sanguine:item/flesh_pylon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361023
+      },
+      "model": "sanguine:item/urban_explorer_map_closed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361024
+      },
+      "model": "sanguine:item/nail_bat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361025
+      },
+      "model": "sanguine:item/nail_bat_delay"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361026
+      },
+      "model": "sanguine:item/sanguine_chalice_max"
     }
   ]
 }

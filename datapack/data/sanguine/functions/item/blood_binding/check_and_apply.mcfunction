@@ -16,6 +16,6 @@ execute unless entity @s[tag=sanguine.binding.hungry_soul] if data storage sangu
 execute unless entity @s[tag=sanguine.binding.soul_shriek] if data storage sanguine:storage root.temp.item.tag.sanguine{binding:"soul_shriek"} run function sanguine:item/blood_binding/apply/soul_shriek
 
 execute if entity @s[tag=sanguine.binding.success] run function sanguine:item/blood_binding/success
-execute unless entity @s[tag=sanguine.binding.success] run data modify storage smithed.actionbar:input message set value {freeze:45,priority:'notification',json:'{"translate":"ui.sanguine.blood_binding.duplicate","color":"red"}'}
-execute unless entity @s[tag=sanguine.binding.success] run function #smithed.actionbar:message
+execute unless entity @s[tag=sanguine.binding.success] run data modify storage nucleus:storage root.temp.actionbar set value {freeze:45,priority:1,json:'{"translate":"ui.sanguine.blood_binding.duplicate","color":"red"}'}
+execute unless entity @s[tag=sanguine.binding.success] run function nucleus:entity/player/actionbar/message
 tag @s remove sanguine.binding.success

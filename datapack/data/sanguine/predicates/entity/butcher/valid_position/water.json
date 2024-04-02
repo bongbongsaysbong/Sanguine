@@ -1,0 +1,15 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "tag": "nucleus:passthrough"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "nucleus:block/waterlogged"
+  }
+]

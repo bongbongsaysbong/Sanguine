@@ -10,5 +10,10 @@
   },
   "rewards": {
     "function": "sanguine:entity/player/progression/3_nether"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

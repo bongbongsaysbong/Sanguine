@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "sanguine:deserted_city_located",
+              "decoration": "banner_red",
+              "zoom": 1,
+              "search_radius": 100,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:8361000,sanguine:{id:\"urban_explorer_map\"}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.sanguine.urban_explorer_map",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

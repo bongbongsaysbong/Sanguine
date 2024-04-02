@@ -10,5 +10,4 @@ scoreboard players reset @s sanguine.binding.soul_shriek
 tag @s remove sanguine.binding.blood_barrier.active
 tag @s remove sanguine.binding.glass_heart.applied
 tag @s remove sanguine.binding.scarlet_carnage.delay
-
-scoreboard players reset @s sanguine.binding.death
+tag @s remove sanguine.binding.punished_heart.applied

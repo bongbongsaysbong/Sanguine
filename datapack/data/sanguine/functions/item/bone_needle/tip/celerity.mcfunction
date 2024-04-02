@@ -7,8 +7,8 @@ data modify storage sanguine:storage root.temp.item.tag.sanguine.bone_needle.dur
 
 # Visuals
 data modify storage sanguine:storage root.temp.item.tag.CustomModelData set value 8361020
-data modify storage sanguine:storage root.temp.item.tag.display.Lore[3] set value '{"italic":"true","color":"#C99993","translate":"item.sanguine.bone_needle.properties.serum.celerity.description"}'
-data modify storage sanguine:storage root.temp.item.tag.display.Lore[6] set value '{"extra":[{"italic":"false","color":"#C99993","translate":"item.sanguine.bone_needle.properties.serum","with":[{"translate":"item.sanguine.bone_needle.properties.serum.celerity","color":"#BBDC75"}]}],"text":" "}'
+data modify storage sanguine:storage root.temp.item.tag.display.Lore[3] set value '{"italic": true,"color":"#C99993","translate":"item.sanguine.bone_needle.properties.serum.celerity.description"}'
+data modify storage sanguine:storage root.temp.item.tag.display.Lore[6] set value '{"extra":[{"italic": false,"color":"#C99993","translate":"item.sanguine.bone_needle.properties.serum","with":[{"translate":"item.sanguine.bone_needle.properties.serum.celerity","color":"#BBDC75"}]}],"text":" "}'
 
 # Apply
 data remove storage sanguine:storage root.temp.item.tag.display.Lore[-1]

@@ -16,6 +16,7 @@
 		"minecraft:sculk_shrieker",
 		"minecraft:sculk_catalyst",
 		"minecraft:budding_amethyst",
-		"minecraft:lodestone"
+		"minecraft:lodestone",
+		{"id": "minecraft:trial_spawner", "required": false}
 	]
 }

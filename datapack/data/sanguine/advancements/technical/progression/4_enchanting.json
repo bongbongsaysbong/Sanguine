@@ -28,5 +28,10 @@
   },
   "rewards": {
     "function": "sanguine:entity/player/progression/4_enchanting"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -1,6 +1,0 @@
-{
-	"parent": "sanguine:entity/carrion/idle",
-	"textures": {
-		"0": "sanguine:entity/carrion/idle_hurt"
-	}
-}

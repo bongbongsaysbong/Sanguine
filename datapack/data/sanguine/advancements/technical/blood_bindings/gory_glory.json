@@ -56,5 +56,10 @@
   },
   "rewards": {
     "function": "sanguine:item/blood_binding/effects/gory_glory/kill_entity"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

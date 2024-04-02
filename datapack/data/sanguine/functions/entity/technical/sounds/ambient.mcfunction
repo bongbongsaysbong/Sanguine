@@ -1,11 +1,16 @@
-execute if entity @s[tag=sanguine.unborn] run playsound sanguine:entity.unborn.ambient hostile @a
-#execute if entity @s[tag=sanguine.offal] run playsound sanguine:entity.offal.ambient hostile @a
-execute if entity @s[tag=sanguine.reaper] run playsound sanguine:entity.reaper.ambient hostile @a
-execute if entity @s[tag=sanguine.carrion] run playsound sanguine:entity.carrion.ambient hostile @a
-execute if entity @s[tag=sanguine.gurgle] run playsound sanguine:entity.gurgle.ambient hostile @a
-execute if entity @s[tag=sanguine.butcher] run playsound sanguine:entity.butcher.ambient hostile @a
-execute if entity @s[tag=sanguine.maul] run playsound sanguine:entity.maul.ambient hostile @a
+execute if entity @s[tag=sanguine.unborn] run playsound sanguine:entity.unborn.ambient hostile @a[distance=..16]
+#execute if entity @s[tag=sanguine.offal] run playsound sanguine:entity.offal.ambient hostile @a[distance=..16]
+execute if entity @s[tag=sanguine.reaper] run playsound sanguine:entity.reaper.ambient hostile @a[distance=..16]
+execute if entity @s[tag=sanguine.carrion] run playsound sanguine:entity.carrion.ambient hostile @a[distance=..16]
+execute if entity @s[tag=sanguine.gurgle] run playsound sanguine:entity.gurgle.ambient hostile @a[distance=..16]
+execute if entity @s[tag=sanguine.butcher] run playsound sanguine:entity.butcher.ambient hostile @a[distance=..16]
+execute if entity @s[tag=sanguine.maul] run playsound sanguine:entity.maul.ambient hostile @a[distance=..16]
 
-execute if entity @s[tag=sanguine.grub] run playsound sanguine:entity.grub.ambient hostile @a
-execute if entity @s[tag=sanguine.anemone] run playsound sanguine:entity.anemone.ambient hostile @a
-execute if entity @s[tag=sanguine.bruiser] run playsound sanguine:entity.bruiser.ambient hostile @a
+execute if entity @s[tag=sanguine.grub] run playsound sanguine:entity.grub.ambient hostile @a[distance=..16]
+execute if entity @s[tag=sanguine.anemone] run playsound sanguine:entity.anemone.ambient hostile @a[distance=..16]
+execute if entity @s[tag=sanguine.bruiser] run playsound sanguine:entity.bruiser.ambient hostile @a[distance=..16]
+
+execute if entity @s[tag=sanguine.scavenger] run playsound sanguine:entity.scavenger.ambient hostile @a[distance=..16]
+execute if entity @s[tag=sanguine.vermin,tag=!sanguine.chupacabra] run playsound sanguine:entity.vermin.ambient neutral @a[distance=..16]
+execute if entity @s[tag=sanguine.chupacabra] run playsound sanguine:entity.chupacabra.ambient neutral @a[distance=..16]
+execute if entity @s[tag=sanguine.watchman] run playsound sanguine:entity.watchman.ambient hostile @a[distance=..16]

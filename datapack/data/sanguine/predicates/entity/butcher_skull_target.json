@@ -1,5 +1,33 @@
 [
   {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "type_specific": {
+          "type": "player",
+          "gamemode": "creative"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "type_specific": {
+          "type": "player",
+          "gamemode": "spectator"
+        }
+      }
+    }
+  },
+  {
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {

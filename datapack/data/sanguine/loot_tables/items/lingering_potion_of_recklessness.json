@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionColor:10397484,HideFlags:32,sanguine:{id:\"lingering_potion_recklessness\"},nucleus:{potion:{can_enhance:1b,can_extend:1b}},CustomPotionEffects:[{Id:3,Amplifier:1b,Duration:900},{Id:17,Amplifier:2b,Duration:900}]}"
+              "tag": "{CustomPotionColor:10397484,HideFlags:32,sanguine:{id:\"lingering_potion_recklessness\"},nucleus:{potion:{can_enhance:1b,can_extend:1b}},custom_potion_effects:[{id:\"minecraft:haste\",amplifier:1b,duration:900},{id:\"minecraft:hunger\",amplifier:2b,duration:900}]}"
             },
             {
               "function": "minecraft:set_lore",

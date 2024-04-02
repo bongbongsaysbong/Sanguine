@@ -1,0 +1,25 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "type": "minecraft:wandering_trader",
+            "nbt": "{Tags:[\"sanguine.watchman\"]}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "sanguine:entity/watchman/damage/as_player"
+  }
+}

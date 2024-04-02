@@ -3,3 +3,4 @@ execute if data storage nucleus:storage root.block{id:"sanguine:blood_well"} run
 execute if data storage nucleus:storage root.block{id:"sanguine:flesh_tuner"} run function sanguine:block/flesh_tuner/place
 execute if data storage nucleus:storage root.block{id:"sanguine:crimson_shrine"} run function sanguine:block/crimson_shrine/place
 execute if data storage nucleus:storage root.block{id:"sanguine:noxious_gut"} run function sanguine:block/noxious_gut/place
+execute if data storage nucleus:storage root.block{id:"sanguine:claw_trap"} run function sanguine:block/claw_trap/place/summon

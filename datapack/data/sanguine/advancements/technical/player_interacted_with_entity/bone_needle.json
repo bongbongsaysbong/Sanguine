@@ -34,5 +34,10 @@
   },
   "rewards": {
     "function": "sanguine:item/bone_needle/use/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -33,18 +33,6 @@
     },
     {
       "predicate": {
-        "custom_model_data": 8361005
-      },
-      "model": "sanguine:block/sewing_table/empty"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8361006
-      },
-      "model": "sanguine:block/sewing_table/full"
-    },
-    {
-      "predicate": {
         "custom_model_data": 8361007
       },
       "model": "sanguine:block/flesh_tuner"

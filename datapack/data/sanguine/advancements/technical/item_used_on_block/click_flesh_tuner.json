@@ -30,5 +30,10 @@
   },
   "rewards": {
     "function": "sanguine:block/flesh_tuner/click"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

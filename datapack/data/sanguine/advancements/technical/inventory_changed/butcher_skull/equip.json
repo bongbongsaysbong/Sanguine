@@ -27,5 +27,10 @@
   },
   "rewards": {
     "function": "sanguine:item/butcher_skull/equip"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

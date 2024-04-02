@@ -1,0 +1,28 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/butcher_skull/icon.png",
+      "ascent": 12,
+      "height": 15,
+      "chars": [
+        "B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/butcher_skull/bar.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "10"
+      ]
+    }
+  ]
+}

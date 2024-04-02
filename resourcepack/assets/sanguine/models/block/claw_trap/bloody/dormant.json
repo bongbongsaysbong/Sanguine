@@ -1,0 +1,6 @@
+{
+    "parent": "sanguine:block/claw_trap/normal/dormant",
+    "textures": {
+      "0": "sanguine:block/claw_trap/bloody"
+    }
+}

@@ -20,5 +20,10 @@
   },
   "rewards": {
     "function": "sanguine:entity/player/progression/5_netherite"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

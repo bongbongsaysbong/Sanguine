@@ -1,3 +1,3 @@
-execute if score #sanguine.blood_moon.sound sanguine.dummy matches 2.. run data modify storage smithed.actionbar:input message set value {freeze:45,priority:'notification',json:'{"color":"red","translate":"ui.sanguine.butcher_horn.delay","with":[{"score":{"name":"#sanguine.blood_moon.sound","objective":"sanguine.dummy"}}]}'}
-execute unless score #sanguine.blood_moon.sound sanguine.dummy matches 2.. run data modify storage smithed.actionbar:input message set value {freeze:45,priority:'notification',json:'{"color":"red","translate":"ui.sanguine.butcher_horn.delay.single"}'}
-function #smithed.actionbar:message
+execute if score #sanguine.blood_moon.sound sanguine.dummy matches 2.. run data modify storage nucleus:storage root.temp.actionbar set value {freeze:45,priority:1,json:'{"color":"red","translate":"ui.sanguine.butcher_horn.delay","with":[{"score":{"name":"#sanguine.blood_moon.sound","objective":"sanguine.dummy"}}]}'}
+execute unless score #sanguine.blood_moon.sound sanguine.dummy matches 2.. run data modify storage nucleus:storage root.temp.actionbar set value {freeze:45,priority:1,json:'{"color":"red","translate":"ui.sanguine.butcher_horn.delay.single"}'}
+function nucleus:entity/player/actionbar/message

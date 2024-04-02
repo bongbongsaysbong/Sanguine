@@ -1,7 +1,7 @@
 [
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361908}",
+    "tag": "{Damage:0}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -19,7 +19,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361909}",
+    "tag": "{Damage:2}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -37,7 +37,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361910}",
+    "tag": "{Damage:4}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -55,7 +55,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361911}",
+    "tag": "{Damage:6}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -73,7 +73,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361912}",
+    "tag": "{Damage:8}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -91,7 +91,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361913}",
+    "tag": "{Damage:10}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -109,7 +109,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361914}",
+    "tag": "{Damage:12}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -127,7 +127,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361915}",
+    "tag": "{Damage:14}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -145,7 +145,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361916}",
+    "tag": "{Damage:16}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -163,7 +163,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361917}",
+    "tag": "{Damage:18}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -181,7 +181,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361918}",
+    "tag": "{Damage:20}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -199,7 +199,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361919}",
+    "tag": "{Damage:22}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -217,7 +217,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361920}",
+    "tag": "{Damage:24}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -235,7 +235,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361921}",
+    "tag": "{Damage:26}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -253,7 +253,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361922}",
+    "tag": "{Damage:28}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -271,7 +271,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361923}",
+    "tag": "{Damage:30}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -289,7 +289,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361924}",
+    "tag": "{Damage:32}",
     "conditions": [
       {
         "condition": "minecraft:value_check",
@@ -307,7 +307,7 @@
   },
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361925}",
+    "tag": "{Damage:34}",
     "conditions": [
       {
         "condition": "minecraft:value_check",

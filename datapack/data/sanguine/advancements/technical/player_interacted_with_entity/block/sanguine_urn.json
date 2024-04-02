@@ -19,5 +19,10 @@
   },
   "rewards": {
     "function": "sanguine:block/sanguine_urn/interact/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

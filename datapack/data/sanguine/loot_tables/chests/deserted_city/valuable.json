@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "sanguine:items/blood_binding"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:book"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 6,
+            "max": 18
+          }
+        },
+        {
+          "function": "minecraft:set_damage",
+          "damage": {
+            "min": 0.3,
+            "max": 0.7
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    }
+  ],
+  "random_sequence": "sanguine:chests/deserted_city/valuable"
+}

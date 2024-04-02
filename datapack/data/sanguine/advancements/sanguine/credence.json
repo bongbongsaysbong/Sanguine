@@ -37,5 +37,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

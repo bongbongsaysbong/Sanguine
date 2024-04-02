@@ -1,0 +1,59 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/large_houses/house0",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/large_houses/house0b",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/large_houses/house0c",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/large_houses/museum",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/large_houses/school",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/large_houses/temple",
+        "processors": "sanguine:degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

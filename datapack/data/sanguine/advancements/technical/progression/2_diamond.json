@@ -20,5 +20,10 @@
   },
   "rewards": {
     "function": "sanguine:entity/player/progression/2_diamond"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

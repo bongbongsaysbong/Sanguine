@@ -1,0 +1,53 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"sanguine.vermin.neutral\"]}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"sanguine.vermin.tamed\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": "this",
+                "score": "nucleus.frames"
+              },
+              "range": {
+                "min": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "sanguine:entity/vermin/interact/raycast_start"
+  }
+}

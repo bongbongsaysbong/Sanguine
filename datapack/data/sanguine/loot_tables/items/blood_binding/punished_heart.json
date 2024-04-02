@@ -43,20 +43,32 @@
                 {
                   "translate": "item.sanguine.blood_binding.lore",
                   "color": "gray",
-                  "italic": "false"
+                  "italic": false
+                },
+                {
+                  "translate": "blood_binding.sanguine.punished_heart.lore",
+                  "color": "#c99993",
+                  "italic": false,
+                  "with": [
+                    {
+                      "translate": "attribute.modifier.plus.0",
+                      "color": "#c99993",
+                      "italic": false,
+                      "with": [
+                        "4",
+                        {
+                          "translate": "attribute.name.generic.attack_damage"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 [
                   " ",
                   {
-                    "translate": "attribute.modifier.plus.0",
+                    "translate": "blood_binding.sanguine.punished_heart.lore2",
                     "color": "#c99993",
-                    "italic": "false",
-                    "with": [
-                      "4",
-                      {
-                        "translate": "attribute.name.generic.attack_damage"
-                      }
-                    ]
+                    "italic": false
                   }
                 ]
               ]

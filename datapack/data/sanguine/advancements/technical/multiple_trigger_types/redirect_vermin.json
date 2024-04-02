@@ -1,0 +1,38 @@
+{
+  "parent": "sanguine:technical/root",
+  "criteria": {
+    "take_damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "#nucleus:preset/can_take_damage/include_players"
+          }
+        }
+      }
+    },
+    "deal_damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#nucleus:preset/can_take_damage/include_players"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "take_damage",
+      "deal_damage"
+    ]
+  ],
+  "rewards": {
+    "function": "sanguine:entity/vermin/targeting/main"
+  }
+}

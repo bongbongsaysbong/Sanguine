@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:forest",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:flower_forest",
+    {"id": "blooming_biosphere:oak_woodland", "required": false},
+    {"id": "blooming_biosphere:autumnal_forest", "required": false},
+    {"id": "horizons:golden_woods", "required": false},
+    {"id": "horizons:pumpkin_patch", "required": false}
+  ]
+}

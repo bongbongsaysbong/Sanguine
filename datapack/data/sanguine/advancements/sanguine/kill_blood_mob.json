@@ -124,6 +124,33 @@
           "nbt": "{Tags:[\"sanguine.bruiser\"]}"
         }
       }
+    },
+    "scavenger": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.scavenger\"]}"
+        }
+      }
+    },
+    "vermin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.vermin\"]}"
+        }
+      }
+    },
+    "watchman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader",
+          "nbt": "{Tags:[\"sanguine.watchman\"]}"
+        }
+      }
     }
   },
   "requirements": [
@@ -139,7 +166,10 @@
       "gore_skeleton",
       "grub",
       "bruiser",
-      "anemone"
+      "anemone",
+      "scavenger",
+      "vermin",
+      "watchman"
     ]
   ]
 }

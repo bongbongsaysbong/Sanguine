@@ -1,40 +1,40 @@
 {
   "ambient.blood_moon.loop": {
     "sounds": [
-      "sanguine:ambience/blood_moon/loop/loop0",
-      "sanguine:ambience/blood_moon/loop/loop1",
-      "sanguine:ambience/blood_moon/loop/loop2",
-      "sanguine:ambience/blood_moon/loop/loop3",
-      "sanguine:ambience/blood_moon/loop/loop4",
-      "sanguine:ambience/blood_moon/loop/loop5"
+      {"name": "sanguine:ambience/blood_moon/loop/loop0", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/loop/loop1", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/loop/loop2", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/loop/loop3", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/loop/loop4", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/loop/loop5", "stream": true}
     ]
   },
   "ambient.blood_moon.mood": {
     "sounds": [
-      "sanguine:ambience/blood_moon/mood/mood0",
-      "sanguine:ambience/blood_moon/mood/mood1",
-      "sanguine:ambience/blood_moon/mood/mood2",
-      "sanguine:ambience/blood_moon/mood/mood3",
-      "sanguine:ambience/blood_moon/mood/mood4",
-      "sanguine:ambience/blood_moon/mood/mood5",
-      "sanguine:ambience/blood_moon/mood/mood6",
-      "sanguine:ambience/blood_moon/mood/mood7"
+      {"name": "sanguine:ambience/blood_moon/mood/mood0", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/mood/mood1", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/mood/mood2", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/mood/mood3", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/mood/mood4", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/mood/mood5", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/mood/mood6", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/mood/mood7", "stream": true}
     ]
   },
   "ambient.blood_moon.additions": {
     "sounds": [
-      "sanguine:ambience/blood_moon/additions/additions0",
-      "sanguine:ambience/blood_moon/additions/additions1",
-      "sanguine:ambience/blood_moon/additions/additions2",
-      "sanguine:ambience/blood_moon/additions/additions3",
-      "sanguine:ambience/blood_moon/additions/additions4",
-      "sanguine:ambience/blood_moon/additions/additions5"
+      {"name": "sanguine:ambience/blood_moon/additions/additions0", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/additions/additions1", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/additions/additions2", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/additions/additions3", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/additions/additions4", "stream": true},
+      {"name": "sanguine:ambience/blood_moon/additions/additions5", "stream": true}
     ]
   },
   "ambient.blood_moon.warning": {
     "subtitle" :"subtitles.sanguine.blood_moon_warning",
     "sounds": [
-      "sanguine:ambience/blood_moon/warning"
+      {"name": "sanguine:ambience/blood_moon/warning", "stream": true}
     ]
   },
   "entity.unborn.ambient": {
@@ -473,14 +473,6 @@
       {"name": "sanguine:entity/grub/step2", "pitch": 0.9}
     ]
   },
-  "item.blood_oath.stab": {
-    "subtitle": "subtitles.sanguine.item.blood_oath.stab",
-    "sounds": [
-      "sanguine:item/sacrificial_knife/shank0",
-      "sanguine:item/sacrificial_knife/shank1",
-      "sanguine:item/sacrificial_knife/shank2"
-    ]
-  },
   "item.sacrificial_knife.stab": {
     "subtitle": "subtitles.sanguine.item.sacrificial_knife.stab",
     "sounds": [
@@ -748,9 +740,14 @@
       "sanguine:item/blood_binding/soul_shriek/explode"
     ]
   },
-  "record.engorge": {
+  "record.bloodletting": {
     "sounds": [
-      "sanguine:record/engorge"
+      {"name": "sanguine:record/bloodletting", "stream": true}
+    ]
+  },
+  "record.bloodflow": {
+    "sounds": [
+      {"name": "sanguine:record/bloodflow", "stream": true, "volume": 0.33}
     ]
   },
   "entity.spawn": {
@@ -768,8 +765,10 @@
   "item.butcher_skull.gore": {
     "subtitle": "subtitles.sanguine.item.butcher_skull.gore",
 	  "sounds": [
-      {"name": "sanguine:item/butcher_skull/gore", "pitch": 1.0},
-      {"name": "sanguine:item/butcher_skull/gore", "pitch": 0.9}
+      {"name": "sanguine:item/butcher_skull/gore0", "pitch": 1.0},
+      {"name": "sanguine:item/butcher_skull/gore0", "pitch": 0.9},
+      {"name": "sanguine:item/butcher_skull/gore1", "pitch": 1.0},
+      {"name": "sanguine:item/butcher_skull/gore1", "pitch": 0.9}
     ]
   },
   "item.butcher_skull.charge": {
@@ -835,22 +834,22 @@
   },
   "item.butcher_skull.pizza.sprint0": {
     "sounds": [
-      {"name": "sanguine:item/butcher_skull/pizza/sprint0", "volume": 0.5}
+      {"name": "sanguine:item/butcher_skull/pizza/sprint0", "volume": 0.2}
     ]
   },
   "item.butcher_skull.pizza.sprint1": {
     "sounds": [
-      {"name": "sanguine:item/butcher_skull/pizza/sprint1", "volume": 0.5}
+      {"name": "sanguine:item/butcher_skull/pizza/sprint1", "volume": 0.2}
     ]
   },
   "item.butcher_skull.pizza.sprint2": {
     "sounds": [
-      {"name": "sanguine:item/butcher_skull/pizza/sprint2", "volume": 0.5}
+      {"name": "sanguine:item/butcher_skull/pizza/sprint2", "volume": 0.2}
     ]
   },
   "item.butcher_skull.pizza.halt": {
     "sounds": [
-      {"name": "sanguine:item/butcher_skull/pizza/halt", "volume": 0.35}
+      {"name": "sanguine:item/butcher_skull/pizza/halt", "volume": 0.15}
     ]
   },
   "block.credence.take_result": {
@@ -921,6 +920,48 @@
       {"name": "sanguine:block/effigy/place", "pitch": 1.0},
       {"name": "sanguine:block/effigy/place", "pitch": 0.9},
       {"name": "sanguine:block/effigy/place", "pitch": 0.8}
+    ]
+  },
+  "block.flesh_pylon.break": {
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      {"name": "sanguine:block/effigy/break", "pitch": 1.0},
+      {"name": "sanguine:block/effigy/break", "pitch": 0.9},
+      {"name": "sanguine:block/effigy/break", "pitch": 0.8}
+    ]
+  },
+  "block.flesh_pylon.hit": {
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      {"name": "sanguine:block/effigy/hit", "pitch": 1.0},
+      {"name": "sanguine:block/effigy/hit", "pitch": 0.9},
+      {"name": "sanguine:block/effigy/hit", "pitch": 0.8}
+    ]
+  },
+  "block.flesh_pylon.place": {
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      {"name": "sanguine:block/effigy/place", "pitch": 1.0},
+      {"name": "sanguine:block/effigy/place", "pitch": 0.9},
+      {"name": "sanguine:block/effigy/place", "pitch": 0.8}
+    ]
+  },
+  "block.flesh_pylon.empty": {
+    "subtitle": "subtitles.sanguine.block.flesh_pylon.empty",
+    "sounds": [
+      "sanguine:block/blood_well/empty_with_bottle"
+    ]
+  },
+  "block.flesh_pylon.fill": {
+    "subtitle": "subtitles.sanguine.block.flesh_pylon.fill",
+    "sounds": [
+      "sanguine:block/blood_well/fill_with_bottle"
+    ]
+  },
+  "block.flesh_pylon.consume": {
+    "subtitle": "subtitles.sanguine.block.flesh_pylon.consume",
+    "sounds": [
+      "sanguine:block/flesh_pylon/consume"
     ]
   },
   "block.sanguine_urn.place": {
@@ -1091,6 +1132,292 @@
     "subtitle": "subtitles.sanguine.entity.bruiser.slam.impact",
     "sounds": [
       "sanguine:entity/bruiser/impact"
+    ]
+  },
+  "entity.scavenger.ambient": {
+    "subtitle": "subtitles.sanguine.entity.scavenger.idle",
+    "sounds": [
+      "sanguine:entity/scavenger/idle0",
+      "sanguine:entity/scavenger/idle1",
+      "sanguine:entity/scavenger/idle2",
+      "sanguine:entity/scavenger/idle3",
+      "sanguine:entity/scavenger/idle4"
+    ]
+  },
+  "entity.scavenger.hurt": {
+    "subtitle": "subtitles.sanguine.entity.scavenger.hurt",
+    "sounds": [
+      {"name": "sanguine:entity/scavenger/hurt0", "pitch": 1.0},
+      {"name": "sanguine:entity/scavenger/hurt1", "pitch": 0.95},
+      {"name": "sanguine:entity/scavenger/hurt2", "pitch": 0.9},
+      {"name": "sanguine:entity/scavenger/hurt3", "pitch": 0.85}
+    ]
+  },
+  "entity.scavenger.death": {
+    "subtitle": "subtitles.sanguine.entity.scavenger.death",
+    "sounds": [
+      {"name": "sanguine:entity/scavenger/death0", "pitch": 1.0},
+      {"name": "sanguine:entity/scavenger/death1", "pitch": 0.9}
+    ]
+  },
+  "entity.scavenger.attack": {
+    "subtitle": "subtitles.sanguine.entity.scavenger.attack",
+    "sounds": [
+      "sanguine:entity/scavenger/attack"
+    ]
+  },
+  "entity.scavenger.strengthen": {
+    "subtitle": "subtitles.sanguine.entity.scavenger.strengthen",
+    "sounds": [
+      "sanguine:entity/scavenger/strengthen"
+    ]
+  },
+  "entity.scavenger.step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "sanguine:entity/reaper/step0",
+      "sanguine:entity/reaper/step1",
+      "sanguine:entity/reaper/step2",
+      "sanguine:entity/reaper/step3"
+    ]
+  },
+  "item.inner_orb.cycle": {
+    "subtitle": "subtitles.sanguine.item.inner_orb.cycle",
+    "sounds": [
+      "sanguine:item/inner_orb/cycle0",
+      "sanguine:item/inner_orb/cycle1"
+    ]
+  },
+  "item.blood_binding.punished_heart.apply": {
+    "subtitle": "subtitles.sanguine.blood_binding.punished_heart.apply",
+    "sounds": [
+      "sanguine:item/blood_binding/punished_heart/apply"
+    ]
+  },
+  "item.blood_binding.punished_heart.deal_damage": {
+    "subtitle": "subtitles.sanguine.blood_binding.punished_heart.deal_damage",
+    "sounds": [
+      "sanguine:item/blood_binding/punished_heart/deal_damage"
+    ]
+  },
+  "entity.watchman.ambient": {
+    "subtitle": "subtitles.sanguine.entity.watchman.idle",
+    "sounds": [
+      "sanguine:entity/watchman/idle0",
+      "sanguine:entity/watchman/idle1",
+      "sanguine:entity/watchman/idle2",
+      "sanguine:entity/watchman/idle3"
+    ]
+  },
+  "entity.watchman.hurt": {
+    "subtitle": "subtitles.sanguine.entity.watchman.hurt",
+    "sounds": [
+      "sanguine:entity/watchman/hurt0",
+      "sanguine:entity/watchman/hurt1",
+      "sanguine:entity/watchman/hurt2"
+    ]
+  },
+  "entity.watchman.death": {
+    "subtitle": "subtitles.sanguine.entity.watchman.death",
+    "sounds": [
+      "sanguine:entity/watchman/death"
+    ]
+  },
+  "entity.watchman.attack": {
+    "subtitle": "subtitles.sanguine.entity.watchman.attack",
+    "sounds": [
+      "sanguine:entity/watchman/attack"
+    ]
+  },
+  "entity.watchman.summoning": {
+    "subtitle": "subtitles.sanguine.entity.watchman.summoning",
+    "sounds": [
+      "sanguine:entity/watchman/lantern0",
+      "sanguine:entity/watchman/lantern1",
+      "sanguine:entity/watchman/lantern2",
+      "sanguine:entity/watchman/lantern3",
+      "sanguine:entity/watchman/lantern4"
+    ]
+  },
+  "entity.watchman.step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {"name": "sanguine:entity/bruiser/step0", "pitch": 1.0},
+      {"name": "sanguine:entity/bruiser/step1", "pitch": 1.0},
+      {"name": "sanguine:entity/bruiser/step2", "pitch": 1.0},
+      {"name": "sanguine:entity/bruiser/step0", "pitch": 0.9},
+      {"name": "sanguine:entity/bruiser/step1", "pitch": 0.9},
+      {"name": "sanguine:entity/bruiser/step2", "pitch": 0.9}
+    ]
+  },
+  "block.claw_trap.break": {
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      {"name": "sanguine:block/claw_trap/break", "pitch": 1.0},
+      {"name": "sanguine:block/claw_trap/break", "pitch": 0.9},
+      {"name": "sanguine:block/claw_trap/break", "pitch": 0.8}
+    ]
+  },
+  "block.claw_trap.hit": {
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      {"name": "sanguine:block/claw_trap/hit", "pitch": 1.0},
+      {"name": "sanguine:block/claw_trap/hit", "pitch": 0.9},
+      {"name": "sanguine:block/claw_trap/hit", "pitch": 0.8}
+    ]
+  },
+  "block.claw_trap.activate": {
+    "subtitle": "subtitles.sanguine.block.claw_trap.activate",
+    "sounds": [
+      {"name": "sanguine:block/claw_trap/activate", "pitch": 1.0},
+      {"name": "sanguine:block/claw_trap/activate", "pitch": 0.95},
+      {"name": "sanguine:block/claw_trap/activate", "pitch": 0.9}
+    ]
+  },
+  "block.claw_trap.release": {
+    "subtitle": "subtitles.sanguine.block.claw_trap.release",
+    "sounds": [
+      {"name": "sanguine:block/claw_trap/release", "pitch": 1.0},
+      {"name": "sanguine:block/claw_trap/release", "pitch": 0.95},
+      {"name": "sanguine:block/claw_trap/release", "pitch": 0.9}
+    ]
+  },
+  "block.claw_trap.repair": {
+    "subtitle": "subtitles.sanguine.block.claw_trap.repair",
+    "sounds": [
+      {"name": "sanguine:block/claw_trap/hit", "pitch": 1.5},
+      {"name": "sanguine:block/claw_trap/hit", "pitch": 1.4},
+      {"name": "sanguine:block/claw_trap/hit", "pitch": 1.3}
+    ]
+  },
+  "item.meat_paste.use": {
+    "sounds": [
+      {"name": "sanguine:item/meat_paste", "pitch": 1.0},
+      {"name": "sanguine:item/meat_paste", "pitch": 0.9},
+      {"name": "sanguine:item/meat_paste", "pitch": 0.8}
+    ]
+  },
+  "item.nail_bat.parry": {
+    "subtitle": "subtitles.sanguine.item.nail_bat.parry",
+    "sounds": [
+      "sanguine:item/nail_bat/parry0",
+      "sanguine:item/nail_bat/parry1",
+      "sanguine:item/nail_bat/parry2"
+    ]
+  },
+  "item.nail_bat.swing": {
+    "subtitle": "subtitles.sanguine.item.nail_bat.swing",
+    "sounds": [
+      "sanguine:item/nail_bat/swing0",
+      "sanguine:item/nail_bat/swing1",
+      "sanguine:item/nail_bat/swing2",
+      "sanguine:item/nail_bat/swing3",
+      "sanguine:item/nail_bat/swing4"
+    ]
+  },
+  "entity.vermin.ambient": {
+    "subtitle": "subtitles.sanguine.entity.vermin.idle",
+    "sounds": [
+      "sanguine:entity/vermin/idle0",
+      "sanguine:entity/vermin/idle1",
+      "sanguine:entity/vermin/idle2",
+      "sanguine:entity/vermin/idle3"
+    ]
+  },
+  "entity.vermin.hurt": {
+    "subtitle": "subtitles.sanguine.entity.vermin.hurt",
+    "sounds": [
+      "sanguine:entity/vermin/hurt0",
+      "sanguine:entity/vermin/hurt1",
+      "sanguine:entity/vermin/hurt2"
+    ]
+  },
+  "entity.vermin.death": {
+    "subtitle": "subtitles.sanguine.entity.vermin.death",
+    "sounds": [
+      "sanguine:entity/vermin/death"
+    ]
+  },
+  "entity.vermin.eat": {
+    "subtitle": "subtitles.sanguine.entity.vermin.eat",
+    "sounds": [
+      "sanguine:entity/vermin/eat0",
+      "sanguine:entity/vermin/eat1"
+    ]
+  },
+  "entity.vermin.attack": {
+    "subtitle": "subtitles.sanguine.entity.vermin.attack",
+    "sounds": [
+      "sanguine:entity/vermin/eat0",
+      "sanguine:entity/vermin/eat1"
+    ]
+  },
+  "entity.vermin.stun": {
+    "subtitle": "subtitles.sanguine.entity.vermin.stun",
+    "sounds": [
+      {"name": "sanguine:item/bone_needle", "pitch": 1.0},
+      {"name": "sanguine:item/bone_needle", "pitch": 0.9},
+      {"name": "sanguine:item/bone_needle", "pitch": 0.8}
+    ]
+  },
+  "entity.vermin.step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {"name": "sanguine:entity/grub/step0", "pitch": 1.0},
+      {"name": "sanguine:entity/grub/step1", "pitch": 1.0},
+      {"name": "sanguine:entity/grub/step2", "pitch": 1.0},
+      {"name": "sanguine:entity/grub/step0", "pitch": 0.9},
+      {"name": "sanguine:entity/grub/step1", "pitch": 0.9},
+      {"name": "sanguine:entity/grub/step2", "pitch": 0.9}
+    ]
+  },
+  "entity.chupacabra.ambient": {
+    "subtitle": "subtitles.sanguine.entity.chupacabra.idle",
+    "sounds": [
+      "sanguine:entity/chupacabra/idle0",
+      "sanguine:entity/chupacabra/idle1",
+      "sanguine:entity/chupacabra/idle2",
+      "sanguine:entity/chupacabra/idle3"
+    ]
+  },
+  "entity.chupacabra.hurt": {
+    "subtitle": "subtitles.sanguine.entity.chupacabra.hurt",
+    "sounds": [
+      "sanguine:entity/chupacabra/hurt0",
+      "sanguine:entity/chupacabra/hurt1",
+      "sanguine:entity/chupacabra/hurt2",
+      "sanguine:entity/chupacabra/hurt3"
+    ]
+  },
+  "entity.chupacabra.step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "sanguine:entity/bruiser/step0",
+      "sanguine:entity/bruiser/step1",
+      "sanguine:entity/bruiser/step2"
+    ]
+  },
+  "entity.chupacabra.death": {
+    "subtitle": "subtitles.sanguine.entity.chupacabra.death",
+    "sounds": [
+      "sanguine:entity/chupacabra/death"
+    ]
+  },
+  "entity.chupacabra.eat": {
+    "subtitle": "subtitles.sanguine.entity.chupacabra.eat",
+    "sounds": [
+      {"name": "sanguine:entity/chupacabra/eat0", "pitch": 1.0},
+      {"name": "sanguine:entity/chupacabra/eat1", "pitch": 1.0},
+      {"name": "sanguine:entity/chupacabra/eat0", "pitch": 0.9},
+      {"name": "sanguine:entity/chupacabra/eat1", "pitch": 0.9}
+    ]
+  },
+  "entity.chupacabra.attack": {
+    "subtitle": "subtitles.sanguine.entity.chupacabra.attack",
+    "sounds": [
+      {"name": "sanguine:entity/chupacabra/attack", "pitch": 1.0},
+      {"name": "sanguine:entity/chupacabra/attack", "pitch": 0.9},
+      {"name": "sanguine:entity/chupacabra/attack", "pitch": 0.8}
     ]
   }
 }

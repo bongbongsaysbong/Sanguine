@@ -1,4 +1,4 @@
-playsound sanguine:block.effigy.take_gold block @a
+playsound sanguine:block.effigy.take_gold block @a[distance=..16]
 loot spawn ~ ~1 ~ loot sanguine:technical/gold
 
 scoreboard players set @s sanguine.dummy 0

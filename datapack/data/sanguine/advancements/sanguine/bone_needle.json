@@ -27,5 +27,10 @@
     "requirement": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

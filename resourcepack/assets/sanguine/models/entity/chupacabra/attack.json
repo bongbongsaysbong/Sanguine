@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:entity/chupacabra/idle",
+	"textures": {
+		"0": "sanguine:entity/chupacabra/attack"
+	}
+}

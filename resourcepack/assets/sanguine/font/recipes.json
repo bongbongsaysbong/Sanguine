@@ -125,6 +125,33 @@
       "chars": [
         "\ua013"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/claw_trap.png",
+      "ascent": 5,
+      "height": 24,
+      "chars": [
+        "\ua014"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/flesh_pylon.png",
+      "ascent": 5,
+      "height": 49,
+      "chars": [
+        "\ua015"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/recipe/nail_bat.png",
+      "ascent": 5,
+      "height": 49,
+      "chars": [
+        "\ua016"
+      ]
     }
   ]
 }

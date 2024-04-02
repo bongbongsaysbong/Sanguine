@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "sanguine:gore_bunker",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1589953349,
+    "spread_type": "triangular",
+    "spacing": 75,
+    "separation": 40
+  }
+}

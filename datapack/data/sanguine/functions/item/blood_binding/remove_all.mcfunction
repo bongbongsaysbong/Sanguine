@@ -27,6 +27,7 @@ tag @s remove sanguine.binding.glass_heart
 tag @s remove sanguine.binding.blood_deviant
 tag @s remove sanguine.binding.swift_strike
 tag @s remove sanguine.binding.punished_heart
+tag @s remove sanguine.binding.punished_heart.applied
 tag @s remove sanguine.binding.chthonic_canny
 tag @s remove sanguine.binding.venom_tongue
 tag @s remove sanguine.binding.scarlet_carnage

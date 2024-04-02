@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:999,Unbreakable:1b,HideFlags:4,CustomModelData:8361023,sanguine:{id:\"urban_explorer_map\"},nucleus:{prevent_striders:1b}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "sanguine.tooltip",
+                  "font": "sanguine:tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "with": [
+                    {"translate":"pack.sanguine","font":"minecraft:default","color":"#880f0f","italic":true}
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.sanguine.urban_explorer_map",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/outpost/outpost0",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/outpost/outpost0b",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/outpost/outpost0c",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/outpost/outpost1",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/outpost/outpost1b",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/outpost/outpost1c",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/outpost/outpost2",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/outpost/outpost2b",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "sanguine:deserted_city/sewers/outpost/outpost2c",
+        "processors": "sanguine:sewers",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

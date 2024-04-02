@@ -8,9 +8,15 @@
       "translate": "advancements.sanguine.drying_rack"
     },
     "description": [
-      {"translate": "advancements.sanguine.drying_rack.description"},
+      {
+        "translate": "advancements.sanguine.drying_rack.description"
+      },
       "\n",
-      {"text":"\ua004","font":"sanguine:recipes","color":"white"},
+      {
+        "text": "ꀄ",
+        "color": "white",
+        "font": "sanguine:recipes"
+      },
       "\n",
       "\n"
     ],
@@ -24,5 +30,10 @@
     "requirement": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

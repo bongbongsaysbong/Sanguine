@@ -1,4 +1,4 @@
-playsound sanguine:block.effigy.take_binding block @a
+playsound sanguine:block.effigy.take_binding block @a[distance=..16]
 loot spawn ~ ~1 ~ loot sanguine:items/blood_binding
 
 scoreboard players set @s sanguine.dummy 0

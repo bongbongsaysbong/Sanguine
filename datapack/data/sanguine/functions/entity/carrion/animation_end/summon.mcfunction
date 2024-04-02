@@ -1,7 +1,7 @@
 # FX
 particle dust 0.627 0.133 0.098 2 ~ ~ ~ 0.5 0.5 0.5 0.1 10 force
-particle item potion{CustomModelData:8361910} ~ ~ ~ 0.5 0.5 0.5 0.1 15 force
-playsound sanguine:entity.offal.spawn hostile @a
+particle item leather_boots{CustomModelData:8361903,Damage:4} ~ ~ ~ 0.5 0.5 0.5 0.1 15 force
+playsound sanguine:entity.offal.spawn hostile @a[distance=..16]
 
 # Scaling
 scoreboard players operation #scaling sanguine.dummy = @s sanguine.scale_value

@@ -10,7 +10,7 @@
     "description": {
       "translate": "advancements.sanguine.root.description"
     },
-    "background": "minecraft:textures/block/polished_blackstone_bricks.png",
+    "background": "sanguine:textures/gui/advancement.png",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
@@ -20,5 +20,10 @@
     "requirement": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

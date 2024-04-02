@@ -1,6 +1,6 @@
 # Multiplier
 scoreboard players operation #multiplier sanguine.dummy = #my_scaling sanguine.dummy
-scoreboard players operation #multiplier sanguine.dummy *= #8 sanguine.dummy
+scoreboard players operation #multiplier sanguine.dummy *= #8 nucleus.dummy
 
 # Update Attributes
 execute store result score #attribute sanguine.dummy run attribute @s minecraft:generic.max_health base get 10

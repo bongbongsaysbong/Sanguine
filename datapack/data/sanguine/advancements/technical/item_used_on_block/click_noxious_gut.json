@@ -30,5 +30,10 @@
   },
   "rewards": {
     "function": "sanguine:block/noxious_gut/click"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lever"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/toxic_pus"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/blood_binding"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "sanguine:chests/deserted_city/archaeology/sewers"
+}

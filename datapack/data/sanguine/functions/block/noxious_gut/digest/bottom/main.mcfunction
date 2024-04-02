@@ -9,5 +9,5 @@ data modify storage sanguine:storage root.temp.bile set from entity @s item
 item replace entity @s container.0 with dropper{CustomModelData:8361014}
 
 summon item ~ ~-1 ~ {Item:{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:8361000}},Tags:["sanguine.noxious_gut_item.meat_paste"]}
-execute positioned ~ ~-1 ~ as @e[type=item,tag=sanguine.noxious_gut_item.meat_paste,sort=nearest,limit=1] run data modify entity @s Item set from storage sanguine:storage root.temp.meat_paste
+execute positioned ~ ~-1 ~ as @e[type=minecraft:item,tag=sanguine.noxious_gut_item.meat_paste,sort=nearest,limit=1] run data modify entity @s Item set from storage sanguine:storage root.temp.meat_paste
 execute if predicate nucleus:chance/0.15 run function sanguine:block/noxious_gut/digest/bottom/bile

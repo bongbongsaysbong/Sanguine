@@ -19,7 +19,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sanguine:sanguine/sanguine_urn",
+  "parent": "sanguine:sanguine/blood_bottle",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -34,5 +34,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

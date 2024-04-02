@@ -24,5 +24,10 @@
   },
   "rewards": {
     "function": "sanguine:item/sacrificial_knife/hurt_entity"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

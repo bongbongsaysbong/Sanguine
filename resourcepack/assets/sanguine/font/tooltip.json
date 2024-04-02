@@ -14,6 +14,15 @@
       "chars": [
         "\ua000"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "sanguine:gui/blood_binding.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        "\ua001"
+      ]
     }
   ]
 }

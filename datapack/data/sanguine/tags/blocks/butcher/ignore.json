@@ -1,5 +1,8 @@
 {
   "values": [
-    "#nucleus:passthrough"
+    "#nucleus:passthrough",
+		"minecraft:nether_portal",
+		"minecraft:end_portal",
+		"minecraft:end_gateway"
   ]
 }

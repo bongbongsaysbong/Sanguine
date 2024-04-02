@@ -36,5 +36,10 @@
   },
   "rewards": {
     "experience": 75
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

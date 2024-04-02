@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/claw_trap",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "sanguine.dummy": {
+                    "min": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/claw_trap/cracked",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "sanguine.dummy": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/claw_trap/bloody",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "sanguine.dummy": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

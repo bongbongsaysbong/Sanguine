@@ -4,5 +4,5 @@ scoreboard players operation #sanguine.binding sanguine.dummy = @s sanguine.dumm
 scoreboard players set @s sanguine.dummy 0
 function sanguine:block/sanguine_urn/update_state
 
-playsound sanguine:block.sanguine_urn.dip_binding block @a
+playsound sanguine:block.sanguine_urn.dip_binding block @a[distance=..16]
 tag @s remove sanguine.sanguine_urn.toxic_pus

@@ -1,0 +1,6 @@
+{
+    "parent": "sanguine:block/claw_trap/normal/active_1",
+    "textures": {
+      "0": "sanguine:block/claw_trap/cracked"
+    }
+}

@@ -1,6 +1,6 @@
 [
   {
     "function": "minecraft:set_nbt",
-    "tag": "{CustomModelData:8361007,sanguine:{chalice_state:11,chalice_toggle:1}}"
+    "tag": "{CustomModelData:8361026,sanguine:{chalice_state:11,chalice_toggle:1}}"
   }
 ]

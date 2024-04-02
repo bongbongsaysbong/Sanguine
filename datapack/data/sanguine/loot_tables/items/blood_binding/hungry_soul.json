@@ -38,7 +38,7 @@
                 {
                   "translate": "item.sanguine.blood_binding.lore",
                   "color": "gray",
-                  "italic":"false"
+                  "italic": false
                 },
                 [
                   " ",

@@ -30,5 +30,10 @@
   },
   "rewards": {
     "function": "sanguine:block/crimson_shrine/click"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

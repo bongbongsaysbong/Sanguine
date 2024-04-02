@@ -1,6 +1,5 @@
 {
   "type": "minecraft:entity",
-  "random_sequence": "sanguine:entities/unborn",
   "pools": [
     {
       "rolls": 1,
@@ -64,6 +63,11 @@
                 "max": 1
               }
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
           ]
         }
       ]
@@ -93,6 +97,11 @@
             }
           ]
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
       ]
     },
     {
@@ -116,5 +125,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "sanguine:entities/unborn"
 }

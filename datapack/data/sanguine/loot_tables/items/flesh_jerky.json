@@ -29,15 +29,18 @@
                   "color": "gray",
                   "italic": false
                 },
-                {
-                  "translate": "potion.withDuration",
-                  "color": "#c99993",
-                  "italic": false,
-                  "with": [
-                    {"translate":"potion.withAmplifier","with":[{"translate":"effect.minecraft.regeneration"},{"translate":"potion.potency.1"}]},
-                    {"text":"00:05"}
-                  ]
-                }
+                [
+                  " ",
+                  {
+                    "translate": "potion.withDuration",
+                    "color": "#c99993",
+                    "italic": false,
+                    "with": [
+                      {"translate":"potion.withAmplifier","with":[{"translate":"effect.minecraft.regeneration"},{"translate":"potion.potency.1"}]},
+                      {"text":"00:05"}
+                    ]
+                  }
+                ]
               ]
             },
             {

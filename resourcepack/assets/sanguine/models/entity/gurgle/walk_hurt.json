@@ -1,6 +1,0 @@
-{
-	"parent": "sanguine:entity/gurgle/walk",
-	"textures": {
-		"0": "sanguine:entity/gurgle/walk_hurt"
-	}
-}

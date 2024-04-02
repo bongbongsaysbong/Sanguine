@@ -1,6 +1,0 @@
-{
-	"parent": "sanguine:entity/gurgle/shoot",
-	"textures": {
-		"0": "sanguine:entity/gurgle/shoot_hurt"
-	}
-}

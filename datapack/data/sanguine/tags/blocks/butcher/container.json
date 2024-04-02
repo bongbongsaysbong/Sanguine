@@ -1,14 +1,16 @@
 {
 	"values": [
 		"#minecraft:beds",
+		"#minecraft:shulker_boxes",
 		"minecraft:chest",
+		"minecraft:trapped_chest",
 		"minecraft:barrel",
 		"minecraft:furnace",
 		"minecraft:smoker",
 		"minecraft:blast_furnace",
 		"minecraft:hopper",
 		"minecraft:dropper",
-		"minecraft:dropper",
-		"minecraft:brewing_stand"
+		"minecraft:brewing_stand",
+		{"id": "minecraft:crafter", "required": false}
 	]
 }

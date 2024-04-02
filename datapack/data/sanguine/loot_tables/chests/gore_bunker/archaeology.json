@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heartbreak_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/gore_flesh"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "sanguine:items/bloody_fragment"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "sanguine:chests/gore_bunker/archaeology"
+}

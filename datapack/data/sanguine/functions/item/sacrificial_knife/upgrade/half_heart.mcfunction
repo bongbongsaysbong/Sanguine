@@ -1,5 +1,5 @@
-playsound sanguine:item.sacrificial_knife.stab player @a
-playsound minecraft:entity.player.hurt player @a
+playsound sanguine:item.sacrificial_knife.stab player @a[distance=..16]
+playsound minecraft:entity.player.hurt player @a[distance=..16]
 
 attribute @s minecraft:generic.max_health modifier add 8-3-6-2-0446 sanguine.sacrificial_knife -100 add
 effect give @s instant_health 1 24 true

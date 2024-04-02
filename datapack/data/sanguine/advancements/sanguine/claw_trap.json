@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:smoker",
+      "nbt": "{CustomModelData:8361000}"
+    },
+    "title": {
+      "translate": "advancements.sanguine.claw_trap"
+    },
+    "description": [
+      {"translate": "advancements.sanguine.claw_trap.description"},
+      "\n",
+      {"text":"\ua014","font":"sanguine:recipes","color":"white"},
+      "\n",
+      "\n"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/deserted_city",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smoker"
+            ],
+            "nbt": "{sanguine:{id:\"claw_trap\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

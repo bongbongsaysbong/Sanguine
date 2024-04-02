@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:8361024}"
+    },
+    "title": {
+      "translate": "advancements.sanguine.nail_bat"
+    },
+    "description": [
+      {
+        "translate": "advancements.sanguine.nail_bat.description"
+      },
+      "\n",
+      {
+        "text": "ꀖ",
+        "color": "white",
+        "font": "sanguine:recipes"
+      },
+      "\n",
+      "\n",
+      "\n",
+      "\n",
+      "\n"
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "sanguine:sanguine/deserted_city",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

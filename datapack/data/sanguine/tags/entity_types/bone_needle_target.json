@@ -82,6 +82,8 @@
     "minecraft:zombie_villager",
     "minecraft:zombified_piglin",
     "minecraft:camel",
-    "minecraft:sniffer"
+    "minecraft:sniffer",
+    {"id": "minecraft:breeze", "required": false},
+    {"id": "minecraft:armadillo", "required": false}
   ]
 }

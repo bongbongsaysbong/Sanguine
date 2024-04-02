@@ -7,6 +7,7 @@ execute store result score #binding_veins sanguine.dummy run data get storage sa
 execute store result score #scarred_hide sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:structure_block",tag:{sanguine:{id:"scarred_hide"}}}].Count
 execute store result score #bile sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:glistering_melon_slice",tag:{sanguine:{id:"bile"}}}].Count
 execute store result score #gut_bundle sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:bundle",tag:{sanguine:{id:"gut_bundle"}}}].Count
+execute store result score #rusty_nail sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:structure_block",tag:{sanguine:{id:"rusty_nail"}}}].Count
 
 execute store result score #polished_blackstone sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:polished_blackstone"}].Count
 execute store result score #iron_ingot sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:iron_ingot"}].Count
@@ -16,6 +17,7 @@ execute store result score #ghast_tear sanguine.dummy run data get storage sangu
 execute store result score #bone_block sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:bone_block"}].Count
 execute store result score #bone sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:bone"}].Count
 execute store result score #string sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:string"}].Count
+execute store result score #iron_plate sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:heavy_weighted_pressure_plate"}].Count
 
 execute store result score #white_dye sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:white_dye"}].Count
 execute store result score #light_gray_dye sanguine.dummy run data get storage sanguine:storage root.temp.credence.ingredients[{id:"minecraft:light_gray_dye"}].Count
