@@ -291,7 +291,6 @@
   "subtitles.sanguine.block.flesh_pylon.empty": "Flesh Pylon emptied",
   "subtitles.sanguine.block.flesh_pylon.consume": "Flesh Pylon vents",
 
-  "ui.sanguine.when_eaten": "When Eaten:",
   "ui.sanguine.flesh_tuner.join": "Bound to Flesh Tuner",
   "ui.sanguine.flesh_tuner.leave": "Unbound from Flesh Tuner",
   "ui.sanguine.flesh_tuner.error": "Already bound to team",
@@ -385,11 +384,6 @@
   "advancements.sanguine.parry_potion": "Taste Your Own Medicine",
   "advancements.sanguine.parry_potion.description": "Parry a witch's potion with a nail bat",
 
-  "gamerules.sanguine.title": "Gamerules",
-  "gamerules.sanguine.true": "true",
-  "gamerules.sanguine.false": "false",
-  "gamerules.sanguine.reset": "Reset to defaults",
-  "gamerules.sanguine.default": "Default: %s",
   "gamerules.sanguine.entry": "%s: %s",
   "gamerules.sanguine.extension": "- %s",
   "gamerules.sanguine.butchers_break_blocks": "Butchers break blocks",
@@ -398,8 +392,6 @@
   "gamerules.sanguine.butchers_break_containers.description": "Butcher ramming can break chests, barrels, beds, etc.",
   "gamerules.sanguine.monster_stat_scaling": "Global blood moon scaling",
   "gamerules.sanguine.monster_stat_scaling.description": "Blood moon monsters get stronger based on world age instead of player progression",
-  "gamerules.sanguine.reset_scaling": "Reset blood moon scaling on death",
-  "gamerules.sanguine.reset_scaling.description": "Reset maximum equipment mob scaling on death; does not reset playtime scaling",
   "gamerules.sanguine.blood_moon_frequency": "Blood moon frequency: every %s days",
   "gamerules.sanguine.blood_moon_frequency.description": "Controls how many days apart blood moons happen",
   "gamerules.sanguine.mob_cap": "Blood moon monster cap: %s monsters",
@@ -411,9 +403,6 @@
   "gamerules.sanguine.spawn_nerf": "Light blocks monster spawning",
   "gamerules.sanguine.spawn_nerf.description": "Higher light levels block blood moon monster spawning",
 
-  "settings.sanguine.title": "Settings",
-  "settings.sanguine.items": "Give item",
-  "settings.sanguine.summon": "Summon mob",
   "settings.sanguine.blood_moon.start": "Start blood moon",
   "settings.sanguine.blood_moon.stop": "Stop blood moon",
 

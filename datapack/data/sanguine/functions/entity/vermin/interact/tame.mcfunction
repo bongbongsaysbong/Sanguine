@@ -7,6 +7,7 @@ execute unless entity @s[tag=sanguine.vermin.tamed] run return 0
 particle heart ~ ~0.5 ~ 0.5 0.5 0.5 0 10 force
 data modify storage sanguine:storage root.temp.tame set value 1b
 data modify entity @s ArmorItems[3].tag.nucleus.custom_model_data set value 8361017
+data modify entity @s ArmorItems[3].tag.sanguine.attack_damage set value 7
 data modify entity @s ArmorItems[3].tag.sanguine.targets.owner set from storage sanguine:storage root.temp.uuid
 tag @s remove sanguine.vermin.neutral
 tag @s remove sanguine.deserted_city_entity

@@ -98,7 +98,7 @@
 		{ "predicate": { "custom_model_data": 8361017, "damage": 0.2 }, "model": "sanguine:entity/vermin/tamed/dig_up" },
 		{ "predicate": { "custom_model_data": 8361017, "damage": 0.3 }, "model": "sanguine:entity/vermin/tamed/dig_down" },
 		{ "predicate": { "custom_model_data": 8361017, "damage": 0.4 }, "model": "sanguine:entity/vermin/tamed/attack" },
-		{ "predicate": { "custom_model_data": 8361017, "damage": 0.5 }, "model": "sanguine:entity/vermin/tamed/stun" },
+		{ "predicate": { "custom_model_data": 8361017, "damage": 0.5 }, "model": "sanguine:entity/vermin/stun" },
 		{ "predicate": { "custom_model_data": 8361017, "damage": 0.6 }, "model": "sanguine:entity/vermin/tamed/sit" },
 
 		{ "predicate": { "custom_model_data": 8361900 }, "model": "sanguine:block/effigy/effigy" },

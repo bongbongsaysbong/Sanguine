@@ -1,4 +1,5 @@
-execute store result entity @s Attributes[{Name:"minecraft:generic.attack_damage"}].Base double 1 run attribute @s minecraft:generic.attack_damage base get 1.5
+execute store result entity @s[tag=!sanguine.vermin] Attributes[{Name:"minecraft:generic.attack_damage"}].Base double 1 run attribute @s minecraft:generic.attack_damage base get 1.5
+execute if entity @s[tag=sanguine.vermin] run function sanguine:item/bone_needle/as_entity/apply/vermin_vigor
 execute if entity @s[type=#sanguine:increases_loot] run function sanguine:item/bone_needle/as_entity/increase_loot
 tag @s add sanguine.has_serum.vigor
 
