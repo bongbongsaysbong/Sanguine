@@ -392,6 +392,8 @@
   "gamerules.sanguine.butchers_break_containers.description": "Butcher ramming can break chests, barrels, beds, etc.",
   "gamerules.sanguine.monster_stat_scaling": "Global blood moon scaling",
   "gamerules.sanguine.monster_stat_scaling.description": "Blood moon monsters get stronger based on world age instead of player progression",
+  "gamerules.sanguine.reset_scaling": "Reset blood moon scaling on death",
+  "gamerules.sanguine.reset_scaling.description": "Reset maximum equipment mob scaling on death; does not reset playtime scaling",
   "gamerules.sanguine.blood_moon_frequency": "Blood moon frequency: every %s days",
   "gamerules.sanguine.blood_moon_frequency.description": "Controls how many days apart blood moons happen",
   "gamerules.sanguine.mob_cap": "Blood moon monster cap: %s monsters",

@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "sanguine:sanguine/deserted_city",
+  "parent": "sanguine:sanguine/bone_needle",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

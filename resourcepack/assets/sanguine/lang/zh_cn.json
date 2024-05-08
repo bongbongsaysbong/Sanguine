@@ -291,7 +291,6 @@
   "subtitles.sanguine.block.flesh_pylon.empty": "血肉祭坛清空",
   "subtitles.sanguine.block.flesh_pylon.consume": "血肉祭坛排空",
 
-  "item.nucleus.when_eaten": "食用时:",
   "ui.sanguine.flesh_tuner.join": "绑定到肉体调谐器",
   "ui.sanguine.flesh_tuner.leave": "解绑肉体调谐器",
   "ui.sanguine.flesh_tuner.error": "已经与团队绑定",
@@ -385,11 +384,6 @@
   "advancements.sanguine.parry_potion": "以药还药",
   "advancements.sanguine.parry_potion.description": "用钉球棒格挡女巫的药水",
 
-  "settings.nucleus.gamerules": "规则",
-  "settings.nucleus.true": "开启",
-  "settings.nucleus.false": "关闭",
-  "settings.nucleus.reset": "重置为默认值",
-  "settings.nucleus.default": "默认: %s",
   "gamerules.sanguine.entry": "%s: %s",
   "gamerules.sanguine.extension": "- %s",
   "gamerules.sanguine.butchers_break_blocks": "屠夫破坏方块",
@@ -398,8 +392,8 @@
   "gamerules.sanguine.butchers_break_containers.description": "屠夫撞击会破坏箱子, 桶等.",
   "gamerules.sanguine.monster_stat_scaling": "全球血月比例",
   "gamerules.sanguine.monster_stat_scaling.description": "血月生物根据世界年龄而不是玩家的进展变得更强大",
-  "settings.nucleus.reset_scaling": "死亡时重置血月比例",
-  "settings.nucleus.reset_scaling.description": "死亡时重置最强装备生物的比例; 不重置游戏时间比例",
+  "gamerules.sanguine.reset_scaling": "死亡时重置血月比例",
+  "gamerules.sanguine.reset_scaling.description": "死亡时重置最强装备怪物的比例; 不重置游戏时间比例",
   "gamerules.sanguine.blood_moon_frequency": "血月频率: 每隔 %s 天",
   "gamerules.sanguine.blood_moon_frequency.description": "控制血月发生的间隔天数",
   "gamerules.sanguine.mob_cap": "血月生物上限: %s 生物",
@@ -411,9 +405,6 @@
   "gamerules.sanguine.spawn_nerf": "光能阻止怪物生成",
   "gamerules.sanguine.spawn_nerf.description": "光能阻止怪物生成",
 
-  "settings.nucleus.title": "设置",
-  "settings.nucleus.items": "获得物品",
-  "settings.nucleus.summon": "生成生物",
   "settings.sanguine.blood_moon.start": "召唤血月",
   "settings.sanguine.blood_moon.stop": "阻止血月",
 
